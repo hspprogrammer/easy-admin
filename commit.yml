@@ -3,210 +3,339 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '123a4cca8d419df3fbb8fdb9a3e2c40ad21aa0d9'
+    newFile: !uuid '6a7c3e1d56d423a21b790eb7f499a5858e864085'
+    oldFile: !uuid '123a4cca8d419df3fbb8fdb9a3e2c40ad21aa0d9'
+  /src/frontend:
+    newFile: !uuid '951d072e6f1c43db61f33fd30b9e30e528014b7b'
     oldFile: null
-  /src/backend:
-    newFile: !uuid '9c5351d1f12932efd9e7b9e96799de0fa1a82a76'
+  /src/frontend/博客模板:
+    newFile: !uuid '2859c85b6a730cfa48a01629e281cab3ee4f689d'
     oldFile: null
-  /src/backend/Easy.Admin:
-    newFile: !uuid '410d9fbe29d16e9eb098abb985b48f2bf230fbbd'
+  /src/frontend/博客模板/.browserslistrc:
+    newFile: !uuid 'dc3bc09a247732bf162a0078796c68ebdc074c30'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application:
-    newFile: !uuid '87db38473b991bf635f2ef9444ac384d512e9f43'
+  /src/frontend/博客模板/.editorconfig:
+    newFile: !uuid '7053c49a045c91bd8b3015c1cf3d1f6da21660d8'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/Easy.Admin.Application.csproj:
-    newFile: !uuid 'd1572eeee27efcbeefb74446c3de01da00ae77c4'
+  /src/frontend/博客模板/.eslintrc.js:
+    newFile: !uuid '5f3949bd8a101b97fb7ceef7a383610480e48460'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/Easy.Admin.Application.xml:
-    newFile: !uuid '942456039a395e545ade75d12f48be03ca79c4dd'
+  /src/frontend/博客模板/.gitignore:
+    newFile: !uuid '403adbc1e527906a4aa59558cd582c20bcd1d738'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/GlobalUsings.cs:
-    newFile: !uuid '1f0aacd6d5fe05537e6c81388f19421dbe33330f'
+  /src/frontend/博客模板/README.md:
+    newFile: !uuid '50b30e02e3c11fc1ca6c9d997a241a26e4971581'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/System:
-    newFile: !uuid '015ac42f2d515fc5f7cc81279159244bbb6fa67e'
+  /src/frontend/博客模板/index.html:
+    newFile: !uuid '86dfa5929a82b2363342716560afca999fef9d40'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/System/Dtos:
-    newFile: !uuid '94ab69572006fd46814e3edc2ba68e755bb92de1'
+  /src/frontend/博客模板/package.json:
+    newFile: !uuid 'c23d1beed0602de71d81177369268467b9ff33be'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/System/Dtos/Mapper.cs:
-    newFile: !uuid '4040b80a5ecf59b5f7ac47bccd75650cfdc16732'
+  /src/frontend/博客模板/postcss.config.cjs:
+    newFile: !uuid '337d6c72cf7aca7a437a134fc9094a9f2735b600'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/System/Services:
-    newFile: !uuid '2f4c735f2c43cae8cb20c725b6b7f3ba679bc6d4'
+  /src/frontend/博客模板/public:
+    newFile: !uuid '356c23f30f7c891eb281d294ec106a5569679496'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/System/Services/ISystemService.cs:
-    newFile: !uuid 'd2bf32d40579383264a218aa00324539bf9a95fa'
+  /src/frontend/博客模板/public/favicon.ico:
+    newFile: !uuid '8fb9f91b3aab4eec0c76ffc5342528033c61e247'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/System/Services/SystemService.cs:
-    newFile: !uuid '48dc7e3417fd4d4df72ec111ac6be2bc5aa2c3b0'
+  /src/frontend/博客模板/src:
+    newFile: !uuid '9f3393d575341b406e23aefc79b8a912a66ad904'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/System/SystemAppService.cs:
-    newFile: !uuid 'ae8b604611c4d233bbdc3dad69c47353c8010b12'
+  /src/frontend/博客模板/src/App.vue:
+    newFile: !uuid 'f108f827e61cb018285a9f152a98f4776b7fdc3a'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Application/applicationsettings.json:
-    newFile: !uuid '184a647f1cfcc54d586b7e7ab47250d5132bd804'
+  /src/frontend/博客模板/src/api:
+    newFile: !uuid '3a72d06b0ea47b545217938913d27e5fdb685be2'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core:
-    newFile: !uuid 'a3cb43829d659c8708e7aa50b55de6ffd1bf59b1'
+  /src/frontend/博客模板/src/api/data.ts:
+    newFile: !uuid '3359c0f9242bba288356ea3e53412af6eeb2929e'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Easy.Admin.Core.csproj:
-    newFile: !uuid '9ceaacc2e8913e36fac5f145a1783c3b11df8f24'
+  /src/frontend/博客模板/src/assets:
+    newFile: !uuid 'a893e48ff8712b8c296a5e1abb63d8c6e4da6433'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Easy.Admin.Core.xml:
-    newFile: !uuid 'e2b1a36f03c7134d7d41d2aaf942db238cc89216'
+  /src/frontend/博客模板/src/assets/css:
+    newFile: !uuid 'd81f1471216cc2049392f3e745548927cba2e4eb'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities:
-    newFile: !uuid '1fd24476db0478fdea1f5ab6aa6a1e716c154e17'
+  /src/frontend/博客模板/src/assets/css/default.cur:
+    newFile: !uuid 'b8f60da88c62701b6057f5cbc8a100082920d99c'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Abstract:
-    newFile: !uuid '6a62969264bb1557697780f796dc4b6e212833a1'
+  /src/frontend/博客模板/src/assets/css/iconfont.css:
+    newFile: !uuid '20e96d8adef120edb1c7d56616368c23b01f9ee3'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Abstract/Entity.cs:
-    newFile: !uuid '0298bfd647fe4de491547715f3c78c52cdc6f36d'
+  /src/frontend/博客模板/src/assets/css/iconfont.eot:
+    newFile: !uuid '6c14757d718314f30c0523c8789e2321ca46c3fe'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Interface:
-    newFile: !uuid 'e4631d744a91c0c8f6c21c7372fecc4175e87ad8'
+  /src/frontend/博客模板/src/assets/css/iconfont.svg:
+    newFile: !uuid 'b7a06786332ef36d23fbd1ab32a194d7598b9b49'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Interface/IAvailability.cs:
-    newFile: !uuid '291b434c99469b6cd0241a756c30ed350fb3ad4f'
+  /src/frontend/博客模板/src/assets/css/iconfont.ttf:
+    newFile: !uuid '486bac149e6e3fe524142fdf00f0b1fb86f8f097'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Interface/ICreatedTime.cs:
-    newFile: !uuid '3876b1965568960d3173bc0de47f9d22c50cc5d3'
+  /src/frontend/博客模板/src/assets/css/iconfont.woff:
+    newFile: !uuid '22ca6bc0170c6976911af004f25a54fbd2643b97'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Interface/ICreatedUserId.cs:
-    newFile: !uuid '8c3791731bf4a7d9ab5844834e6e34faed37af21'
+  /src/frontend/博客模板/src/assets/css/iconfont.woff2:
+    newFile: !uuid 'c56c41a91b0704025f76ac3ab782e67000ef70a7'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Interface/IEntity.cs:
-    newFile: !uuid '4fe28267f2daa885c481a386edc3f3beae20868b'
+  /src/frontend/博客模板/src/assets/css/index.css:
+    newFile: !uuid '09a36766d2db07afd44402786ba43e6459cb1b5f'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Interface/IEntityT.cs:
-    newFile: !uuid '26a9a9283acc2132a052ef1338498e73a35c7fa4'
+  /src/frontend/博客模板/src/assets/css/markdown.css:
+    newFile: !uuid '3f099b00182105da580905500c3aee3759e6be53'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Interface/ISoftDelete.cs:
-    newFile: !uuid '7832df20636bbed5e5801456b9bad29144a12f92'
+  /src/frontend/博客模板/src/assets/css/pointer.cur:
+    newFile: !uuid '80f3ed7898c13520c485fa2e1baefbed2c009c5d'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/Interface/IUpdatedTime.cs:
-    newFile: !uuid 'ac3cbc402dea61519c117ae3d282ea3e28a9b048'
+  /src/frontend/博客模板/src/assets/css/share.scss:
+    newFile: !uuid '7bb3860d7e551f186f226cfc8f317c3f936d083f'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Entities/说明.txt:
-    newFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+  /src/frontend/博客模板/src/assets/emoji.ts:
+    newFile: !uuid 'c7401a38db0c4ec93e408dafc00aa6694626ce8f'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Enum:
-    newFile: !uuid '51a1ce42961b6a30aa98918da9e90fecc10835fe'
+  /src/frontend/博客模板/src/assets/fonts:
+    newFile: !uuid 'abdeeb1f1560c428148b6f1a1a4afa37a54b3b8a'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Enum/AvailabilityStatus.cs:
-    newFile: !uuid '6ca927407b54ae2968221f9ab084550d01bc38c9'
+  /src/frontend/博客模板/src/assets/fonts/iconfont.eot:
+    newFile: !uuid 'cfa57e141a4b1c59ab30af4e970c5126d2b2b24e'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Enum/EventType.cs:
-    newFile: !uuid '9863dfb3b14ea94bf92030e6603f423df33d5428'
+  /src/frontend/博客模板/src/assets/fonts/iconfont.svg:
+    newFile: !uuid '0c1b8ac9a9922eb12dca935cd0baae7a1a2d8573'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Enum/Gender.cs:
-    newFile: !uuid '547283b140e1ff17e81b5a46ba0b288d32887c1c'
+  /src/frontend/博客模板/src/assets/fonts/iconfont.ttf:
+    newFile: !uuid '515b493cd1cd1f07fae4e2d1f54dfa0ab94b48fa'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Enum/MenuButtonType.cs:
-    newFile: !uuid 'd313ede38e4f17caec382da91f4f2aa61bdcd4d2'
+  /src/frontend/博客模板/src/assets/fonts/iconfont.woff:
+    newFile: !uuid 'ed12916ad7619d5799a32b0512b043311c31bafb'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Extensions:
-    newFile: !uuid 'f02a27b6cc886e314408023f13d54cf0d957c249'
+  /src/frontend/博客模板/src/assets/images:
+    newFile: !uuid '20184d601820104f91716473dbcd87c5248667a3'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Extensions/YitIdHelperExtension.cs:
-    newFile: !uuid '4f153c29f65fdea5796dcb74127f08ec795b25a5'
+  /src/frontend/博客模板/src/assets/images/1.jpg:
+    newFile: !uuid '02e6e1bace290f30e2517d092f18216f74d80565'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/GlobalUsings.cs:
-    newFile: !uuid 'b0f9f0b8fca75e14c48fd5b966b620aec1e341eb'
+  /src/frontend/博客模板/src/assets/images/avatar.png:
+    newFile: !uuid '0356f911c6b01894f0983ecb5f66b01401f84cdc'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Options:
-    newFile: !uuid 'b07480ee9f833935078b9088b2b1c8535fc6e31b'
+  /src/frontend/博客模板/src/assets/images/commentBack.webp:
+    newFile: !uuid '99231a7413531f31ef579845e058bf87469a38f5'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Options/DbConnectionOptions.cs:
-    newFile: !uuid 'ced126e46a6ccb7d549757c22d087f68422071f7'
+  /src/frontend/博客模板/src/assets/images/home-cover.abfbf4e9.jpg:
+    newFile: !uuid '1da492f0d66107a3a41631b011588eae3e01c960'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/Options/SnowIdOptions.cs:
-    newFile: !uuid '4df83578f6028eb6d09dc3e2da8fe9f53be7cd9f'
+  /src/frontend/博客模板/src/assets/js:
+    newFile: !uuid '1be798cc4b2ecbb6cc1460ec63baba6923083f9a'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar:
-    newFile: !uuid 'bb0dc08b5b1a01f5204bc703ce8afac26409f561'
+  /src/frontend/博客模板/src/assets/js/tocbot.min.js:
+    newFile: !uuid '889241e9d1583c6f3a70e8d97b75675123c3bab1'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/Pager:
-    newFile: !uuid '0bc69bbba4ff752315519711a995b54a051a57da'
+  /src/frontend/博客模板/src/assets/logo.png:
+    newFile: !uuid 'a5f23ae7bff64954cf3537377a9f99306baf083d'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/Pager/IPagination.cs:
-    newFile: !uuid '4f6ed8c2b5a8dce27fdd25cd28d746a08a037496'
+  /src/frontend/博客模板/src/assets/logo.svg:
+    newFile: !uuid '73961b97e94ccba9ed262e85f70c92e7ea02c729'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/Pager/PageResult.cs:
-    newFile: !uuid '4bfdf3b1feef0ed033c34c9f306bb33155fa622d'
+  /src/frontend/博客模板/src/assets/vue.svg:
+    newFile: !uuid '770e9d333ee70e75fe7c0bad7fb13e4f6ed4627a'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/Pager/Pagination.cs:
-    newFile: !uuid '0b5cfcb00e15a17ecf2d01f3d7dda46842471fd7'
+  /src/frontend/博客模板/src/components:
+    newFile: !uuid '110b59031e4b83fb06a8f08205ba7fd821941aa9'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/Repositories:
-    newFile: !uuid 'f9514318858e4d2e6daf4e97c624dc4a97dc7804'
+  /src/frontend/博客模板/src/components/BackTop.vue:
+    newFile: !uuid 'd1c359ef72c30da8c711098c84affec1207dec93'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/Repositories/ISqlSugarRepository.cs:
-    newFile: !uuid 'b5c441691da478480c705cbf7c7102f3770b7a29'
+  /src/frontend/博客模板/src/components/Comment.vue:
+    newFile: !uuid '2463d5ed142764f55111af527608f9bc51728b7a'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/Repositories/SqlSugarRepository.cs:
-    newFile: !uuid '4d139f8b76928f9878aaf4789db11a3282eaff87'
+  /src/frontend/博客模板/src/components/Emoji.vue:
+    newFile: !uuid '9735947d58b329282ea1a97bcf123b3da780a05b'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/SqlSugarCache.cs:
-    newFile: !uuid '72c8e54e28675cb86512a90f7a1e3b9165155cd3'
+  /src/frontend/博客模板/src/components/Paging.vue:
+    newFile: !uuid 'a35ee90aaaf9435982e7f762d4c0bd6fa24561c1'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/SqlSugarExtensions.cs:
-    newFile: !uuid 'b6097fec3104ff510b115d4260322fd213e2e504'
+  /src/frontend/博客模板/src/components/Replay.vue:
+    newFile: !uuid '98bbcb3f73840900cdbc151d809e6bfe8c7e2e94'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/SqlSugarUnitOfWork.cs:
-    newFile: !uuid '39b5815095e0a8e0fe75695ec936d7dbbc85ae88'
+  /src/frontend/博客模板/src/components/SearchModel.vue:
+    newFile: !uuid 'fff6e9cbaccd4c9c430cfad5f75a7f17e5579719'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Core/SqlSugar/SugarQueryableExtensions.cs:
-    newFile: !uuid '8657ce766ccc0993ea0f7a39a43a73393a2ccff1'
+  /src/frontend/博客模板/src/components/Share:
+    newFile: !uuid '6d110bb42b7f8e6487c0cf20de12128a7b92720f'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Core:
-    newFile: !uuid '95a2c3563b3de6765b6e01457cc8d7ccccba30de'
+  /src/frontend/博客模板/src/components/Share/Index.vue:
+    newFile: !uuid '842ecb8dd05a85aa2d34197d088e8e16a06fba86'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Core/Easy.Admin.Web.Core.csproj:
-    newFile: !uuid '4756094dc6fec8eca42729318106eaa5df2b0804'
+  /src/frontend/博客模板/src/components/Share/ShareType.ts:
+    newFile: !uuid '22909f6b636aff44db57f66f1defd0e52bb80193'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Core/Easy.Admin.Web.Core.xml:
-    newFile: !uuid 'd5067e106881d6f4deea3894747cdae2421c98eb'
+  /src/frontend/博客模板/src/components/Swiper.vue:
+    newFile: !uuid '2e858b7a8c1c38e06c3047953298c9b705fe08a8'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Core/Handlers:
-    newFile: !uuid '836c931826eee0d24945f9d4401d8765f3058077'
+  /src/frontend/博客模板/src/components/layout:
+    newFile: !uuid '6711d5186685fa61aae512f1f7d32a60ef5f386d'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Core/Handlers/JwtHandler.cs:
-    newFile: !uuid 'b45cb4cdc5a5429f0f6682dc938379aaaabbf6f9'
+  /src/frontend/博客模板/src/components/layout/Footer.vue:
+    newFile: !uuid '32e3df0d5c919fbad5a7b1ac181beec5034dde5e'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Core/Startup.cs:
-    newFile: !uuid '0da066be5473be7aea273857182ff2172e442147'
+  /src/frontend/博客模板/src/components/layout/SideNavBar.vue:
+    newFile: !uuid 'd5718baa3d8d24434d6d4c3747b1061ab53b4da1'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Entry:
-    newFile: !uuid 'c4efb53f2a15fef468040c961df64cc72a9f97be'
+  /src/frontend/博客模板/src/components/layout/TopNavBar.vue:
+    newFile: !uuid '0015f49b935944ee8ea12f61f8b9c9c90cc1eb02'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Entry/Easy.Admin.Web.Entry.csproj:
-    newFile: !uuid '6fe090a385715cd37038be19f06228cdf66db7ea'
+  /src/frontend/博客模板/src/layouts:
+    newFile: !uuid '14a6fe56d9af03efeff6715e9db3ce8f18bc3726'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Entry/Program.cs:
-    newFile: !uuid '65ae4851efe153f595c900746fb27a01e3d408c6'
+  /src/frontend/博客模板/src/layouts/default:
+    newFile: !uuid '2a7d1e7f22670a3da33246a87eda13fff47250c0'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Entry/Properties:
-    newFile: !uuid 'c765698430ac41c58fc4309259b7e8b91bbf29de'
+  /src/frontend/博客模板/src/layouts/default/Default.vue:
+    newFile: !uuid '57ada2fdaa7eb5648e2ab1c9f691dbb1ad703069'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Entry/Properties/launchSettings.json:
-    newFile: !uuid '216c99db3de799fde503527ae97dcbb14be60a03'
+  /src/frontend/博客模板/src/layouts/default/View.vue:
+    newFile: !uuid '8e9e4143c3414071f14818a1a80bc455a182e48a'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Entry/SingleFilePublish.cs:
-    newFile: !uuid 'eaae896f5172504f0b3d9ed8e719239297099f61'
+  /src/frontend/博客模板/src/main.ts:
+    newFile: !uuid 'c268169e1450291585cca0ccce9105dd63dc2cc8'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Entry/appsettings.Development.json:
-    newFile: !uuid '5f187aee670c148dedf958e831d0de3883fd132e'
+  /src/frontend/博客模板/src/plugins:
+    newFile: !uuid '92ce2eb26f3d094b95dcc2de2be717e8b75c37dd'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.Web.Entry/appsettings.json:
-    newFile: !uuid '8b4498ec048bdf1614170c46b90c33ae32afa2db'
+  /src/frontend/博客模板/src/plugins/formatDateTime.ts:
+    newFile: !uuid '3fd1c819bdcf5f801b1d87e58f1efa4b2725758b'
     oldFile: null
-  /src/backend/Easy.Admin/Easy.Admin.sln:
-    newFile: !uuid 'df0c6fb23435438a52071b96d7da712145042144'
+  /src/frontend/博客模板/src/plugins/index.ts:
+    newFile: !uuid '4e120eabf30902ffc0609135b82f3fbd56f51c6e'
     oldFile: null
-gitCommitId: !uuid '799817fe15e52d6a7da9e4fbf3c2b6c4546c4a8d'
+  /src/frontend/博客模板/src/plugins/vuetify.ts:
+    newFile: !uuid 'c276519a4abe67f57a657509bdde7c39510a651a'
+    oldFile: null
+  /src/frontend/博客模板/src/plugins/webfontloader.ts:
+    newFile: !uuid '0cf56148c1e338c85a3054862dc2ae77660420fe'
+    oldFile: null
+  /src/frontend/博客模板/src/router:
+    newFile: !uuid 'ab395c10a9e265134c1823ed027cbe14022e95db'
+    oldFile: null
+  /src/frontend/博客模板/src/router/index.ts:
+    newFile: !uuid 'd8d6dff5d480be57b793e0c35a9b68503f91f39b'
+    oldFile: null
+  /src/frontend/博客模板/src/store:
+    newFile: !uuid '3c26b8a93179a99d25cb558fde976869a0b57d7d'
+    oldFile: null
+  /src/frontend/博客模板/src/store/app.ts:
+    newFile: !uuid '74295436ec95d4eb2ed291edfe897775f7b8c10a'
+    oldFile: null
+  /src/frontend/博客模板/src/store/drawerSetting.ts:
+    newFile: !uuid '3ceef2269df41b09d3bc7bc03a021a4a37a425ca'
+    oldFile: null
+  /src/frontend/博客模板/src/store/index.ts:
+    newFile: !uuid '153625250dfe9dcc5e617279d735f109443b5556'
+    oldFile: null
+  /src/frontend/博客模板/src/store/themeSetting.ts:
+    newFile: !uuid '46c534e4560fffae98ea669038d0e9b76826ffd4'
+    oldFile: null
+  /src/frontend/博客模板/src/stores:
+    newFile: !uuid '358421954b71389a6a4869da1390a2876b2ae25c'
+    oldFile: null
+  /src/frontend/博客模板/src/stores/drawerSetting.ts:
+    newFile: !uuid '3ceef2269df41b09d3bc7bc03a021a4a37a425ca'
+    oldFile: null
+  /src/frontend/博客模板/src/stores/index.ts:
+    newFile: !uuid '8be11feff6364b6879bfed2ffa2df9c1ed09dd16'
+    oldFile: null
+  /src/frontend/博客模板/src/stores/themeSetting.ts:
+    newFile: !uuid '46c534e4560fffae98ea669038d0e9b76826ffd4'
+    oldFile: null
+  /src/frontend/博客模板/src/style.css:
+    newFile: !uuid '59574d3ffd29a43588e0c2d0282f636774f60a7b'
+    oldFile: null
+  /src/frontend/博客模板/src/types:
+    newFile: !uuid '525bddbab1103c8c1e0a02c868d6defa8cf599aa'
+    oldFile: null
+  /src/frontend/博客模板/src/types/APlayer.d.ts:
+    newFile: !uuid '1041975bcaa944dbd415fe228be0fed6f54eeea1'
+    oldFile: null
+  /src/frontend/博客模板/src/types/global.d.ts:
+    newFile: !uuid 'cca9a3c99e1f9bb0b02268b2308d15cab4266e53'
+    oldFile: null
+  /src/frontend/博客模板/src/utils:
+    newFile: !uuid '15bf6b9cc9dc354348060802a7fcd2e0eb0adf8f'
+    oldFile: null
+  /src/frontend/博客模板/src/utils/markdown.ts:
+    newFile: !uuid '7c5da26e0acb5922c69e2d5195af78930b876c3b'
+    oldFile: null
+  /src/frontend/博客模板/src/views:
+    newFile: !uuid '6ce0902c61685dab0bc14b4b6c52827cad6ef661'
+    oldFile: null
+  /src/frontend/博客模板/src/views/About.vue:
+    newFile: !uuid 'd565b996ca577f12e7a23b7e69957f588b04e5aa'
+    oldFile: null
+  /src/frontend/博客模板/src/views/Index.vue:
+    newFile: !uuid '68e6264baecb99731882a6bf3eb302fe4d6414dd'
+    oldFile: null
+  /src/frontend/博客模板/src/views/Link.vue:
+    newFile: !uuid 'e5b92e268ddd16d9cb0d58461380f587c7fe6673'
+    oldFile: null
+  /src/frontend/博客模板/src/views/Message.vue:
+    newFile: !uuid 'a995f7c5080548066e422537576844090b32bbee'
+    oldFile: null
+  /src/frontend/博客模板/src/views/Talk.vue:
+    newFile: !uuid '7b0e53179bc31e2ccad4add1635b861b373027af'
+    oldFile: null
+  /src/frontend/博客模板/src/views/Talks.vue:
+    newFile: !uuid '5b8d5a914e27809ab6f869f6d46d9b07fbfe19a4'
+    oldFile: null
+  /src/frontend/博客模板/src/views/User.vue:
+    newFile: !uuid '01493c4d821f26caf8f9090ec8cc105e36742bb0'
+    oldFile: null
+  /src/frontend/博客模板/src/views/album:
+    newFile: !uuid '25670d91111ffcb97682e05d55806ba636c732b2'
+    oldFile: null
+  /src/frontend/博客模板/src/views/album/Album.vue:
+    newFile: !uuid 'f81f731384f9bb0cf7c7b558f4565c7c22af9f13'
+    oldFile: null
+  /src/frontend/博客模板/src/views/album/Photo.vue:
+    newFile: !uuid '8193409ce2ff3c765b8fcef8d735682f5532f3e5'
+    oldFile: null
+  /src/frontend/博客模板/src/views/article:
+    newFile: !uuid '3653230ee7a5ee8c50416a4db963d1520211af6a'
+    oldFile: null
+  /src/frontend/博客模板/src/views/article/Archives.vue:
+    newFile: !uuid '927c7c7aa78636042b3161f13dc7c3002736b709'
+    oldFile: null
+  /src/frontend/博客模板/src/views/article/Category.vue:
+    newFile: !uuid 'a821e8564ebab7d6027c4c8c35af468c04b28875'
+    oldFile: null
+  /src/frontend/博客模板/src/views/article/CategoryList.vue:
+    newFile: !uuid '261d5f34f198926f05d2097f94578127258c3be8'
+    oldFile: null
+  /src/frontend/博客模板/src/views/article/Detail.vue:
+    newFile: !uuid 'f3dc138c8a7d5f2b9b7c011e8ce4b9129bc6485b'
+    oldFile: null
+  /src/frontend/博客模板/src/views/article/List.vue:
+    newFile: !uuid '8414e47fa338731f6fd82d30df3e251b56334229'
+    oldFile: null
+  /src/frontend/博客模板/src/views/article/Tag.vue:
+    newFile: !uuid '4ae7444fb97c6578692d2f3e8ce0f1594fcf1160'
+    oldFile: null
+  /src/frontend/博客模板/src/vite-env.d.ts:
+    newFile: !uuid '2866c40511b199f6ffa8e00240786aa6f9cf73d1'
+    oldFile: null
+  /src/frontend/博客模板/tsconfig.json:
+    newFile: !uuid 'aa6f0fddeff3e9c176eb5f8bb5d6d700d74b0a11'
+    oldFile: null
+  /src/frontend/博客模板/tsconfig.node.json:
+    newFile: !uuid '9d31e2aed93c876bc048cf2f863cb2a847c901e8'
+    oldFile: null
+  /src/frontend/博客模板/vite.config.ts:
+    newFile: !uuid '8d39dd5d580504c6c6d966f297210c333c42b9b8'
+    oldFile: null
+  /src/frontend/博客模板/yarn.lock:
+    newFile: !uuid 'a35a3eefca4d0d30926f7dd3f82d2e49113bb870'
+    oldFile: null
+gitCommitId: !uuid '50fc9c77d80edf648de5118ea6f38651203bfdfb'
 renames: {
   }
-revisionId: 3
+revisionId: 4
