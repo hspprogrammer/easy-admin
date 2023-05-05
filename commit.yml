@@ -3,33 +3,36 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7291ef76defcc5e4d854bdff67252a74b3b5e6b4'
-    oldFile: !uuid '6a7c3e1d56d423a21b790eb7f499a5858e864085'
+    newFile: !uuid 'ff88243dad62c38d3c83fea352976620fa1a6a8a'
+    oldFile: !uuid '7291ef76defcc5e4d854bdff67252a74b3b5e6b4'
   /src/frontend:
-    newFile: !uuid '7ce25b65cf85385a33843b7753281894456329ca'
-    oldFile: !uuid '951d072e6f1c43db61f33fd30b9e30e528014b7b'
+    newFile: !uuid '0a18716ab34e27dde77e4dab4ab5747e581c70a1'
+    oldFile: !uuid '7ce25b65cf85385a33843b7753281894456329ca'
   /src/frontend/博客模板:
-    newFile: !uuid '72e6950cb34a824e51e103e3cacac78a3569eb88'
-    oldFile: !uuid '2859c85b6a730cfa48a01629e281cab3ee4f689d'
+    newFile: !uuid '92223131898f4829a15bc5cb2e1c4485d0c95660'
+    oldFile: !uuid '72e6950cb34a824e51e103e3cacac78a3569eb88'
   /src/frontend/博客模板/src:
-    newFile: !uuid 'c3b206a9fab3e21e33bf5220e0d5c0905a690053'
-    oldFile: !uuid '9f3393d575341b406e23aefc79b8a912a66ad904'
+    newFile: !uuid '96b0a474c6efb430e3edbc45ae85daac3c6b6e8c'
+    oldFile: !uuid 'c3b206a9fab3e21e33bf5220e0d5c0905a690053'
   /src/frontend/博客模板/src/components:
-    newFile: !uuid 'c53b8cf35965a67baed6eec6154faebb59ecb291'
-    oldFile: !uuid '110b59031e4b83fb06a8f08205ba7fd821941aa9'
+    newFile: !uuid '610309e42796fc60986d0bd039eff56873c9e0a0'
+    oldFile: !uuid 'c53b8cf35965a67baed6eec6154faebb59ecb291'
   /src/frontend/博客模板/src/components/layout:
-    newFile: !uuid 'f150dc865492ce02ee8bfc2b2295a8e763fef331'
-    oldFile: !uuid '6711d5186685fa61aae512f1f7d32a60ef5f386d'
-  /src/frontend/博客模板/src/components/layout/SideNavBar.vue:
-    newFile: !uuid '2945769b46efd63b72ed6a4ea4787a397a9a33c9'
-    oldFile: !uuid 'd5718baa3d8d24434d6d4c3747b1061ab53b4da1'
+    newFile: !uuid 'b5f3b037d945466e1f7f00cfad3b41d7fa75933e'
+    oldFile: !uuid 'f150dc865492ce02ee8bfc2b2295a8e763fef331'
   /src/frontend/博客模板/src/components/layout/TopNavBar.vue:
-    newFile: !uuid '7cfd5b45ea45cad9aab5316a274838c0a338a6c7'
-    oldFile: !uuid '0015f49b935944ee8ea12f61f8b9c9c90cc1eb02'
-  /src/frontend/博客模板/src/main.ts:
-    newFile: !uuid '0d2543c79eca2fbdd3959e16735027f2a3bbaf69'
-    oldFile: !uuid 'c268169e1450291585cca0ccce9105dd63dc2cc8'
-gitCommitId: !uuid 'a9ed73d3c43a793b64fe3069ce6f3644611221ac'
+    newFile: !uuid '0c2806302d8c2195ecd98147a59739bc32b565b5'
+    oldFile: !uuid '7cfd5b45ea45cad9aab5316a274838c0a338a6c7'
+  /src/frontend/博客模板/src/views:
+    newFile: !uuid '6e081502d9921f71f6a54669c3ae22b4744662f6'
+    oldFile: !uuid '6ce0902c61685dab0bc14b4b6c52827cad6ef661'
+  /src/frontend/博客模板/src/views/Link.vue:
+    newFile: !uuid '879c8d03b981938292738d8962bfe818a38067d1'
+    oldFile: !uuid 'e5b92e268ddd16d9cb0d58461380f587c7fe6673'
+  /src/frontend/博客模板/src/views/User.vue:
+    newFile: !uuid '8edd77167959a5101b4c4d6a5e393659e608f374'
+    oldFile: !uuid '01493c4d821f26caf8f9090ec8cc105e36742bb0'
+gitCommitId: !uuid 'a8dc0a52b171ddf691f635565b50dad8ae82de80'
 renames: {
   }
-revisionId: 5
+revisionId: 6
