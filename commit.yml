@@ -3,54 +3,36 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '1f13bbe3ff2bc6747dace1690f0ac91ccbe2fe6e'
-    oldFile: !uuid '55e7c0649cf29ef45e4db91f52d66dfb644fa9d5'
+    newFile: !uuid '8ce0742e29a6dd7d895afcd9d52ed326c97a0cb0'
+    oldFile: !uuid '1f13bbe3ff2bc6747dace1690f0ac91ccbe2fe6e'
   /src/backend:
-    newFile: !uuid '182c29acbbe04bff5aa25fb1a6c92a79482cfb4c'
-    oldFile: !uuid '5e5f63a3213c41568a16248f6ffa5ee8d65fa83d'
+    newFile: !uuid '16235c3db660c843c790d4ec2be6b88453fbb3a2'
+    oldFile: !uuid '182c29acbbe04bff5aa25fb1a6c92a79482cfb4c'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid '9304040aeeffb1e9948dc28303c0ea9982119ec2'
-    oldFile: !uuid '4eb649ee2b5656d6d1e1d1494bed1fb9060c53f5'
-  /src/backend/Easy.Admin.Application/Auth:
-    newFile: !uuid '64d3aab425dea99039012ef7f368d3ae8d8e88c0'
+    newFile: !uuid '8eabc0beb56c1417a572b75128feda4a98f1f235'
+    oldFile: !uuid '9304040aeeffb1e9948dc28303c0ea9982119ec2'
+  /src/backend/Easy.Admin.Application/Role:
+    newFile: !uuid '405c96be4eba6a47dd58dc4b8da06bea5c7590fb'
     oldFile: null
-  /src/backend/Easy.Admin.Application/Auth/AuthService.cs:
-    newFile: !uuid '5e4f79ac889aac9f799253b3daa4be5608f2b9e9'
+  /src/backend/Easy.Admin.Application/Role/Dtos:
+    newFile: !uuid '46bf2eb4fa1d07d4d321b21fe838a8aaa148b4a2'
     oldFile: null
-  /src/backend/Easy.Admin.Application/Auth/Dtos:
-    newFile: !uuid 'e24d932615a110ece13ea730d6d6fc6bee4bb15d'
+  /src/backend/Easy.Admin.Application/Role/Dtos/AddSysRoleInput.cs:
+    newFile: !uuid 'e2b8d60157db6e870261ee73f8de656cc0ab1c15'
     oldFile: null
-  /src/backend/Easy.Admin.Application/Auth/Dtos/AdminLoginInput.cs:
-    newFile: !uuid 'bec1e050333c44a0d53cc9e0b7b2bf7bf71ee97d'
+  /src/backend/Easy.Admin.Application/Role/Dtos/SysRolePageInput.cs:
+    newFile: !uuid '863d63d13c78ca3f8e37ff3dc6a8bbd1aa952528'
     oldFile: null
-  /src/backend/Easy.Admin.Application/Easy.Admin.Application.csproj:
-    newFile: !uuid 'b357a4de46bca27c23ef94153ec112b89f80a4ad'
-    oldFile: !uuid 'b738acd4e2ba3bc65e082d01706f75a6b622c5c4'
-  /src/backend/Easy.Admin.Application/Easy.Admin.Application.xml:
-    newFile: !uuid 'a75fef6c14b7047a43815fed0bef2383dac2ecc0'
-    oldFile: !uuid '2cff5051adae09bc69a4b24faf08cfc48d80d61e'
-  /src/backend/Easy.Admin.Application/GlobalUsings.cs:
-    newFile: !uuid 'c32aff9597e648baf832733b3604a5f4ea49f127'
-    oldFile: !uuid '40d3eb7c816eb54ee4daa4a60a5d9006512cd49e'
-  /src/backend/Easy.Admin.Core:
-    newFile: !uuid '0f773ef50c75caeb5c66ae3f00bf15311b245815'
-    oldFile: !uuid '52c8bc57b9bcdb6fa962a7d9073883dbf3782659'
-  /src/backend/Easy.Admin.Core/Const:
-    newFile: !uuid '68687747e03186fcbfc9edf6f0ca8ea0866d7011'
+  /src/backend/Easy.Admin.Application/Role/Dtos/SysRoleQueryInput.cs:
+    newFile: !uuid '580b47fdf840c7332633349eebcc700c93e73598'
     oldFile: null
-  /src/backend/Easy.Admin.Core/Const/AuthClaimsConst.cs:
-    newFile: !uuid '9de413cb6b1fb8df4b023b6ba796ca5bf72a522c'
+  /src/backend/Easy.Admin.Application/Role/Dtos/UpdateSysRoleInput.cs:
+    newFile: !uuid 'c08bc09c628e8fc10975d09df84fa645aca3eba4'
     oldFile: null
-  /src/backend/Easy.Admin.Core/Easy.Admin.Core.csproj:
-    newFile: !uuid '149e39983a57e15d0a85a5915e97c2767f265f31'
-    oldFile: !uuid '1944e816ddd64fe88e121dbcf21ca39ae339e341'
-  /src/backend/Easy.Admin.Core/Entities:
-    newFile: !uuid 'd885d1b517a8bd37872890864b56681a1b0b1931'
-    oldFile: !uuid '0403629bc476e961556d01c39efd6f0d727db8bf'
-  /src/backend/Easy.Admin.Core/Entities/SysUser.cs:
-    newFile: !uuid '1f797fa265bb8bcc54b9968174317caf4e7a9eb3'
-    oldFile: !uuid '797cf2a58220b54208e1e83a330d49e29b54a079'
-gitCommitId: !uuid '3ae0cd32f9092b26047f7136dc1d7fe44741a96b'
+  /src/backend/Easy.Admin.Application/Role/SysRoleService.cs:
+    newFile: !uuid 'af204cf130cc5f499ee1ae04d86bf2d0645eafef'
+    oldFile: null
+gitCommitId: !uuid 'e1dd054356a2ec1ac0552b71ee5ba187f6c66220'
 renames: {
   }
-revisionId: 14
+revisionId: 15
