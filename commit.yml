@@ -3,84 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8c91a5293f0c11b0b420960bef57bc6e3904365d'
-    oldFile: !uuid 'b66428ac74af2d87499ed9190e4cd9e5810f0edf'
+    newFile: !uuid '43abf6c5f9207422143a4b5c68365c961c1b91fb'
+    oldFile: !uuid '8c91a5293f0c11b0b420960bef57bc6e3904365d'
   /src/backend:
-    newFile: !uuid '8755ef6622fc64028fc6a84c574a3c7d7a978c29'
-    oldFile: !uuid '1e5b23cc7a66dedeb73ff5a9f5e4b505e21e0faa'
+    newFile: !uuid '7652e6c572b72313d09435fda2bb1ac80d6611b8'
+    oldFile: !uuid '8755ef6622fc64028fc6a84c574a3c7d7a978c29'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid '2df8ed67f398e6a2e1abb4a20d33d9259324c731'
-    oldFile: !uuid '41bdb4b97f5d114bea9e9c51aec63e5a5b6b10c9'
-  /src/backend/Easy.Admin.Application/Auth:
-    newFile: !uuid '27c0189cac2068edadb953d308b41d826c568cf7'
-    oldFile: !uuid '64d3aab425dea99039012ef7f368d3ae8d8e88c0'
-  /src/backend/Easy.Admin.Application/Auth/AuthManager.cs:
-    newFile: !uuid '7b7a63d17bdb16c73c9af9d54a2548b616c7695a'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Auth/AuthService.cs:
-    newFile: !uuid 'a5546603858f97a54e4c5927e20db73b03240545'
-    oldFile: !uuid '5e4f79ac889aac9f799253b3daa4be5608f2b9e9'
-  /src/backend/Easy.Admin.Application/Easy.Admin.Application.csproj:
-    newFile: !uuid 'abb9f48d90e57fd75d6b4a8e09da8fab6d8e054f'
-    oldFile: !uuid '61266cf8fbdcfbf74061521a8786b3832aad92d5'
-  /src/backend/Easy.Admin.Application/Menu:
-    newFile: !uuid '7650182b8a9f6820c763d9d00a0cc594e721c516'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Menu/Dtos:
-    newFile: !uuid '7fbc700aaf893790317b12196fe135c43d054a45'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Menu/Dtos/AddSysMenuInput.cs:
-    newFile: !uuid 'e88fa88a3df26ba57561d8810a685016ad532bd3'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Menu/Dtos/SysMenuPageOutput.cs:
-    newFile: !uuid '9fcad60f5215498ca3e3c72818889fb579f51480'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Menu/Dtos/UpdateSysMenuInput.cs:
-    newFile: !uuid '146d69fd161bcd3534344a06bc3f1376d8ca7546'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Menu/SysMenuService.cs:
-    newFile: !uuid '0b6208a6bc2199a5a7f91fc884ac0fc5d2bfb7c1'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Organization:
-    newFile: !uuid '796d87c01a2163fe4dc66feffb9c0d5bffc815f8'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Organization/Dtos:
-    newFile: !uuid 'ed43254b3fcc8dd9a0e1c6915564f7b1480d1053'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Organization/Dtos/AddOrgInput.cs:
-    newFile: !uuid '217fd91bc8aeaf21a5aaca1f3283acfc47b4af2f'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Organization/Dtos/SysOrgPageOutput.cs:
-    newFile: !uuid '3e30a7f522886a83c41b850f0846624cf64f9f26'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Organization/Dtos/UpdateOrgInput.cs:
-    newFile: !uuid 'a2214d7f3ebed12ac4cce30af940cd58ab138e85'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Organization/SysOrganizationService.cs:
-    newFile: !uuid '691ba47b673fbc0f4a5bfecbf4ce9af889e040f4'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/User:
-    newFile: !uuid '6d2de6b97f55c0d93ae7b2ebcc511874bb0d6009'
-    oldFile: !uuid '7b6f419186f169d1635753e3af309906ca0a4f8b'
-  /src/backend/Easy.Admin.Application/User/SysUserService.cs:
-    newFile: !uuid '19f2e80fc38f938666c59ef358b37a57a23b7fec'
-    oldFile: !uuid '940ffe53ed5cd7111ed39bc13f9d57b09ffa7372'
+    newFile: !uuid '76c1bc08a11d00c58059783fec0e64ce50ebede2'
+    oldFile: !uuid '2df8ed67f398e6a2e1abb4a20d33d9259324c731'
+  /src/backend/Easy.Admin.Application/applicationsettings.json:
+    newFile: !uuid 'deec973730e516639dc687161a91ac2dc1a5ef33'
+    oldFile: !uuid '184a647f1cfcc54d586b7e7ab47250d5132bd804'
   /src/backend/Easy.Admin.Core:
-    newFile: !uuid '18ee34443dc5c0cc8c084e98f237b0898c8da65a'
-    oldFile: !uuid '0f773ef50c75caeb5c66ae3f00bf15311b245815'
-  /src/backend/Easy.Admin.Core/Const:
-    newFile: !uuid '329202f2cc3b00cb3eb4c41ed629521bfe417dab'
-    oldFile: !uuid '68687747e03186fcbfc9edf6f0ca8ea0866d7011'
-  /src/backend/Easy.Admin.Core/Const/CacheConst.cs:
-    newFile: !uuid '66abd0ada90b90909b28b22e721f7c80b006208a'
-    oldFile: null
-  /src/backend/Easy.Admin.Core/Entities:
-    newFile: !uuid 'afe73174a7fa3a4b71a1f0e9f35ca7398acb1203'
-    oldFile: !uuid 'd885d1b517a8bd37872890864b56681a1b0b1931'
-  /src/backend/Easy.Admin.Core/Entities/SysMenu.cs:
-    newFile: !uuid 'fa9d5357d19a445a50b8314187cdb3dab2f2a7ba'
-    oldFile: !uuid 'c896e282d91bcaac09cbe391e520b919d7a3590b'
-gitCommitId: !uuid 'ac90fba4566d8053d3596d6b88f93cf0fb654011'
+    newFile: !uuid '3fe24fddb17ee60aa114f95654e869c7298b1b57'
+    oldFile: !uuid '18ee34443dc5c0cc8c084e98f237b0898c8da65a'
+  /src/backend/Easy.Admin.Core/Options:
+    newFile: !uuid '1c23eb7fe4e3c105dfff71d964738c9c951e78d8'
+    oldFile: !uuid 'b07480ee9f833935078b9088b2b1c8535fc6e31b'
+  /src/backend/Easy.Admin.Core/Options/DbConnectionOptions.cs:
+    newFile: !uuid 'c4e08c0e2f94068fab4e376348de16a40ab5b70a'
+    oldFile: !uuid 'ced126e46a6ccb7d549757c22d087f68422071f7'
+  /src/backend/Easy.Admin.Core/SqlSugar:
+    newFile: !uuid 'd7124da0cad0269421529c89cb63830f44859bdb'
+    oldFile: !uuid 'bb0dc08b5b1a01f5204bc703ce8afac26409f561'
+  /src/backend/Easy.Admin.Core/SqlSugar/SqlSugarExtensions.cs:
+    newFile: !uuid 'edc0e6f36d51c07835c1a85f9de0de00ab792cc1'
+    oldFile: !uuid 'b6097fec3104ff510b115d4260322fd213e2e504'
+gitCommitId: !uuid 'd860edc7428eb699da44c580e4457c9931460598'
 renames: {
   }
-revisionId: 17
+revisionId: 18
