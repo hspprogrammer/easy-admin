@@ -3,135 +3,81 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '1be3e3b2122232e2dc513b8d490f6ca9ff1c69ca'
-    oldFile: !uuid '5fb92e84a1409ee3bcf4b18d2d60e31acdb29eb6'
+    newFile: !uuid '9f6b98b0e4e8594f77b903c31fcbcfe3bdeb4253'
+    oldFile: !uuid '1be3e3b2122232e2dc513b8d490f6ca9ff1c69ca'
+  /src/backend:
+    newFile: !uuid 'ee9aeab482edc8ce3ed1d708fe0ba912f540b25f'
+    oldFile: !uuid '205aaf7e2b774e4cfb66c47931f10fe9edacec20'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid '23119c52342ed9e2ad4bccc47f3e827137355a00'
+    oldFile: !uuid '155ce96bba9bfa7781faf9e7c5650adaf06fafcd'
+  /src/backend/Easy.Admin.Application/Menu:
+    newFile: !uuid '47c991f2ba9319650b337dca64ca371c09746b4d'
+    oldFile: !uuid '686878b418a7ea309bbefb4d574e2147c42a2b77'
+  /src/backend/Easy.Admin.Application/Menu/Dtos:
+    newFile: !uuid 'dcf921e115301f164a352ccc5764924179e06bb4'
+    oldFile: !uuid 'd8643564e3edfea85de98f141fcc726d085588ce'
+  /src/backend/Easy.Admin.Application/Menu/Dtos/Mapper.cs:
+    newFile: !uuid '7bfd45e11973c1038bc6fb506be79ef61e2a62a2'
+    oldFile: null
+  /src/backend/Easy.Admin.Application/Menu/SysMenuService.cs:
+    newFile: !uuid '5dc5309d85430a5db7e6ce5e1c7bac4fdc11089d'
+    oldFile: !uuid 'e34c486bcedcd7c902cb755a8fda2bae9dcc49db'
+  /src/backend/Easy.Admin.Core:
+    newFile: !uuid 'c75455523ffa28f8b91acc683b8ffdb408799997'
+    oldFile: !uuid 'f0a45cc758f3fe32f20965f351299f10e0421b74'
+  /src/backend/Easy.Admin.Core/Shared:
+    newFile: !uuid 'f9b16fe63c967772e2d19c5626edeb8e645a4c81'
+    oldFile: !uuid '2576a0484ed43fab112213b799a5e67c8fae33bd'
+  /src/backend/Easy.Admin.Core/Shared/SelectOutput.cs:
+    newFile: !uuid 'b3e61b599312ed8cd7f21782a62eb0431dc3d4d4'
+    oldFile: null
+  /src/backend/Easy.Admin.Core/Shared/TreeSelectOutput.cs:
+    newFile: !uuid 'e5b3c4e19d3cd80e7bcb066cc1c4ca5d03519727'
+    oldFile: null
   /src/frontend:
-    newFile: !uuid '770813c4f7e4ae69b7a6617176aad97a72d03f73'
-    oldFile: !uuid '7f29e752f62a10918961cc909b3c9dc2c1ed8e34'
+    newFile: !uuid 'cc9654852e7e0d44c24b56a773b5d4fa423805da'
+    oldFile: !uuid '770813c4f7e4ae69b7a6617176aad97a72d03f73'
   /src/frontend/admin:
-    newFile: !uuid 'ea20a2ea8d1f1b1f2a2888535dcb6945bd276c8c'
-    oldFile: !uuid 'f76f283fb22eacaaa63b7a71c0ceefa2f6544b26'
+    newFile: !uuid '5b08d3d8f76d481ad1ae59d15732942502dfa848'
+    oldFile: !uuid 'ea20a2ea8d1f1b1f2a2888535dcb6945bd276c8c'
   /src/frontend/admin/src:
-    newFile: !uuid 'd5667e4be24c806dc981c1da87665930d9af9a56'
-    oldFile: !uuid '998c70db88d48679ea21567cc2d449f120474b4e'
-  /src/frontend/admin/src/api:
-    newFile: !uuid 'ebbd4572fbe2871b1acffcc33e9de75223022ef4'
-    oldFile: !uuid '2d1787b954a88aac26a19bf55df210eeccfcde19'
-  /src/frontend/admin/src/api/AuthApi.ts:
-    newFile: !uuid '48818296078db716f0a8cc56260994a99dd362af'
-    oldFile: null
-  /src/frontend/admin/src/api/SysMenuApi.ts:
-    newFile: !uuid '95f102bd641839cfe85768aa141250b2db8ce9f2'
-    oldFile: null
-  /src/frontend/admin/src/api/models:
-    newFile: !uuid 'a3d14275a5bcaa99c5f884d0fdebfdd0be54b3fc'
-    oldFile: null
-  /src/frontend/admin/src/api/models/add-org-input.ts:
-    newFile: !uuid '61aa94595e6438338c81e504accdb2e9cea7f3f7'
-    oldFile: null
-  /src/frontend/admin/src/api/models/add-sys-menu-input.ts:
-    newFile: !uuid 'ff0349b5263bbe2eed2e847416d49e980f62c0e5'
-    oldFile: null
-  /src/frontend/admin/src/api/models/add-sys-role-input.ts:
-    newFile: !uuid '275fdd50f003569c168fdba97991998d3ea4048c'
-    oldFile: null
-  /src/frontend/admin/src/api/models/add-user-input.ts:
-    newFile: !uuid 'b821bca880e722e2a0082436091c5925e397cbfa'
-    oldFile: null
-  /src/frontend/admin/src/api/models/admin-login-input.ts:
-    newFile: !uuid '0330bbb049f34aa93cc2cb4d616f485c79342a13'
-    oldFile: null
-  /src/frontend/admin/src/api/models/availability-dto.ts:
-    newFile: !uuid '1c0c205246282da53e4bb858d267703f6c17c9af'
-    oldFile: null
-  /src/frontend/admin/src/api/models/availability-status.ts:
-    newFile: !uuid 'f7aafd136428e7874b274859ec97e69bfa6a0947'
-    oldFile: null
-  /src/frontend/admin/src/api/models/gender.ts:
-    newFile: !uuid 'ce7f4d8300a722597098dd072bfd2be754b758c3'
-    oldFile: null
-  /src/frontend/admin/src/api/models/iaction-result.ts:
-    newFile: !uuid '85288ae999da3c53a16aac1a9a3e8f929a88dc29'
-    oldFile: null
-  /src/frontend/admin/src/api/models/index.ts:
-    newFile: !uuid '041fad5c26e029d54fe378eee225ce9f4f34fc4a'
-    oldFile: null
-  /src/frontend/admin/src/api/models/key-dto.ts:
-    newFile: !uuid '763277d765e211a0c74856573abebc076f54ddf1'
-    oldFile: null
-  /src/frontend/admin/src/api/models/menu-type.ts:
-    newFile: !uuid '08202487d68a64de2104de46de34a99927c9ed0e'
-    oldFile: null
-  /src/frontend/admin/src/api/models/page-result-sys-role-page-input.ts:
-    newFile: !uuid '81c79e63c9d0989104a3c81af99d608ece8c3458'
-    oldFile: null
-  /src/frontend/admin/src/api/models/page-result-sys-user-page-output.ts:
-    newFile: !uuid 'f7c626ddc3f4959b4d8e2ac5eb7863080d47606b'
-    oldFile: null
-  /src/frontend/admin/src/api/models/reset-password-input.ts:
-    newFile: !uuid 'dbe9f42a981ec5a9e7609babbafb829146243957'
-    oldFile: null
-  /src/frontend/admin/src/api/models/restful-result-iaction-result.ts:
-    newFile: !uuid '1f3943c5a8dc546b39d129f05168dea4ef64da73'
-    oldFile: null
-  /src/frontend/admin/src/api/models/restful-result-list-sys-menu-page-output.ts:
-    newFile: !uuid '51bd05ae5a31ecb9ee10a46078b3b52502c2e808'
-    oldFile: null
-  /src/frontend/admin/src/api/models/restful-result-list-sys-org-page-output.ts:
-    newFile: !uuid 'be72a3abe50490ad6f6042637a247e2d3c455e8e'
-    oldFile: null
-  /src/frontend/admin/src/api/models/restful-result-page-result-sys-role-page-input.ts:
-    newFile: !uuid '81ee5ab7ff35c0417ce8621adf7b1e2f410e79d8'
-    oldFile: null
-  /src/frontend/admin/src/api/models/restful-result-page-result-sys-user-page-output.ts:
-    newFile: !uuid 'f7ec1cd1e5fadad34c3f6d39114b0b9c2443df00'
-    oldFile: null
-  /src/frontend/admin/src/api/models/sys-menu-page-output.ts:
-    newFile: !uuid '320e686d263560561b032461c2a150bff5f7d22a'
-    oldFile: null
-  /src/frontend/admin/src/api/models/sys-org-page-output.ts:
-    newFile: !uuid 'e56fb785480cadfc4a3327ad0f52c39c0e1ffd7e'
-    oldFile: null
-  /src/frontend/admin/src/api/models/sys-role-page-input.ts:
-    newFile: !uuid 'e40828840dd9b4c2f630c26fbd0cd23fe5ec926d'
-    oldFile: null
-  /src/frontend/admin/src/api/models/sys-user-page-output.ts:
-    newFile: !uuid 'a10172d066b21150019335d2092cc1fdaa704906'
-    oldFile: null
-  /src/frontend/admin/src/api/models/update-org-input.ts:
-    newFile: !uuid '1416e7a7f91aeb002435a4fa795ed372b0d11141'
-    oldFile: null
-  /src/frontend/admin/src/api/models/update-sys-menu-input.ts:
-    newFile: !uuid 'ef7f6947d6a707c7a77d85c4ca775f39d5a119b7'
-    oldFile: null
-  /src/frontend/admin/src/api/models/update-sys-role-input.ts:
-    newFile: !uuid '27068208b1cd7c013a626e215d223d762a214bb6'
-    oldFile: null
-  /src/frontend/admin/src/api/models/update-user-input.ts:
-    newFile: !uuid '21e4babea0bf3b1a8547a5cbc71262f77e182194'
-    oldFile: null
+    newFile: !uuid '0e606d73a94b19914caefde41cc92d3ee7015909'
+    oldFile: !uuid 'd5667e4be24c806dc981c1da87665930d9af9a56'
   /src/frontend/admin/src/components:
-    newFile: !uuid '80c70911b3d1fa6f03c80d11e4cfda3f3d4ab610'
-    oldFile: !uuid 'e2a8c0259e1c777fbc8e59d81bbfcb9473263c72'
+    newFile: !uuid '74e80fc05914b1af00810d01902185e730e03830'
+    oldFile: !uuid '80c70911b3d1fa6f03c80d11e4cfda3f3d4ab610'
   /src/frontend/admin/src/components/table:
-    newFile: !uuid 'e80cfcddb3c6e92069b436938726d8b0982fbdf5'
-    oldFile: !uuid '02e0dfddbd3d102de6ad4e6ea020c373d2588544'
-  /src/frontend/admin/src/components/table/search.vue:
-    newFile: !uuid '19ac8a2cf71686cdaece0a1528ee82e2c06563b1'
-    oldFile: null
-  /src/frontend/admin/src/theme:
-    newFile: !uuid 'eb7afe6b513b47a09c926f6ed0cddccdc8d395d2'
-    oldFile: !uuid '48a365e02912d4993a36347fa3bcbe4ca07fa8ac'
-  /src/frontend/admin/src/theme/element.scss:
-    newFile: !uuid 'edafb9e78a1ee22e4de974397ddc8df3abc20f82'
-    oldFile: !uuid 'd3b3dd5af2a2344c9a8c4e2120ba07cd62d5ab3f'
+    newFile: !uuid '38de1ee2bbded958ca0beae95f9af1030027155b'
+    oldFile: !uuid 'e80cfcddb3c6e92069b436938726d8b0982fbdf5'
+  /src/frontend/admin/src/components/table/index.vue:
+    newFile: !uuid '9e9952390ec17250f178ef9e274b71f983cd4d8f'
+    oldFile: !uuid '99b79ee4777a3060eb23a5b702edd6ce80614109'
   /src/frontend/admin/src/utils:
-    newFile: !uuid 'a562046dab6de7f50f585889a1740aa441eaa28d'
-    oldFile: !uuid '6df7bfdedd97492330e223d16afef8d168d52f09'
-  /src/frontend/admin/src/utils/exportExcel.ts:
-    newFile: !uuid '2e1c838cf44b48ae6671b48e1b4f273476faf624'
-    oldFile: null
-gitCommitId: !uuid '80ff952425ae1a4af74c0f4d9a77acc179798ecd'
+    newFile: !uuid 'a4ce4bbc878d6323c5b5c681cd969eca92509c3f'
+    oldFile: !uuid 'a562046dab6de7f50f585889a1740aa441eaa28d'
+  /src/frontend/admin/src/utils/getStyleSheets.ts:
+    newFile: !uuid 'bb4e91fb4a353e4c3f0cdc95cdcc9b9705157919'
+    oldFile: !uuid '90252c3700575d9b7829218583ed72130f2efd47'
+  /src/frontend/admin/src/utils/request.ts:
+    newFile: !uuid '3347092fdfbf34bbe959c245571b8d5110e68d89'
+    oldFile: !uuid 'cf6d17ae23538e7056317a173220cb801de7453a'
+  /src/frontend/admin/src/views:
+    newFile: !uuid '6877136f6ab461941a20fea5589b8ddf7cd95f17'
+    oldFile: !uuid '16e1179dc5bf9f737dd04d2fecefe93c9ece4a9d'
+  /src/frontend/admin/src/views/system:
+    newFile: !uuid 'd5c7c311eb3a4a9c4d0147001ba20216f41f879c'
+    oldFile: !uuid '57671475a989b76872467394ea0e8777679b6d91'
+  /src/frontend/admin/src/views/system/menu:
+    newFile: !uuid '62379f5e28c31105f6d5fa482e68e57ac7eff77b'
+    oldFile: !uuid '1942ed4a9dcd50613329ba1ad7a9e08a7bea799e'
+  /src/frontend/admin/src/views/system/menu/dialog.vue:
+    newFile: !uuid '2ae4bf8bff3d95d48706ea5f7d8fc130332d9f76'
+    oldFile: !uuid '469f1cac3f5b4a1ac75787adf9b0966d69f125c7'
+  /src/frontend/admin/src/views/system/menu/index.vue:
+    newFile: !uuid '724fba1eb7857602d525e38018387698801f39af'
+    oldFile: !uuid 'b189a22ec6f6a104521183e2f73d01accf3451bd'
+gitCommitId: !uuid 'd48b39cddd3f7322fdcfeb09a2ad535becf92618'
 renames: {
   }
-revisionId: 22
+revisionId: 23
