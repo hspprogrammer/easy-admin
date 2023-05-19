@@ -3,24 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7f4bd06e620df2bc8b3001f9f90875de13e552cd'
-    oldFile: !uuid '18273fd8ad7151d52813e341c517ddc2dc46b1e2'
+    newFile: !uuid '3112c37502927f85a6ae6d76282228d3e6e1444b'
+    oldFile: !uuid '7f4bd06e620df2bc8b3001f9f90875de13e552cd'
   /src/frontend:
-    newFile: !uuid '6cc075e3e9dcd439cc52cf746e2e140ffdcb36e8'
-    oldFile: !uuid 'b115075b6176a66fe5c64230d1f0572bb675deb8'
+    newFile: !uuid '2d0d0e1696aacebf64dcf2cbd4af9a220097e67d'
+    oldFile: !uuid '6cc075e3e9dcd439cc52cf746e2e140ffdcb36e8'
   /src/frontend/admin:
-    newFile: !uuid 'd71ef45a5e42acac191cb33e7c12f79c0e56226f'
-    oldFile: !uuid '0d8b8c67a6bc9149ca7d7fa2f0f2956453a032bd'
+    newFile: !uuid '11d5d03db4a14a950dcdd989d44966e885da1cf8'
+    oldFile: !uuid 'd71ef45a5e42acac191cb33e7c12f79c0e56226f'
   /src/frontend/admin/src:
-    newFile: !uuid '4c13170709582a770ddc8ecbde21a2354dbdf5e7'
-    oldFile: !uuid '83272063f5ffb689ea0a03b6856f4a0ff05a9b94'
-  /src/frontend/admin/src/api:
-    newFile: !uuid 'd382b8a30b180e7e9f348f615f5d84d13183632e'
-    oldFile: !uuid '4c55a1f6b0360ed3ac286a3c34483e4e184c380c'
-  /src/frontend/admin/src/api/SysOrganizationApi.ts:
-    newFile: !uuid '6a49f825c4a468fc0b12851cb6ed5a5d4a5a9a2c'
-    oldFile: null
-gitCommitId: !uuid 'ab6b252b11e9647db4ef1c8ced21716f0323c623'
+    newFile: !uuid '34bfabf70a3f3b1c69b7f4813997680620f7d7c3'
+    oldFile: !uuid '4c13170709582a770ddc8ecbde21a2354dbdf5e7'
+  /src/frontend/admin/src/components:
+    newFile: !uuid 'c2dc88c475c9782fe7db492133399ed2f3680b65'
+    oldFile: !uuid 'a36f065ef602bdb240a5f2a8cfee78a12efb4762'
+  /src/frontend/admin/src/components/table:
+    newFile: !uuid '6063da1ae0e994cc79b9f9ebc166a34703ae52b0'
+    oldFile: !uuid '0d1b4a996bf70419c345cb2eb63b12ac51710f32'
+  /src/frontend/admin/src/components/table/index.vue:
+    newFile: !uuid 'f63da5ef5d28b878481fd45da98a89660b765c09'
+    oldFile: !uuid 'c490c9caea92011b96f115704e87ff70b2c7678b'
+  /src/frontend/admin/src/types:
+    newFile: !uuid '426843a4943a9b289ac72f45a3ecc28ad276711f'
+    oldFile: !uuid 'ded6ae3755dc4aa28561e17cbd2c703e72e90f3d'
+  /src/frontend/admin/src/types/views.d.ts:
+    newFile: !uuid '90e499a9f6fb9ad1520f39042f59960737488d93'
+    oldFile: !uuid 'e3676501986d404dd139b07ac302d37ad8f8de75'
+gitCommitId: !uuid 'cd6164582f613e494bf28de7975ac315df101e31'
 renames: {
   }
-revisionId: 27
+revisionId: 28
