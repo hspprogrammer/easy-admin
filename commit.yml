@@ -3,87 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '96f3daacc3db8555ea5aa5a48573d991c38d894d'
-    oldFile: !uuid '3112c37502927f85a6ae6d76282228d3e6e1444b'
-  /src/backend:
-    newFile: !uuid 'b382208a1409b73df5dc96b884e2d1b76ffe3a1c'
-    oldFile: !uuid '57115aafd4d75f98743a279cf392aa9fccf2b7fd'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'e818e55df9ccc5a06658d0d6aec5a6aea6a6e586'
-    oldFile: !uuid 'c4c6ffd04fdd4c1d169df53b0e1b6d6adc7b21cf'
-  /src/backend/Easy.Admin.Application/Easy.Admin.Application.csproj:
-    newFile: !uuid '353e201932043796177fb424914e66ed431caa69'
-    oldFile: !uuid 'abb9f48d90e57fd75d6b4a8e09da8fab6d8e054f'
-  /src/backend/Easy.Admin.Application/Easy.Admin.Application.xml:
-    newFile: !uuid '5514f4b339484f2ecd419336828d1a92945de671'
-    oldFile: !uuid '093720513d2d3ffb8df68e7608bc87f9079d8605'
-  /src/backend/Easy.Admin.Application/Role:
-    newFile: !uuid 'e0b08b3b9534459398db2384c542049e3990b0cd'
-    oldFile: !uuid '0ea4339109fb098cdb0b2b88399ff9c156edeb99'
-  /src/backend/Easy.Admin.Application/Role/Dtos:
-    newFile: !uuid 'c8b5e728de7f68085f4b2a659a6b4bebc59e5e31'
-    oldFile: !uuid '46bf2eb4fa1d07d4d321b21fe838a8aaa148b4a2'
-  /src/backend/Easy.Admin.Application/Role/Dtos/SysRolePageInput.cs:
-    newFile: null
-    oldFile: !uuid '863d63d13c78ca3f8e37ff3dc6a8bbd1aa952528'
-  /src/backend/Easy.Admin.Application/Role/Dtos/SysRolePageOutput.cs:
-    newFile: !uuid 'ba0b2d8e1fa4b2c1cc3a88a289224a05e9f56151'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Role/SysRoleService.cs:
-    newFile: !uuid 'd6b97eb99b38e49b11cbc6f0d936e970958fdc7b'
-    oldFile: !uuid '4694faa67b9dca8853bc0f1cadf94946c6b13d81'
+    newFile: !uuid '335824ebd5d419334fb8e19a15dc4e235880d18b'
+    oldFile: !uuid '96f3daacc3db8555ea5aa5a48573d991c38d894d'
   /src/frontend:
-    newFile: !uuid '777a2baea9587c71651f8e160204dd566574c1aa'
-    oldFile: !uuid '2d0d0e1696aacebf64dcf2cbd4af9a220097e67d'
+    newFile: !uuid 'c57e4f1777ebbfe6b6f213cc9143d11a181521e4'
+    oldFile: !uuid '777a2baea9587c71651f8e160204dd566574c1aa'
   /src/frontend/admin:
-    newFile: !uuid '6719f98f4124cf1561e71bce3401e8fd60413c37'
-    oldFile: !uuid '11d5d03db4a14a950dcdd989d44966e885da1cf8'
+    newFile: !uuid '4b0c551ef66b2380f3b5ca41818da98a3a641dd6'
+    oldFile: !uuid '6719f98f4124cf1561e71bce3401e8fd60413c37'
   /src/frontend/admin/src:
-    newFile: !uuid '88ba114e07eb13768a535688c6a1ba3a77344f91'
-    oldFile: !uuid '34bfabf70a3f3b1c69b7f4813997680620f7d7c3'
+    newFile: !uuid '653295f6b1b8d05f4defc74a69c622b74837ae5f'
+    oldFile: !uuid '88ba114e07eb13768a535688c6a1ba3a77344f91'
   /src/frontend/admin/src/api:
-    newFile: !uuid '77b0fbfcdfafaf3cd1beec4e3cc8402449767de5'
-    oldFile: !uuid 'd382b8a30b180e7e9f348f615f5d84d13183632e'
+    newFile: !uuid '6ad74d66336a807ce94ad876b16d7e538283f70c'
+    oldFile: !uuid '77b0fbfcdfafaf3cd1beec4e3cc8402449767de5'
+  /src/frontend/admin/src/api/SysRoleApi.ts:
+    newFile: !uuid '2980c399943857931f374f0b5d20d73ceec1c755'
+    oldFile: null
   /src/frontend/admin/src/api/models:
-    newFile: !uuid '46b509cb070d55cd3539e4141cd01eca434a5680'
-    oldFile: !uuid '8ac6ba4af5d2015b5bcb5b4de814255bc47c409e'
-  /src/frontend/admin/src/api/models/index.ts:
-    newFile: !uuid '6165b97399de76cb7c75aaeac68ee5bf0bbd47d9'
-    oldFile: !uuid '57ba172a4a022639ac979ad7c426b722b060cc7f'
-  /src/frontend/admin/src/api/models/page-result-sys-role-page-input.ts:
-    newFile: !uuid '56f76307cb363f86440eff34021814a30ec12b0d'
-    oldFile: !uuid '81c79e63c9d0989104a3c81af99d608ece8c3458'
-  /src/frontend/admin/src/components:
-    newFile: !uuid '46fad5c67776a32d725cc3baae8759e7381f8966'
-    oldFile: !uuid 'c2dc88c475c9782fe7db492133399ed2f3680b65'
-  /src/frontend/admin/src/components/table:
-    newFile: !uuid 'd57f392099a26420c05cd80d8b122d3055da910b'
-    oldFile: !uuid '6063da1ae0e994cc79b9f9ebc166a34703ae52b0'
-  /src/frontend/admin/src/components/table/index.vue:
-    newFile: !uuid '7f65827d16710e128f5b78c88db5b8431038acb2'
-    oldFile: !uuid 'f63da5ef5d28b878481fd45da98a89660b765c09'
-  /src/frontend/admin/src/views:
-    newFile: !uuid 'ecb3c43c1de76966354645243eb08da91515ea6a'
-    oldFile: !uuid 'bee72cbab10dee51d631041d236bcb72ea03ac67'
-  /src/frontend/admin/src/views/system:
-    newFile: !uuid 'b96f94e621323e5cd7bee6e53f5a179ce546ca05'
-    oldFile: !uuid '77be7d9d3b1a20f4651357d1785c8f959296da86'
-  /src/frontend/admin/src/views/system/dept:
-    newFile: !uuid 'e950868e5aa2d5b75ad20232b6ae031fab584f56'
-    oldFile: !uuid 'a048139988e0f2bfbc084d93d30f51f71de1dc01'
-  /src/frontend/admin/src/views/system/dept/index.vue:
-    newFile: !uuid '09d7515db74b8df16f72d57c1c36de1391210555'
-    oldFile: !uuid '1a0e3664a8f28a30ab65b45c86a65bf267c1bde7'
-  /src/frontend/admin/src/views/system/role:
-    newFile: !uuid '1556247f182a3916192f58d78217077949ff56e3'
-    oldFile: !uuid 'de40bcbbba14fd2f141b745413b377680bd78f83'
-  /src/frontend/admin/src/views/system/role/dialog.vue:
-    newFile: !uuid '1cb87eada3a6e71338a65e03424e6c942905d9ea'
-    oldFile: !uuid 'b39d6fa47b4038fd1ef500e096917f04d7d3a018'
-  /src/frontend/admin/src/views/system/role/index.vue:
-    newFile: !uuid '5d1e92f4528ffe1cef3efab583ab3d586e5e9000'
-    oldFile: !uuid '730d282ab1779b9572a8ea51f5164636f4de0937'
-gitCommitId: !uuid '0beb85dfee8fd96718f51ae3d909a350db40f1ce'
+    newFile: !uuid 'ee671d8abb8d74522923e1312b696c53e44d6237'
+    oldFile: !uuid '46b509cb070d55cd3539e4141cd01eca434a5680'
+  /src/frontend/admin/src/api/models/sys-role-page-input.ts:
+    newFile: null
+    oldFile: !uuid 'e40828840dd9b4c2f630c26fbd0cd23fe5ec926d'
+  /src/frontend/admin/src/api/models/sys-role-page-output.ts:
+    newFile: !uuid '398b69a7d37a8133d5792d61a0e603fdbbb20cc8'
+    oldFile: null
+gitCommitId: !uuid 'f5851f3ddeaa0ba7b3ebf9ca8d9f436df0a3172f'
 renames:
-  /src/backend/Easy.Admin.Application/Role/Dtos/SysRolePageOutput.cs: /src/backend/Easy.Admin.Application/Role/Dtos/SysRolePageInput.cs
-revisionId: 29
+  /src/frontend/admin/src/api/models/sys-role-page-output.ts: /src/frontend/admin/src/api/models/sys-role-page-input.ts
+revisionId: 30
