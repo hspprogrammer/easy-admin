@@ -3,33 +3,161 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '335824ebd5d419334fb8e19a15dc4e235880d18b'
-    oldFile: !uuid '96f3daacc3db8555ea5aa5a48573d991c38d894d'
-  /src/frontend:
-    newFile: !uuid 'c57e4f1777ebbfe6b6f213cc9143d11a181521e4'
-    oldFile: !uuid '777a2baea9587c71651f8e160204dd566574c1aa'
-  /src/frontend/admin:
-    newFile: !uuid '4b0c551ef66b2380f3b5ca41818da98a3a641dd6'
-    oldFile: !uuid '6719f98f4124cf1561e71bce3401e8fd60413c37'
-  /src/frontend/admin/src:
-    newFile: !uuid '653295f6b1b8d05f4defc74a69c622b74837ae5f'
-    oldFile: !uuid '88ba114e07eb13768a535688c6a1ba3a77344f91'
-  /src/frontend/admin/src/api:
-    newFile: !uuid '6ad74d66336a807ce94ad876b16d7e538283f70c'
-    oldFile: !uuid '77b0fbfcdfafaf3cd1beec4e3cc8402449767de5'
-  /src/frontend/admin/src/api/SysRoleApi.ts:
-    newFile: !uuid '2980c399943857931f374f0b5d20d73ceec1c755'
+    newFile: !uuid '1fb819957a888122dd2830b3e922977f25365223'
+    oldFile: !uuid '335824ebd5d419334fb8e19a15dc4e235880d18b'
+  /src/backend:
+    newFile: !uuid '6daf1af550796eaa2c6a4f6f6f6712eb1ef8abbe'
+    oldFile: !uuid 'b382208a1409b73df5dc96b884e2d1b76ffe3a1c'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid '388596256a1881f4222e8e75e46f4899a6e07f7d'
+    oldFile: !uuid 'e818e55df9ccc5a06658d0d6aec5a6aea6a6e586'
+  /src/backend/Easy.Admin.Application/Easy.Admin.Application.csproj:
+    newFile: !uuid '4c11aa05a97e3d1a3569d44119d222e106de1fdf'
+    oldFile: !uuid '353e201932043796177fb424914e66ed431caa69'
+  /src/backend/Easy.Admin.Application/Easy.Admin.Application.xml:
+    newFile: !uuid 'db82482d0938126b45c45148d4a381f96c1bb66b'
+    oldFile: !uuid '5514f4b339484f2ecd419336828d1a92945de671'
+  /src/backend/Easy.Admin.Application/Menu:
+    newFile: !uuid '8202d87026bf043475dacd85fcae66bcd291f80e'
+    oldFile: !uuid '569f6790d5bb5c29c170e79d26aad36cfd66767b'
+  /src/backend/Easy.Admin.Application/Menu/SysMenuService.cs:
+    newFile: !uuid '62963746f4e8c90d9acd3c03ee4e60a9af71e242'
+    oldFile: !uuid 'd2732e55f966e9f87bc10ed40641f9181811f4ee'
+  /src/backend/Easy.Admin.Application/Role:
+    newFile: !uuid '5a33566b1151f108c7233a901ddc5e82d5d9cc5f'
+    oldFile: !uuid 'e0b08b3b9534459398db2384c542049e3990b0cd'
+  /src/backend/Easy.Admin.Application/Role/SysRoleService.cs:
+    newFile: !uuid 'ffe810d8a28631c662f5fa0dddc323aeb2006a03'
+    oldFile: !uuid 'd6b97eb99b38e49b11cbc6f0d936e970958fdc7b'
+  /src/backend/Easy.Admin.Application/User:
+    newFile: !uuid 'ad23f0fb03f820b405801d9c02290fc9b149cd34'
+    oldFile: !uuid 'f3ea91d8c19b7ea0f31d9aef1a11611036230197'
+  /src/backend/Easy.Admin.Application/User/Dtos:
+    newFile: !uuid '4c5b8bae03b1691c4ad929bb39d8e758bcb03c41'
+    oldFile: !uuid '1e76cd40669422817b477fba3fc3f13949bbce90'
+  /src/backend/Easy.Admin.Application/User/Dtos/AddSysUserInput.cs:
+    newFile: !uuid 'a485cae123e4359ef096de4bbc3a2d7fbefc2907'
     oldFile: null
-  /src/frontend/admin/src/api/models:
-    newFile: !uuid 'ee671d8abb8d74522923e1312b696c53e44d6237'
-    oldFile: !uuid '46b509cb070d55cd3539e4141cd01eca434a5680'
-  /src/frontend/admin/src/api/models/sys-role-page-input.ts:
+  /src/backend/Easy.Admin.Application/User/Dtos/AddUserInput.cs:
     newFile: null
-    oldFile: !uuid 'e40828840dd9b4c2f630c26fbd0cd23fe5ec926d'
-  /src/frontend/admin/src/api/models/sys-role-page-output.ts:
-    newFile: !uuid '398b69a7d37a8133d5792d61a0e603fdbbb20cc8'
+    oldFile: !uuid '8b407470a8468742b8b08286091939155bf994d2'
+  /src/backend/Easy.Admin.Application/User/Dtos/QuerySysUserInput.cs:
+    newFile: !uuid '781b3bc197dcf9ae0e736e22ab25e7341ef8d921'
     oldFile: null
-gitCommitId: !uuid 'f5851f3ddeaa0ba7b3ebf9ca8d9f436df0a3172f'
+  /src/backend/Easy.Admin.Application/User/Dtos/QueryUserInput.cs:
+    newFile: null
+    oldFile: !uuid 'be9f5e0c42fc635a7ac681b527a640b216cd630d'
+  /src/backend/Easy.Admin.Application/User/Dtos/UpdateSysUserInput.cs:
+    newFile: !uuid 'a70a2533b3edf2910c3e9d24a590f06f2c5f0c2f'
+    oldFile: null
+  /src/backend/Easy.Admin.Application/User/Dtos/UpdateUserInput.cs:
+    newFile: null
+    oldFile: !uuid '2582154bd926dfebb34c49838adc1afb96e65c56'
+  /src/backend/Easy.Admin.Application/User/SysUserService.cs:
+    newFile: !uuid 'fbbd1043279706ccfb2305cc4176ef0a16a94a31'
+    oldFile: !uuid 'becee32fe0bf2795129674d4404d39202479ca7c'
+  /src/backend/Easy.Admin.Core:
+    newFile: !uuid '921d81472b25d56cb0773de9e731b933461c22a1'
+    oldFile: !uuid 'aaaab9da03699504926ff14a470a1dcf529e0bee'
+  /src/backend/Easy.Admin.Core/SqlSugar:
+    newFile: !uuid 'df694789cdbc38cd907c532ba1c13ce1d15592d3'
+    oldFile: !uuid '38540e28d2a2d64efab2a3c54c197ec8ac4a7d06'
+  /src/backend/Easy.Admin.Core/SqlSugar/SqlSugarExtensions.cs:
+    newFile: !uuid '09094acf5bc436216f48dd4c62b7f50bf17c9b33'
+    oldFile: !uuid 'edc0e6f36d51c07835c1a85f9de0de00ab792cc1'
+  /src/backend/Easy.Admin.Web.Core:
+    newFile: !uuid '13fa12523142083f036af1cf1dc26bd19fcf2388'
+    oldFile: !uuid '9924a15d2a434958af1340160e27b7a8c84f4036'
+  /src/backend/Easy.Admin.Web.Core/Startup.cs:
+    newFile: !uuid '0fc366a2f4bc2b1de4fe4355ec979f176d3ae521'
+    oldFile: !uuid '0da066be5473be7aea273857182ff2172e442147'
+  /src/frontend:
+    newFile: !uuid 'a45c2fdb4b8f98af4de675cfed27fdefc8fc2597'
+    oldFile: !uuid 'c57e4f1777ebbfe6b6f213cc9143d11a181521e4'
+  /src/frontend/admin:
+    newFile: !uuid 'f860a7ad4e2809e2a606f4ca343ad81bdaec4ea5'
+    oldFile: !uuid '4b0c551ef66b2380f3b5ca41818da98a3a641dd6'
+  /src/frontend/admin/src:
+    newFile: !uuid 'a4322ce56cd5295a6bacc79ae56b57a3e1c7d123'
+    oldFile: !uuid '653295f6b1b8d05f4defc74a69c622b74837ae5f'
+  /src/frontend/admin/src/api:
+    newFile: !uuid '87a73c415b50ad18e77aa1bf5cb59ea5e191f29b'
+    oldFile: !uuid '6ad74d66336a807ce94ad876b16d7e538283f70c'
+  /src/frontend/admin/src/api/SysMenuApi.ts:
+    newFile: !uuid '6a0d6cd7c9320ee140a28adbd37b8d835c438206'
+    oldFile: !uuid '60152e532c75029c9c08478f6dbdd5f33595b7df'
+  /src/frontend/admin/src/api/SysOrganizationApi.ts:
+    newFile: !uuid 'b5569178461465eef2cadc01064c0059b0312d95'
+    oldFile: !uuid '6a49f825c4a468fc0b12851cb6ed5a5d4a5a9a2c'
+  /src/frontend/admin/src/api/SysRoleApi.ts:
+    newFile: !uuid 'e678f1702c57b2389b5a2de74288fe0f5717da6e'
+    oldFile: !uuid '2980c399943857931f374f0b5d20d73ceec1c755'
+  /src/frontend/admin/src/api/models:
+    newFile: !uuid '50bb3132c4e6fbec53984f2ad4b2bc8d7aabf2fd'
+    oldFile: !uuid 'ee671d8abb8d74522923e1312b696c53e44d6237'
+  /src/frontend/admin/src/api/models/add-user-input.ts:
+    newFile: !uuid '59bc7ff3f56d8bba4cead3e88be5af198cbcb62d'
+    oldFile: !uuid 'b821bca880e722e2a0082436091c5925e397cbfa'
+  /src/frontend/admin/src/api/models/update-user-input.ts:
+    newFile: !uuid '2d95bd64cac52d94fe9e5c97d502edcb21d7af6a'
+    oldFile: !uuid '21e4babea0bf3b1a8547a5cbc71262f77e182194'
+  /src/frontend/admin/src/components:
+    newFile: !uuid '241f5b50c26a13de2ec825b75ad445b23c88c7e3'
+    oldFile: !uuid '46fad5c67776a32d725cc3baae8759e7381f8966'
+  /src/frontend/admin/src/components/table:
+    newFile: !uuid '07c4dc8c7e63d732bb01d92b942b108606098aa8'
+    oldFile: !uuid 'd57f392099a26420c05cd80d8b122d3055da910b'
+  /src/frontend/admin/src/components/table/index.vue:
+    newFile: !uuid '26a8aa9ca2b7afb76b8614a9cabea9763776078b'
+    oldFile: !uuid '7f65827d16710e128f5b78c88db5b8431038acb2'
+  /src/frontend/admin/src/components/table/search.vue:
+    newFile: !uuid '91b440fcd92952deff50fc700f011bef8189b010'
+    oldFile: !uuid '03fa59ad5d3c313c0170222d5dbee21d99fc64fa'
+  /src/frontend/admin/src/types:
+    newFile: !uuid 'b54df18172cec5428297e610c477aa2ddd9282e5'
+    oldFile: !uuid '426843a4943a9b289ac72f45a3ecc28ad276711f'
+  /src/frontend/admin/src/types/global.d.ts:
+    newFile: !uuid 'c2388922eca61f18414af5f202639492fa32f5fd'
+    oldFile: !uuid '6b53cef4a783792a620ce781bf4e1c6779615ce2'
+  /src/frontend/admin/src/views:
+    newFile: !uuid 'd62ffb16d147d246b64cafc6561faf5d7cab3fd1'
+    oldFile: !uuid 'ecb3c43c1de76966354645243eb08da91515ea6a'
+  /src/frontend/admin/src/views/system:
+    newFile: !uuid 'fcf54db5e5824474e24fc349a9be62a780d21ef9'
+    oldFile: !uuid 'b96f94e621323e5cd7bee6e53f5a179ce546ca05'
+  /src/frontend/admin/src/views/system/dept:
+    newFile: !uuid '3553b6cd43f6591b3dd7b1f01a1d837710335e16'
+    oldFile: !uuid 'e950868e5aa2d5b75ad20232b6ae031fab584f56'
+  /src/frontend/admin/src/views/system/dept/index.vue:
+    newFile: !uuid '869d20b743389449ebb8de933cf46e2d7a218934'
+    oldFile: !uuid '09d7515db74b8df16f72d57c1c36de1391210555'
+  /src/frontend/admin/src/views/system/menu:
+    newFile: !uuid '8d2a554fa2f7e1025bd3136f494500af833b47cb'
+    oldFile: !uuid '2c0d66f441d645785f4b0cc3a04ab471aa7a0838'
+  /src/frontend/admin/src/views/system/menu/index.vue:
+    newFile: !uuid '64d92aef01064e4f34736b3077b53cfc5f515d30'
+    oldFile: !uuid '32391787e0b57ce97aa4ea47bd3007511d82b3de'
+  /src/frontend/admin/src/views/system/role:
+    newFile: !uuid '0268aca03ff6bc584abc6569af9efa7ec82307df'
+    oldFile: !uuid '1556247f182a3916192f58d78217077949ff56e3'
+  /src/frontend/admin/src/views/system/role/dialog.vue:
+    newFile: !uuid '8729954851e788b0794ef9949ff8ee1f63c882ac'
+    oldFile: !uuid '1cb87eada3a6e71338a65e03424e6c942905d9ea'
+  /src/frontend/admin/src/views/system/role/index.vue:
+    newFile: !uuid '2bf9df69c72e677f6d4a0f99f664d9d2a39a8313'
+    oldFile: !uuid '5d1e92f4528ffe1cef3efab583ab3d586e5e9000'
+  /src/frontend/admin/src/views/system/user:
+    newFile: !uuid '93ca4aa6025ec70381aa651e8ca0a3d93fb3902e'
+    oldFile: !uuid 'af086fed7b460d3efe52eaef3d82f0ef0811cd5d'
+  /src/frontend/admin/src/views/system/user/dialog.vue:
+    newFile: !uuid '47794eb3b1c084741da0505f45579bb83898be25'
+    oldFile: !uuid 'c3043897cdac5c0124d57ec2d9225ecbf935474e'
+  /src/frontend/admin/src/views/system/user/index.vue:
+    newFile: !uuid 'c5d200fcc9c20e1fc663e1fa6fc821b41e45dd47'
+    oldFile: !uuid 'c7b1f85ce5048f03af4ab0e102f8257fb8c5aab4'
+gitCommitId: !uuid 'f095818803ff9522ab1062ed634688f1c67f4927'
 renames:
-  /src/frontend/admin/src/api/models/sys-role-page-output.ts: /src/frontend/admin/src/api/models/sys-role-page-input.ts
-revisionId: 30
+  /src/backend/Easy.Admin.Application/User/Dtos/AddSysUserInput.cs: /src/backend/Easy.Admin.Application/User/Dtos/AddUserInput.cs
+  /src/backend/Easy.Admin.Application/User/Dtos/QuerySysUserInput.cs: /src/backend/Easy.Admin.Application/User/Dtos/QueryUserInput.cs
+  /src/backend/Easy.Admin.Application/User/Dtos/UpdateSysUserInput.cs: /src/backend/Easy.Admin.Application/User/Dtos/UpdateUserInput.cs
+revisionId: 31
