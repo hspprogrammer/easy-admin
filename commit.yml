@@ -3,24 +3,63 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '954c75d002eff78fe1077c977c789efd0f3393ca'
-    oldFile: !uuid '1fb819957a888122dd2830b3e922977f25365223'
+    newFile: !uuid 'bccc601f114b16a70b7874da7be3a777df0a0613'
+    oldFile: !uuid '954c75d002eff78fe1077c977c789efd0f3393ca'
+  /src/backend:
+    newFile: !uuid '232a119e95f0d90482c03e342cb83947821b128d'
+    oldFile: !uuid '6daf1af550796eaa2c6a4f6f6f6712eb1ef8abbe'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid '56b5eeda12bf6eacb226c750a3a7b6809d0ee77e'
+    oldFile: !uuid '388596256a1881f4222e8e75e46f4899a6e07f7d'
+  /src/backend/Easy.Admin.Application/Role:
+    newFile: !uuid '39a2b5905815764596fe1d7c9a7fa6878b0047a3'
+    oldFile: !uuid '5a33566b1151f108c7233a901ddc5e82d5d9cc5f'
+  /src/backend/Easy.Admin.Application/Role/SysRoleService.cs:
+    newFile: !uuid 'ce01da09eddd303fe45f3434c1cc844702152648'
+    oldFile: !uuid 'ffe810d8a28631c662f5fa0dddc323aeb2006a03'
+  /src/backend/Easy.Admin.Application/User:
+    newFile: !uuid 'a7bf3a0d949cc1cbc502789097cd249035b69291'
+    oldFile: !uuid 'ad23f0fb03f820b405801d9c02290fc9b149cd34'
+  /src/backend/Easy.Admin.Application/User/SysUserService.cs:
+    newFile: !uuid 'e0f214f5695d520310f44c4d318376ea75e933ab'
+    oldFile: !uuid 'fbbd1043279706ccfb2305cc4176ef0a16a94a31'
   /src/frontend:
-    newFile: !uuid 'ca37e1f77d2f766c7aa3d056410e3d00b84c277c'
-    oldFile: !uuid 'a45c2fdb4b8f98af4de675cfed27fdefc8fc2597'
+    newFile: !uuid 'a382abdc930a42b843d7e6f2e9e7bb4d6267bf6e'
+    oldFile: !uuid 'ca37e1f77d2f766c7aa3d056410e3d00b84c277c'
   /src/frontend/admin:
-    newFile: !uuid '9ef05a02007bbdb0a8fb5bc19b7f742aa5fdd527'
-    oldFile: !uuid 'f860a7ad4e2809e2a606f4ca343ad81bdaec4ea5'
+    newFile: !uuid 'aa764b2146e3add597c12764e2b19c1373fc35d7'
+    oldFile: !uuid '9ef05a02007bbdb0a8fb5bc19b7f742aa5fdd527'
   /src/frontend/admin/src:
-    newFile: !uuid '202cb2a328c492629d177aeee1a92ef6dce6ad82'
-    oldFile: !uuid 'a4322ce56cd5295a6bacc79ae56b57a3e1c7d123'
+    newFile: !uuid '1c83b227482143468eac0b0abee3167b1541678a'
+    oldFile: !uuid '202cb2a328c492629d177aeee1a92ef6dce6ad82'
   /src/frontend/admin/src/api:
-    newFile: !uuid 'b32e6300dd8643b29d30481bdaf01c9d2dc6b445'
-    oldFile: !uuid '87a73c415b50ad18e77aa1bf5cb59ea5e191f29b'
-  /src/frontend/admin/src/api/SysUserApi.ts:
-    newFile: !uuid '95069eb1dc1cc8fd5a51d370c19345f4411c1d86'
-    oldFile: null
-gitCommitId: !uuid '75db711e332d21c4da3dcf78a39fb82a3b028846'
+    newFile: !uuid '7bff89dd3f59936f6b7f47c8baf5cf933dc03335'
+    oldFile: !uuid 'b32e6300dd8643b29d30481bdaf01c9d2dc6b445'
+  /src/frontend/admin/src/api/SysRoleApi.ts:
+    newFile: !uuid '1bfe9e65b9b17ca0eb1835c206abf078eb0d6ec3'
+    oldFile: !uuid 'e678f1702c57b2389b5a2de74288fe0f5717da6e'
+  /src/frontend/admin/src/views:
+    newFile: !uuid 'e37f47a0c107f0ff2960266d27b823152a88adf5'
+    oldFile: !uuid 'd62ffb16d147d246b64cafc6561faf5d7cab3fd1'
+  /src/frontend/admin/src/views/system:
+    newFile: !uuid '75e356d4ff75292393bb82743683171da53f9057'
+    oldFile: !uuid 'fcf54db5e5824474e24fc349a9be62a780d21ef9'
+  /src/frontend/admin/src/views/system/dept:
+    newFile: !uuid '9051a938a6cf79a0bb2554199bdf36bfac23050f'
+    oldFile: !uuid '3553b6cd43f6591b3dd7b1f01a1d837710335e16'
+  /src/frontend/admin/src/views/system/dept/dialog.vue:
+    newFile: !uuid '72fa829d3b62b97ac48c57a390e27b50af74208e'
+    oldFile: !uuid '15a2e3d83b9369d573a1cf355b4097000d40912f'
+  /src/frontend/admin/src/views/system/user:
+    newFile: !uuid '7db6f00b545d985b31332171b63a77f9c4367e66'
+    oldFile: !uuid '93ca4aa6025ec70381aa651e8ca0a3d93fb3902e'
+  /src/frontend/admin/src/views/system/user/dialog.vue:
+    newFile: !uuid '3b1fe35ab6f4ccf189b0ba7d11584b44c7b22ba4'
+    oldFile: !uuid '47794eb3b1c084741da0505f45579bb83898be25'
+  /src/frontend/admin/src/views/system/user/index.vue:
+    newFile: !uuid '5d310d692c435371a704fb719035e6a0a689bf13'
+    oldFile: !uuid 'c5d200fcc9c20e1fc663e1fa6fc821b41e45dd47'
+gitCommitId: !uuid '527f291d7375e192befca132585d07edb66986c0'
 renames: {
   }
-revisionId: 32
+revisionId: 33
