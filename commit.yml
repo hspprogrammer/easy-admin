@@ -3,63 +3,78 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'bccc601f114b16a70b7874da7be3a777df0a0613'
-    oldFile: !uuid '954c75d002eff78fe1077c977c789efd0f3393ca'
+    newFile: !uuid '31ec8e918cbf8c7b3a94f7dcc2279c65bc35d8e1'
+    oldFile: !uuid 'bccc601f114b16a70b7874da7be3a777df0a0613'
   /src/backend:
-    newFile: !uuid '232a119e95f0d90482c03e342cb83947821b128d'
-    oldFile: !uuid '6daf1af550796eaa2c6a4f6f6f6712eb1ef8abbe'
+    newFile: !uuid 'a89ff02cf165f695f62a2075f5694ef5d4d09bc1'
+    oldFile: !uuid '232a119e95f0d90482c03e342cb83947821b128d'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid '56b5eeda12bf6eacb226c750a3a7b6809d0ee77e'
-    oldFile: !uuid '388596256a1881f4222e8e75e46f4899a6e07f7d'
-  /src/backend/Easy.Admin.Application/Role:
-    newFile: !uuid '39a2b5905815764596fe1d7c9a7fa6878b0047a3'
-    oldFile: !uuid '5a33566b1151f108c7233a901ddc5e82d5d9cc5f'
-  /src/backend/Easy.Admin.Application/Role/SysRoleService.cs:
-    newFile: !uuid 'ce01da09eddd303fe45f3434c1cc844702152648'
-    oldFile: !uuid 'ffe810d8a28631c662f5fa0dddc323aeb2006a03'
+    newFile: !uuid '818d28fb605b29470c61fb8570df7f705411ab15'
+    oldFile: !uuid '56b5eeda12bf6eacb226c750a3a7b6809d0ee77e'
+  /src/backend/Easy.Admin.Application/Easy.Admin.Application.xml:
+    newFile: !uuid 'f972d3f29aae9ef5a8184a6d4d722df67e9d84ba'
+    oldFile: !uuid 'db82482d0938126b45c45148d4a381f96c1bb66b'
   /src/backend/Easy.Admin.Application/User:
-    newFile: !uuid 'a7bf3a0d949cc1cbc502789097cd249035b69291'
-    oldFile: !uuid 'ad23f0fb03f820b405801d9c02290fc9b149cd34'
+    newFile: !uuid 'a67efe3a5b82af63d7e2eb2ccc1f183a5ea3882a'
+    oldFile: !uuid 'a7bf3a0d949cc1cbc502789097cd249035b69291'
+  /src/backend/Easy.Admin.Application/User/Dtos:
+    newFile: !uuid 'd27d0ffa283eb9a2da63d11d24a4fb785b41e3a9'
+    oldFile: !uuid '4c5b8bae03b1691c4ad929bb39d8e758bcb03c41'
+  /src/backend/Easy.Admin.Application/User/Dtos/ChangePasswordOutput.cs:
+    newFile: !uuid 'bfb085741015d5a47500d4149da5a549b9455952'
+    oldFile: null
+  /src/backend/Easy.Admin.Application/User/Dtos/ResetPasswordInput.cs:
+    newFile: !uuid 'b691fe11e99c7adb5f7df6b926394dea9476cdd1'
+    oldFile: !uuid '36040d6fe1ac2af471461429ca66194bc8d6071d'
+  /src/backend/Easy.Admin.Application/User/Dtos/SysUserInfoOutput.cs:
+    newFile: !uuid 'a8e12e9806ea2c42f8e8d092f0a305b18db9c5b6'
+    oldFile: null
   /src/backend/Easy.Admin.Application/User/SysUserService.cs:
-    newFile: !uuid 'e0f214f5695d520310f44c4d318376ea75e933ab'
-    oldFile: !uuid 'fbbd1043279706ccfb2305cc4176ef0a16a94a31'
+    newFile: !uuid '19416fbf83eed265d9aab67b936705972b671d36'
+    oldFile: !uuid 'e0f214f5695d520310f44c4d318376ea75e933ab'
   /src/frontend:
-    newFile: !uuid 'a382abdc930a42b843d7e6f2e9e7bb4d6267bf6e'
-    oldFile: !uuid 'ca37e1f77d2f766c7aa3d056410e3d00b84c277c'
+    newFile: !uuid '56be2ae569313f3fddef9ea1e014dc18ee6ab00f'
+    oldFile: !uuid 'a382abdc930a42b843d7e6f2e9e7bb4d6267bf6e'
   /src/frontend/admin:
-    newFile: !uuid 'aa764b2146e3add597c12764e2b19c1373fc35d7'
-    oldFile: !uuid '9ef05a02007bbdb0a8fb5bc19b7f742aa5fdd527'
+    newFile: !uuid '03f28eb5ac82ecbe223f08117dc6d0ae1233a63f'
+    oldFile: !uuid 'aa764b2146e3add597c12764e2b19c1373fc35d7'
   /src/frontend/admin/src:
-    newFile: !uuid '1c83b227482143468eac0b0abee3167b1541678a'
-    oldFile: !uuid '202cb2a328c492629d177aeee1a92ef6dce6ad82'
+    newFile: !uuid '5078b6ff4cfd1b530b1fa032672be13f1b977f98'
+    oldFile: !uuid '1c83b227482143468eac0b0abee3167b1541678a'
   /src/frontend/admin/src/api:
-    newFile: !uuid '7bff89dd3f59936f6b7f47c8baf5cf933dc03335'
-    oldFile: !uuid 'b32e6300dd8643b29d30481bdaf01c9d2dc6b445'
-  /src/frontend/admin/src/api/SysRoleApi.ts:
-    newFile: !uuid '1bfe9e65b9b17ca0eb1835c206abf078eb0d6ec3'
-    oldFile: !uuid 'e678f1702c57b2389b5a2de74288fe0f5717da6e'
+    newFile: !uuid 'b85c446aab51cbddb172fa8641f6eac03e86724c'
+    oldFile: !uuid '7bff89dd3f59936f6b7f47c8baf5cf933dc03335'
+  /src/frontend/admin/src/api/SysUserApi.ts:
+    newFile: !uuid '1489de3753dba1bec6dfa2b5066f0392e8d2e00f'
+    oldFile: !uuid '95069eb1dc1cc8fd5a51d370c19345f4411c1d86'
   /src/frontend/admin/src/views:
-    newFile: !uuid 'e37f47a0c107f0ff2960266d27b823152a88adf5'
-    oldFile: !uuid 'd62ffb16d147d246b64cafc6561faf5d7cab3fd1'
+    newFile: !uuid '79f3c73395befb3a6b500245a6eeba41f16bf337'
+    oldFile: !uuid 'e37f47a0c107f0ff2960266d27b823152a88adf5'
+  /src/frontend/admin/src/views/login:
+    newFile: !uuid '1f9777d9901ba430ba801eeec7e0c638afbaed44'
+    oldFile: !uuid '9db8298c74538c411c4a60efa955bc3055c8e51d'
+  /src/frontend/admin/src/views/login/component:
+    newFile: !uuid '00e4f90e5d821db5a47203f2a4ca4d9d0c1dd6f0'
+    oldFile: !uuid '93cbc68720b0796bc3da5066049b87a51ec2bbd7'
+  /src/frontend/admin/src/views/login/component/account.vue:
+    newFile: !uuid 'a8904ce5abfdd69275c956639b7b94defefed9ce'
+    oldFile: !uuid '33a888c91b794eaa94430db702ba78f8069a2278'
+  /src/frontend/admin/src/views/login/index.vue:
+    newFile: !uuid 'c81888642431db5bb2238672900b6485230ef492'
+    oldFile: !uuid 'aa53bc49ff4c7c1e3df733a90d799eb419c9452e'
   /src/frontend/admin/src/views/system:
-    newFile: !uuid '75e356d4ff75292393bb82743683171da53f9057'
-    oldFile: !uuid 'fcf54db5e5824474e24fc349a9be62a780d21ef9'
-  /src/frontend/admin/src/views/system/dept:
-    newFile: !uuid '9051a938a6cf79a0bb2554199bdf36bfac23050f'
-    oldFile: !uuid '3553b6cd43f6591b3dd7b1f01a1d837710335e16'
-  /src/frontend/admin/src/views/system/dept/dialog.vue:
-    newFile: !uuid '72fa829d3b62b97ac48c57a390e27b50af74208e'
-    oldFile: !uuid '15a2e3d83b9369d573a1cf355b4097000d40912f'
+    newFile: !uuid 'c848bcf682527dad19d05afb15bf4cc39ca6067c'
+    oldFile: !uuid '75e356d4ff75292393bb82743683171da53f9057'
   /src/frontend/admin/src/views/system/user:
-    newFile: !uuid '7db6f00b545d985b31332171b63a77f9c4367e66'
-    oldFile: !uuid '93ca4aa6025ec70381aa651e8ca0a3d93fb3902e'
+    newFile: !uuid 'a3da99e60efe79b29ae781994f81ed3fb12d2ea7'
+    oldFile: !uuid '7db6f00b545d985b31332171b63a77f9c4367e66'
   /src/frontend/admin/src/views/system/user/dialog.vue:
-    newFile: !uuid '3b1fe35ab6f4ccf189b0ba7d11584b44c7b22ba4'
-    oldFile: !uuid '47794eb3b1c084741da0505f45579bb83898be25'
+    newFile: !uuid '3e9738ea28f35d2f06990f22b10c9c3ecffef8eb'
+    oldFile: !uuid '3b1fe35ab6f4ccf189b0ba7d11584b44c7b22ba4'
   /src/frontend/admin/src/views/system/user/index.vue:
-    newFile: !uuid '5d310d692c435371a704fb719035e6a0a689bf13'
-    oldFile: !uuid 'c5d200fcc9c20e1fc663e1fa6fc821b41e45dd47'
-gitCommitId: !uuid '527f291d7375e192befca132585d07edb66986c0'
+    newFile: !uuid '6c366fc873b21f4c4415082aeae2b25399574563'
+    oldFile: !uuid '5d310d692c435371a704fb719035e6a0a689bf13'
+gitCommitId: !uuid '216108347ef6aecb39d2f260520b1150f76a63e5'
 renames: {
   }
-revisionId: 33
+revisionId: 34
