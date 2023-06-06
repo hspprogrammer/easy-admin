@@ -3,27 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '24e8cab80fdd047815965c2e0152088d8eac216e'
-    oldFile: !uuid 'f1f75dfea48e8df0c2c681172de431ac4f8e3ac2'
+    newFile: !uuid 'd21f0a315cea451d850eb467a2809e4f730381f5'
+    oldFile: !uuid '24e8cab80fdd047815965c2e0152088d8eac216e'
   /src/backend:
-    newFile: !uuid '4cd75cdcb035b5d60628b43e17ce10777d337e67'
-    oldFile: !uuid 'e37c2e24a58872fe8f25113ad505393a3a51ff4a'
+    newFile: !uuid '5b75d2c968438a8c44021214feaf2281686dba0e'
+    oldFile: !uuid '4cd75cdcb035b5d60628b43e17ce10777d337e67'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid '9d166bc4878a6ac4f8b5b21aa6344e974b42f2c6'
-    oldFile: !uuid '547d21ffa81a7472b25f98095632610d50f74f0d'
-  /src/backend/Easy.Admin.Application/Config:
-    newFile: !uuid 'dc00774370a63e6488c37759158f719d1fd47b96'
-    oldFile: !uuid 'a9a793c2d3d7cf61c67bbff5a511d6f6076a5684'
-  /src/backend/Easy.Admin.Application/Config/CustomConfigItemService.cs:
-    newFile: !uuid 'bf01fad24b5dd99e8c2cf10e44f4e805cf99b080'
-    oldFile: !uuid 'd6fa7f080125a3fc98f435608f8352075a08c801'
-  /src/backend/Easy.Admin.Application/Config/Dtos:
-    newFile: !uuid 'f3941df49b75c517cb2f183b6e0d477e64a508c6'
-    oldFile: !uuid 'f2633cc6d0593c0641640f04b2aa3d70d69a2011'
-  /src/backend/Easy.Admin.Application/Config/Dtos/CustomConfigItemQueryInput.cs:
-    newFile: !uuid '120e395c21a701ca2fd017fbcb47183488c48308'
-    oldFile: null
-gitCommitId: !uuid 'ebefcf74de1fdbe72add38cc4ce093a442eef380'
+    newFile: !uuid 'ec3a3ee592b46ea3280cb5a0ad9334c32c2c9c5c'
+    oldFile: !uuid '9d166bc4878a6ac4f8b5b21aa6344e974b42f2c6'
+  /src/backend/Easy.Admin.Application/Easy.Admin.Application.xml:
+    newFile: !uuid 'dc8f6dd72f660429bf18480c38920c01ce8e7486'
+    oldFile: !uuid '5e2d4a86a48565b0ef524c14a74c0af7c7e9e9c8'
+  /src/backend/Easy.Admin.Core:
+    newFile: !uuid '8abed22bacbde1ed1bc23803b714442670b4b261'
+    oldFile: !uuid '09315227b51a91d4cf4241d5386d27b32439d035'
+  /src/backend/Easy.Admin.Core/Easy.Admin.Core.xml:
+    newFile: !uuid 'fb9d8b584e2378f39c1f85b0449f10e2970939f4'
+    oldFile: !uuid '9497dd74ade82005357b53a15f7924af091b6eef'
+gitCommitId: !uuid '8f8b3bc9ef5658ba59e9a860c32a695843845595'
 renames: {
   }
-revisionId: 46
+revisionId: 47
