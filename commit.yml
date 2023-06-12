@@ -3,30 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ef8f855f5e3c020195dd8cf5b0e97f9f271c4e48'
-    oldFile: !uuid '8231331afc3894ce51c3d5bdb0dd788161e8d59c'
+    newFile: !uuid '8fbe4a777615cab4a96617d54959a95b3d9b07bd'
+    oldFile: !uuid 'ef8f855f5e3c020195dd8cf5b0e97f9f271c4e48'
   /src/frontend:
-    newFile: !uuid 'bd4736facb707068b8cb811084febe3a61a8285a'
-    oldFile: !uuid 'ffbb485eaa6532a3482db06325ebfd8b2f6812ed'
+    newFile: !uuid '5c0d4275417aae47f3bba0a1a0161666af61d060'
+    oldFile: !uuid 'bd4736facb707068b8cb811084febe3a61a8285a'
   /src/frontend/admin:
-    newFile: !uuid '39dd36dca78112e37097ec727ce5821139c70b06'
-    oldFile: !uuid '689f90d20d155e73715d7ba606737f55d278ee2e'
+    newFile: !uuid '7b5f585acfe3af641ae23fc5ec46a9c8a007ff62'
+    oldFile: !uuid '39dd36dca78112e37097ec727ce5821139c70b06'
   /src/frontend/admin/src:
-    newFile: !uuid '9953aa06ec6ce5b4b08a2b46987eebbc530c8a62'
-    oldFile: !uuid '3836d83e7ea3a3a5cc4efe0e352470905c0bc3b7'
+    newFile: !uuid '547a0024156b1a3ff5d63b59a9247b08d3087e0b'
+    oldFile: !uuid '9953aa06ec6ce5b4b08a2b46987eebbc530c8a62'
   /src/frontend/admin/src/views:
-    newFile: !uuid '27dd0d163186c97d89ff5b5ed0b64f5d4fe5bd9d'
-    oldFile: !uuid 'faac410a383b69b2cf5ce59fa72b06822f10803a'
+    newFile: !uuid '1307a9628703489e00133dfd290a53654b40a140'
+    oldFile: !uuid '27dd0d163186c97d89ff5b5ed0b64f5d4fe5bd9d'
   /src/frontend/admin/src/views/blog:
-    newFile: !uuid '44d3fc35e8c749b689216cc296f17213817709ec'
-    oldFile: !uuid '5c3ea93e601655d7cbdd220f7c8dfed32c6c6567'
+    newFile: !uuid '67837ff78223691adb718a2c0526e9c1795c88c2'
+    oldFile: !uuid '44d3fc35e8c749b689216cc296f17213817709ec'
   /src/frontend/admin/src/views/blog/article:
-    newFile: !uuid '30c66401ace62b9d9764a70689a84bef5916c6c1'
-    oldFile: !uuid 'a1f493b77de056b2d255ac0bb5ea7af1ec87d36d'
+    newFile: !uuid '89c5f7ce355ca526d513060664ce2a35978d58ed'
+    oldFile: !uuid '30c66401ace62b9d9764a70689a84bef5916c6c1'
   /src/frontend/admin/src/views/blog/article/operate.vue:
-    newFile: !uuid 'd1774fcc4b1c0253439031ac1dadc8151a245392'
-    oldFile: !uuid '414ac1f88430eccc455c90dc6607a694aa981f68'
-gitCommitId: !uuid '8d1077dabddce047d794ee8b0254b9a91f0613cf'
+    newFile: !uuid '5f6437eb64be3e6104b2f2a2600874bea92af0cb'
+    oldFile: !uuid 'd1774fcc4b1c0253439031ac1dadc8151a245392'
+gitCommitId: !uuid '9b8c19668f8771fc41a84b03affec3bc5044d116'
 renames: {
   }
-revisionId: 54
+revisionId: 55
