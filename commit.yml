@@ -3,24 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '278a899e3460115d4320bf94d951baeed8a000f9'
-    oldFile: !uuid 'aeeb42ef7d473ace54cafd63602b23f46dd2c1c1'
+    newFile: !uuid 'fb71bc3e51da86d6a7cd7b166bf7989e319b6226'
+    oldFile: !uuid '278a899e3460115d4320bf94d951baeed8a000f9'
   /src/frontend:
-    newFile: !uuid '84611da5d1bf193f60fd189768c46294b5657add'
-    oldFile: !uuid '67866cca805ad678ee095eabd82be6d08018d4bb'
+    newFile: !uuid '69622d1e8a56c9e2bade25c3247d901d7d210068'
+    oldFile: !uuid '84611da5d1bf193f60fd189768c46294b5657add'
   /src/frontend/admin:
-    newFile: !uuid '4ffb366196b3566c95187e583808ef8767af79a9'
-    oldFile: !uuid '1888877685408ea8d1089e2be6a1c249dfb46dd2'
+    newFile: !uuid '87e9523a3c90e1386f45ec074140208f7f3809e9'
+    oldFile: !uuid '4ffb366196b3566c95187e583808ef8767af79a9'
   /src/frontend/admin/src:
-    newFile: !uuid '53db7556dc0c58bdd59d8437c878c33271fbf7fa'
-    oldFile: !uuid '0fe560d961941107b4a73fe2e60379b07579123a'
-  /src/frontend/admin/src/api:
-    newFile: !uuid 'c4b71c8c22355b402720b0e399378dd7ba7a8bfc'
-    oldFile: !uuid '197b6776b836d892f1766df6f183eda1ef853f56'
-  /src/frontend/admin/src/api/PicturesApi.ts:
-    newFile: !uuid '1551f93adb1916e5aa2ffc5d3dcc48dc3f9f5209'
-    oldFile: !uuid '7bec0c41b9fbedc09a519d38cfc3aaba864e99c0'
-gitCommitId: !uuid 'ca63558a62655cf5632803d2a3d63fc897eed12e'
+    newFile: !uuid 'e5906e00f32a386ed0c98c9fa1fd6309035d9965'
+    oldFile: !uuid '53db7556dc0c58bdd59d8437c878c33271fbf7fa'
+  /src/frontend/admin/src/views:
+    newFile: !uuid '8a22179469d977a29e9ff8ffb26a077352036ada'
+    oldFile: !uuid '376e0a673d93e582a7d5c446b9b160d5558a24eb'
+  /src/frontend/admin/src/views/blog:
+    newFile: !uuid '4b2e0fe684f37150361a1a08c0873f1a0029331e'
+    oldFile: !uuid '64fb703e60069b401f75f94aeacafd5615bf71b0'
+  /src/frontend/admin/src/views/blog/albums:
+    newFile: !uuid 'b695e038f2931eb54dc45cc119849bd076bbc91f'
+    oldFile: !uuid '5ad1b011b83b15d74f40e6bae44b8c9fdc9f2839'
+  /src/frontend/admin/src/views/blog/albums/pictures.vue:
+    newFile: !uuid 'bc0ea0bc41fc6b718714187fdaef800667b777cc'
+    oldFile: !uuid '25265fbd12dc86680241eeb382bf67f77bf0b1c6'
+gitCommitId: !uuid '1d6c2086585102e3d289c8dbf316f689155f7cde'
 renames: {
   }
-revisionId: 57
+revisionId: 58
