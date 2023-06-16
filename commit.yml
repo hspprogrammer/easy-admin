@@ -3,156 +3,45 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8c9b7363548f79dbf95cfdddcdb6a061f2b57e98'
-    oldFile: !uuid 'c931bdb220a972aa5f62b4429d7fd05b353680e1'
+    newFile: !uuid '4dd0ad21fe690f904291937b2fc5b4ea06a6a423'
+    oldFile: !uuid '8c9b7363548f79dbf95cfdddcdb6a061f2b57e98'
   /src/backend:
-    newFile: !uuid 'ecc9df7245c1f11dc5dc737e0bf7b94f9f1c972e'
-    oldFile: !uuid '89713f3049f8491ea0178360d944f34afac694bc'
+    newFile: !uuid 'c3610ce1db97e634afa79e2f89a76caba5f86fd4'
+    oldFile: !uuid 'ecc9df7245c1f11dc5dc737e0bf7b94f9f1c972e'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'd5bcdeed932569c41c326055ab15f5d9fe439db6'
-    oldFile: !uuid 'c30c82f7c1acda3dbd9cdfd9228e4282387a27f8'
-  /src/backend/Easy.Admin.Application/Blog:
-    newFile: !uuid 'a3532531c96e0b1e7b57dcbbcacb49d273c9c754'
-    oldFile: !uuid 'c2ef33e89111870845df453017a0ab48023ea947'
-  /src/backend/Easy.Admin.Application/Blog/Dtos:
-    newFile: !uuid '6fba5a352b5fc155d0d600c1148ce54648efff80'
-    oldFile: !uuid 'f1c32464ac1d3c6588c748f9f394f71f35b89d72'
-  /src/backend/Easy.Admin.Application/Blog/Dtos/AddFriendLinkInput.cs:
-    newFile: !uuid '3fcc37d80e87a9bbec48d251f11271be563be552'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Blog/Dtos/FriendLinkPageOutput.cs:
-    newFile: !uuid 'c9b3aee851158a4695088aad3b17c187ae9eafc0'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Blog/Dtos/FriendLinkPageQueryInput.cs:
-    newFile: !uuid '4d24019785149d4b791f44e51287905824d67113'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Blog/Dtos/UpdateFriendLinkInput.cs:
-    newFile: !uuid '0170a2fe94d6d2e50616595e859a65b64b8a2091'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Blog/FriendLinkService.cs:
-    newFile: !uuid '52d92687be9705cf4687df2378e60ecb8bc38a74'
-    oldFile: null
-  /src/backend/Easy.Admin.Application/Easy.Admin.Application.xml:
-    newFile: !uuid '732e74930044ff3cc318448121ea55f5ea972f65'
-    oldFile: !uuid 'd5671ceca5f9d1e3cde7a42edd6cc480d58ee347'
-  /src/backend/Easy.Admin.Core:
-    newFile: !uuid 'f5b55c970c8e49295aec7838aae2bf206bb905c8'
-    oldFile: !uuid 'd13bd3ddd84f43d800c66d11431a91a2b65355a6'
-  /src/backend/Easy.Admin.Core/Config:
-    newFile: !uuid '5f9f5745f530ec2cfc68e98c9936d69867300fc7'
-    oldFile: !uuid '125f4d233a1a7e57c9e9d4ff731a6f0fd0cc7cde'
-  /src/backend/Easy.Admin.Core/Config/BloggerInfo.cs:
-    newFile: !uuid 'a5ebfdf3c9c8e1ed9677c4d4802782fd269f8fe3'
-    oldFile: null
-  /src/backend/Easy.Admin.Core/Easy.Admin.Core.xml:
-    newFile: !uuid '1470d315e1dbaf0ffe1effc1ac45b942881d5a9d'
-    oldFile: !uuid 'fa91a1c665f0ddf0403bbfc32025e06131c207aa'
-  /src/backend/Easy.Admin.Core/Entities:
-    newFile: !uuid '5372607e29d73acf64d0c63ed5b83da69fbfc221'
-    oldFile: !uuid 'c2311b366083e79a03092b73f12a407b729b9358'
-  /src/backend/Easy.Admin.Core/Entities/FriendLink.cs:
-    newFile: !uuid '2827c14c7c52e24a924898e950936b1645bee938'
-    oldFile: !uuid '6504d7106159da13f5f97517660bb903a06c3a78'
+    newFile: !uuid '002c5653ef903cbc0c353c6e0fa28b69f824a17f'
+    oldFile: !uuid 'd5bcdeed932569c41c326055ab15f5d9fe439db6'
+  /src/backend/Easy.Admin.Application/User:
+    newFile: !uuid '11c1680925b59cfa71aefd1615a07d625b3039ba'
+    oldFile: !uuid 'ad898ea24f87128549109008e0780c78fef58b1d'
+  /src/backend/Easy.Admin.Application/User/SysUserService.cs:
+    newFile: !uuid '26b5a20f49971d2139cb5e4ea6dcd1a4b6823831'
+    oldFile: !uuid '0904ca918e3fa56cdbd8ff8fc205d88b6cac1b96'
   /src/frontend:
-    newFile: !uuid '7b48258c66a5873dee632b1c6456848c294b6c47'
-    oldFile: !uuid 'c90b735685ae3c2cb0e209bda30f1175c9ed54ec'
+    newFile: !uuid 'f4bc33f0c48960b9324f9657751c60ed63e12ff0'
+    oldFile: !uuid '7b48258c66a5873dee632b1c6456848c294b6c47'
   /src/frontend/admin:
-    newFile: !uuid '1d3f0fdd9bb196d7522a3de4c61d06a6bd3f7cfd'
-    oldFile: !uuid '30da36870e5235f9df017588adca3c790648e7bb'
+    newFile: !uuid '2690215575bfd5e966f73dd256d73b1081e164cb'
+    oldFile: !uuid '1d3f0fdd9bb196d7522a3de4c61d06a6bd3f7cfd'
   /src/frontend/admin/src:
-    newFile: !uuid '52cc4ad9cb9b3af2e6634597dd763a7c9d36d98f'
-    oldFile: !uuid '49ca8c5e4ad62212c599a366207aebe9ba21378d'
+    newFile: !uuid 'c9ec2b7515d3f6236f75f97c62ef34ab0ba8e0c9'
+    oldFile: !uuid '52cc4ad9cb9b3af2e6634597dd763a7c9d36d98f'
   /src/frontend/admin/src/api:
-    newFile: !uuid '3d84603eecd54a1f28192150bcee89e7ec9a4928'
-    oldFile: !uuid 'c4b71c8c22355b402720b0e399378dd7ba7a8bfc'
-  /src/frontend/admin/src/api/FriendLinkApi.ts:
-    newFile: !uuid 'f4a155ba3157a11f8dc2dd191b4e76ccbf10c93c'
-    oldFile: null
-  /src/frontend/admin/src/api/models:
-    newFile: !uuid '9ca75f9e186b399ccb125c140539da62a18e05c5'
-    oldFile: !uuid 'e858daeb33982682188b894048224be736a33f2c'
-  /src/frontend/admin/src/api/models/add-friend-link-input.ts:
-    newFile: !uuid 'a73eb64feaea7e2f0bd9cbc16ad65e88167250d4'
-    oldFile: null
-  /src/frontend/admin/src/api/models/friend-link-page-output.ts:
-    newFile: !uuid '95fe78a2fc42b0ccf0779fb6c29fd841ee763de1'
-    oldFile: null
-  /src/frontend/admin/src/api/models/index.ts:
-    newFile: !uuid '0b2702477f054c632371d7c7a86e9975594fed00'
-    oldFile: !uuid '4d516393eeb49edf9d966edfaeb4ba42bc31d0dd'
-  /src/frontend/admin/src/api/models/jtoken.ts:
-    newFile: !uuid '4fa566c81eb351a08d91382ebb86e6f48a3b29fa'
-    oldFile: null
-  /src/frontend/admin/src/api/models/page-result-friend-link-page-output.ts:
-    newFile: !uuid '5acba612270da12bba464aad8075799d8cb43058'
-    oldFile: null
-  /src/frontend/admin/src/api/models/restful-result-page-result-friend-link-page-output.ts:
-    newFile: !uuid '420eb231ac5616314c6289301745afa1c1f574bc'
-    oldFile: null
-  /src/frontend/admin/src/api/models/update-friend-link-input.ts:
-    newFile: !uuid '00ac71d72236c1a463a63301f2af6cebe7bdc40f'
-    oldFile: null
+    newFile: !uuid '046108d1cb21ec9adbdc1add9588a1baf014437b'
+    oldFile: !uuid '3d84603eecd54a1f28192150bcee89e7ec9a4928'
+  /src/frontend/admin/src/api/SysUserApi.ts:
+    newFile: !uuid '08fa68c43e774e995a86968d672da2febc8589b5'
+    oldFile: !uuid '17bca6a24f19c1284f0b39323da1883ec2bfdf94'
   /src/frontend/admin/src/views:
-    newFile: !uuid '2d65f7223ca278b201ab16234fd39837000c64c3'
-    oldFile: !uuid '515a07963a46b50502f777197bf0007404d41381'
-  /src/frontend/admin/src/views/blog:
-    newFile: !uuid 'c589c7e6748adec897dcc63c7f948c596f1fca35'
-    oldFile: !uuid 'a15c4d9c8997858c7f79b0ce2e89a9c074ebefcf'
-  /src/frontend/admin/src/views/blog/albums:
-    newFile: !uuid '781f9a29ef9aad7e1d5b90e8d3b008046ac40df6'
-    oldFile: !uuid '70481ce353557335310dd5cd832dd5312da9b9d8'
-  /src/frontend/admin/src/views/blog/albums/dialog.vue:
-    newFile: !uuid '1e7af7d801a37f5f6142741e62466d8e92266032'
-    oldFile: !uuid 'f786a8876d6a1859d852264ec41ad76bf4af24a5'
-  /src/frontend/admin/src/views/blog/albums/index.vue:
-    newFile: !uuid 'c334a7fe05018b4a0a9c0468ae61e7504361d0fe'
-    oldFile: !uuid '0209d1ec40cf3e1a4972b4ab25076efeac1900c2'
-  /src/frontend/admin/src/views/blog/albums/pictures.vue:
-    newFile: !uuid '398851d5f49e22c4e72c9ab9122ac4093fba02bd'
-    oldFile: !uuid 'f6b5c45259a915d7a8f8f8b6ce2082a630fc59d2'
-  /src/frontend/admin/src/views/blog/article:
-    newFile: !uuid '02e8fbb9599215bbdff98bccbb3fe13abc8003a6'
-    oldFile: !uuid '13c15dd709f6e7e596e754dc13e7941bc2985f30'
-  /src/frontend/admin/src/views/blog/article/index.vue:
-    newFile: !uuid '97ccae9c2e55ae0d23884db7fcc2845a7888aac1'
-    oldFile: !uuid '9df197f751f96ca4f2c5402e1598eb27e82ab916'
-  /src/frontend/admin/src/views/blog/category:
-    newFile: !uuid '42543bf01ada7b104227d80425b56552b8b4b829'
-    oldFile: !uuid 'd231fc08f4c88977aa960ed5e44577ce8dc8bd4a'
-  /src/frontend/admin/src/views/blog/category/dialog.vue:
-    newFile: !uuid 'da2b96bd013c50f3c08d722182922482ccd823a3'
-    oldFile: !uuid 'db2bc95ca69a25e84a39d98c766e5cabb1e6ef2a'
-  /src/frontend/admin/src/views/blog/category/index.vue:
-    newFile: !uuid '43d10337e2678fbec65c4e45820acc2619249a3e'
-    oldFile: !uuid 'a9be4e9cb9cf9530ddfc98292cb799bd397a835f'
-  /src/frontend/admin/src/views/blog/friendLink:
-    newFile: !uuid '82669a469e94d945512ef0155e8ea25efb721609'
-    oldFile: null
-  /src/frontend/admin/src/views/blog/friendLink/dialog.vue:
-    newFile: !uuid '1ba69fad1924e73045569568e417444c8fa4edf1'
-    oldFile: null
-  /src/frontend/admin/src/views/blog/friendLink/index.vue:
-    newFile: !uuid 'f554e202ed7fe8e8af325a9b0dcb6b7f5ae1dff2'
-    oldFile: null
-  /src/frontend/admin/src/views/blog/tags:
-    newFile: !uuid '88873407b1cabb64704d37bd565ae0c14c68367f'
-    oldFile: !uuid '16d01e77c900345eb0437d64017d952cc2084cd5'
-  /src/frontend/admin/src/views/blog/tags/dialog.vue:
-    newFile: !uuid '2bba0f99c91cd93d2ada18286909f81da3a5b729'
-    oldFile: !uuid '00314214b1dd176dd1570a0da22e50baf1d3da99'
-  /src/frontend/admin/src/views/blog/tags/index.vue:
-    newFile: !uuid '05ef414d929435764e39ccc6308105c973321a50'
-    oldFile: !uuid '66cd2574216186e9312576dff4d04433c0e617c6'
-  /src/frontend/admin/src/views/system:
-    newFile: !uuid '8dfea200e78eaceeb94f1e6cf9db43b659c2b267'
-    oldFile: !uuid 'd14b5ece17613980892edc7d3ecbd681d6a8ec14'
-  /src/frontend/admin/src/views/system/config:
-    newFile: !uuid '2e8ee7692b95ccda12fd7efa25e426a049c80dae'
-    oldFile: !uuid '5764f7d9f4f156ab5cd68fde9454990eb47e3d80'
-  /src/frontend/admin/src/views/system/config/configDialog.vue:
-    newFile: !uuid '10229289b0876b92a036323ac02b818c057c0269'
-    oldFile: !uuid 'e53cc3139a327e232fc99f1d93c1d37071645e81'
-gitCommitId: !uuid '5da0815ccae0a58429a94a01e43e27c464e86001'
+    newFile: !uuid 'bc857969169eb21a42d06a4f9af576baa5cdf2f7'
+    oldFile: !uuid '2d65f7223ca278b201ab16234fd39837000c64c3'
+  /src/frontend/admin/src/views/personal:
+    newFile: !uuid '9e23ef328f01fbd488f7788f5a133aa516e038f5'
+    oldFile: !uuid '6c3cdbc57a90a3c398e711ccfe6b36db42787965'
+  /src/frontend/admin/src/views/personal/index.vue:
+    newFile: !uuid 'fee87419f80376785d294744ddf2e3433291d9ca'
+    oldFile: !uuid '4ca238e1e01a4f87885f0750116abecb56c050be'
+gitCommitId: !uuid 'cc4eb003301151f9c177141a5e5f86b0f7b54efd'
 renames: {
   }
-revisionId: 62
+revisionId: 63
