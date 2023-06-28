@@ -3,24 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '051630e1155fd22511676e25cf755c4c4b7b8042'
-    oldFile: !uuid '03271cbb1a42b995cc1c7cecce3a197baef38e14'
+    newFile: !uuid '0381e761365b47fb97fd0763c5d521ea905985fd'
+    oldFile: !uuid '051630e1155fd22511676e25cf755c4c4b7b8042'
   /src/backend:
-    newFile: !uuid '6f85e92c062df43edb71d1b3a106f950bbcd920a'
-    oldFile: !uuid 'd152f464ee5f83f6eadaefe0d14c0e76690f697b'
+    newFile: !uuid '10cc851d1ca97c94874f6d0b2f6a056d13ffbc02'
+    oldFile: !uuid '6f85e92c062df43edb71d1b3a106f950bbcd920a'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'e2d233c3cc013a4d43dbaac937b35a0e09f2d91e'
-    oldFile: !uuid '0e953614686086b79ac585e906c5094a69a2c41b'
+    newFile: !uuid '964a245edd3ead04810029b9305da5816e421559'
+    oldFile: !uuid 'e2d233c3cc013a4d43dbaac937b35a0e09f2d91e'
   /src/backend/Easy.Admin.Application/Client:
-    newFile: !uuid '8d773b3261418fadd1ca0c5c0debcbc267225f06'
-    oldFile: !uuid '37a60db7f5d679c4d1078020f959fa61cbbe5e29'
+    newFile: !uuid '4de6cb6ffbb895df7ee31ee91e772a46816f4192'
+    oldFile: !uuid '8d773b3261418fadd1ca0c5c0debcbc267225f06'
   /src/backend/Easy.Admin.Application/Client/OAuthController.cs:
-    newFile: !uuid '0879455af225438008a33ba7576359226d8d0dbe'
-    oldFile: !uuid 'b999fdb80fdf6255758167c816298344d38112a6'
-  /src/backend/Easy.Admin.Application/applicationsettings.json:
-    newFile: !uuid 'f45d92a52de4c749cb911dd7b7c3c882a357fbac'
-    oldFile: !uuid 'f69c9b72429f5977b524bad44f4fbf4cdbe15a52'
-gitCommitId: !uuid '3acd4e5fd3b944526c364fe92744bf49b67fa8ce'
+    newFile: !uuid 'dbe548ea5bd1058d97432eb9b639505a0d28a0b7'
+    oldFile: !uuid '0879455af225438008a33ba7576359226d8d0dbe'
+  /src/backend/Easy.Admin.Web.Entry:
+    newFile: !uuid '63bf93fcd63fa4c1b41e6ae2a7567ec6d964edde'
+    oldFile: !uuid '223a577aac15b6590879d728eb02be6403fb7ada'
+  /src/backend/Easy.Admin.Web.Entry/Dockerfile:
+    newFile: !uuid 'c70f5e14d9edcc249b258f3c650ca717214b76a0'
+    oldFile: !uuid '7d7b8533b70b7d83290dde458a7c02e8adcffd8d'
+gitCommitId: !uuid '3005fd056512f18c0aed9f9af408b693b9e67591'
 renames: {
   }
-revisionId: 75
+revisionId: 76
