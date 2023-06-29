@@ -3,30 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'efb12637c18aad81702e2c90d4ae12bb6cf5f230'
-    oldFile: !uuid 'a9c5bee627234d380d03075d5c9f9eb9700c5eac'
+    newFile: !uuid '84534d14888dfed035b547321666faf6fb653b31'
+    oldFile: !uuid 'efb12637c18aad81702e2c90d4ae12bb6cf5f230'
+  /src/backend:
+    newFile: !uuid '6d5f9deccf3dc54b0060aea4ab6ef92599859eff'
+    oldFile: !uuid 'f7dbd6ca5aedf067d528a8477a8215f797bc2c6d'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid 'f2c0609c8a9b3ea68438e5568a8265d6a66b93c1'
+    oldFile: !uuid '92c616da44fb5d234bd79a04e56285d08e1254cb'
+  /src/backend/Easy.Admin.Application/Client:
+    newFile: !uuid '67ae9b116298fa684a5a437499ffddda28e30426'
+    oldFile: !uuid 'b579e5de4a910e20b7a43d52d9ea180c09ee136b'
+  /src/backend/Easy.Admin.Application/Client/OAuthController.cs:
+    newFile: !uuid '9240c10968ebe4437d10f40536a7b126338c9740'
+    oldFile: !uuid '7ebd122c537ee9ee3e68c3c79ee84e45d0119045'
   /src/frontend:
-    newFile: !uuid 'd10d524a80bef03cca657bec1390ae0a81bb795a'
-    oldFile: !uuid '95f03b9ad5946c8907c7a2ec4643c03286af73a9'
+    newFile: !uuid 'f2b99687a6c20c0fb96d52842c4127431a9eac94'
+    oldFile: !uuid 'd10d524a80bef03cca657bec1390ae0a81bb795a'
   /src/frontend/blog:
-    newFile: !uuid 'cff185446708602f1fd0a0963856f8d1e0a4a800'
-    oldFile: !uuid '1dfbc29fbcfffae1a9ec96bae75843e143419ff0'
-  /src/frontend/blog/src:
-    newFile: !uuid '3f53e723bb355ce88ab7fd514f1dc6de754e7789'
-    oldFile: !uuid '1e0498decd336f9f2e676c281d0a90e6b4a96f18'
-  /src/frontend/blog/src/components:
-    newFile: !uuid 'fd9173ef5f89f1d481ccf9f5b257210148f5ca4d'
-    oldFile: !uuid 'abe577d54876e67e1f58be6b4d04754f47b43be4'
-  /src/frontend/blog/src/components/layout:
-    newFile: !uuid '42b3747cd472f9424263b04c050b22cba01c6a11'
-    oldFile: !uuid '2733d196c96e2c2df632d81f6d9dcc2ba7640531'
-  /src/frontend/blog/src/components/layout/SideNavBar.vue:
-    newFile: !uuid '1c403576a0d30f50a5f40abbca92c0ef39dceb06'
-    oldFile: !uuid '7b3fef2fe4a240ae0fa12eb3db226a0dc1c933db'
-  /src/frontend/blog/src/components/layout/TopNavBar.vue:
-    newFile: !uuid '70df41f9b85b243a3083bb814c62ce60e28aaa7e'
-    oldFile: !uuid '7ba3058824d5fa9358995d28377bd17f7dc2b604'
-gitCommitId: !uuid '4fd29f2bd2299c3e6c83dede7cfe1137ce8f44d8'
+    newFile: !uuid '6655d02d3acf492986fe4a26327fa7322660e55d'
+    oldFile: !uuid 'cff185446708602f1fd0a0963856f8d1e0a4a800'
+  /src/frontend/blog/package.json:
+    newFile: !uuid '92ba182575f0b764cea69846a36ca42638ad9a8c'
+    oldFile: !uuid 'fd31e139dd1296490bfb98ac2b3e57e545f0ce33'
+gitCommitId: !uuid '3c415c3b30e170cbae9d5516d627d6b9a2e9fe6e'
 renames: {
   }
-revisionId: 78
+revisionId: 79
