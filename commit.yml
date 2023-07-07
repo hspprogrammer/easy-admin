@@ -3,258 +3,63 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '70ebb85f7d39728c8803ad61ca6d6ae7b67d8694'
-    oldFile: !uuid '1e6482dc9368a778dfdd6b1af9386da1958230e0'
+    newFile: !uuid '2fe5b3c33ced25c08ad74c1ddcc759d55b7e3b2b'
+    oldFile: !uuid '70ebb85f7d39728c8803ad61ca6d6ae7b67d8694'
+  /src/backend:
+    newFile: !uuid '30686bf71399b1e91442f74bb869ee3841970e34'
+    oldFile: !uuid 'b496c5f3d795dd9be73d9317d2038bf0ec8858cf'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid '6225a7421f70be5e99b3cf7aa8049920edf0ad75'
+    oldFile: !uuid '318e4906e155375280fc6df776b3f3be85163ce5'
+  /src/backend/Easy.Admin.Application/Client:
+    newFile: !uuid 'e78757166e1e77fddfcec91db4c71a869eb577e9'
+    oldFile: !uuid '856d5a62a9d9d129838515ce9dca6d133ef2427d'
+  /src/backend/Easy.Admin.Application/Client/OAuthController.cs:
+    newFile: !uuid '1d728bc7473de34c79ca81206a818faaff65c43a'
+    oldFile: !uuid '65449aff65212fa2b3a732458a5b6973633cf462'
+  /src/backend/Easy.Admin.Application/applicationsettings.json:
+    newFile: !uuid 'c797b1c8081cdac9929cc2eac01ef3d7b5624f6e'
+    oldFile: !uuid 'cdf70e175a47938ed26d37d3d2c7be21cc640819'
   /src/frontend:
-    newFile: !uuid '33d8644473e7aae9b2dcc9f7b138f517b4509d40'
-    oldFile: !uuid '0c325ab76f482546aca5c55562e9093bc670723b'
+    newFile: !uuid 'a37f9050f6f3dc0147820f7b1ffafb962ad78747'
+    oldFile: !uuid '33d8644473e7aae9b2dcc9f7b138f517b4509d40'
   /src/frontend/blog:
-    newFile: !uuid '86d0f6814bb16c1b01e8b4ce4477345786a6f700'
-    oldFile: !uuid '9d328c0ae624d9ad73f3cc6aed903afa4f1310b9'
-  /src/frontend/blog/public:
-    newFile: !uuid '5a612cf46ef08398c71e6ca5e5458bb87fda753f'
-    oldFile: !uuid '52d0e6753a19d3e154ce868b6c0fc11261fe3c24'
-  /src/frontend/blog/public/emoji:
-    newFile: !uuid 'c914faa04fcbc76076131430db8ee1e493d0c6b8'
-    oldFile: null
-  /src/frontend/blog/public/emoji/18jin.png:
-    newFile: !uuid '4b15790ba0415f6f81d01c35d9d186210b98d9ef'
-    oldFile: null
-  /src/frontend/blog/public/emoji/aimu.png:
-    newFile: !uuid '70f3c0862c7de9d2acebc9491cb4585b9b9e4abd'
-    oldFile: null
-  /src/frontend/blog/public/emoji/baiyan.png:
-    newFile: !uuid 'ceb53faa242fcf45b3085fdf6f1a03daff08cf0a'
-    oldFile: null
-  /src/frontend/blog/public/emoji/bizui.png:
-    newFile: !uuid '19cbb8580d4a00b84a4ed3ffd8409d33c6980d59'
-    oldFile: null
-  /src/frontend/blog/public/emoji/cahan.png:
-    newFile: !uuid '89e7b3311b1c00ffe4f0a43f9c52e778c0aa4071'
-    oldFile: null
-  /src/frontend/blog/public/emoji/daiwugu.png:
-    newFile: !uuid '1e0f2ef68860fe4a7165217dea16ed285d924d02'
-    oldFile: null
-  /src/frontend/blog/public/emoji/dajinya.png:
-    newFile: !uuid 'e77d78807eb6ad6475998c16c265d2f656a401b1'
-    oldFile: null
-  /src/frontend/blog/public/emoji/daku.png:
-    newFile: !uuid '6155c7eeadeb4fd04f638c2ae730f9bd7d755cb0'
-    oldFile: null
-  /src/frontend/blog/public/emoji/dalian.png:
-    newFile: !uuid '6b4e0b0888212c8e1409b07ff47cec0759115a63'
-    oldFile: null
-  /src/frontend/blog/public/emoji/daxiao.png:
-    newFile: !uuid '019a9e41014089221c7753c0961deec78ee1f704'
-    oldFile: null
-  /src/frontend/blog/public/emoji/deyi.png:
-    newFile: !uuid 'ec51a8563b07f34da49ed4a0ba6f861b017acd93'
-    oldFile: null
-  /src/frontend/blog/public/emoji/fanu.png:
-    newFile: !uuid 'a65f6e2161a70793a7f2c0c505c29acccbacb81a'
-    oldFile: null
-  /src/frontend/blog/public/emoji/feiwen.png:
-    newFile: !uuid 'bfd50980f25e46be45a23fafb901450c16314872'
-    oldFile: null
-  /src/frontend/blog/public/emoji/fendou.png:
-    newFile: !uuid '4c4a820f98d975f7a115bb950c9f6a2e8f8ab558'
-    oldFile: null
-  /src/frontend/blog/public/emoji/gaxiao.png:
-    newFile: !uuid 'd0a11ab8e1d5df08a0d6e744824d406d41ebfc53'
-    oldFile: null
-  /src/frontend/blog/public/emoji/haixiu.png:
-    newFile: !uuid 'cfa3c5669c7e93947bf01660fdbcbbaf5bd73d61'
-    oldFile: null
-  /src/frontend/blog/public/emoji/hanxiao.png:
-    newFile: !uuid 'ee70477fe875bfd20f3f8a743c18e117e5493864'
-    oldFile: null
-  /src/frontend/blog/public/emoji/haqian.png:
-    newFile: !uuid '2809cdba7cc9d17e93e1152bc97b10c0da25b4bd'
-    oldFile: null
-  /src/frontend/blog/public/emoji/hufen.png:
-    newFile: !uuid '4ae575c413a5a241e8f0223e0a1b92ac7e619790'
-    oldFile: null
-  /src/frontend/blog/public/emoji/jianxiao.png:
-    newFile: !uuid '3e37e78ca8a9dcc935d2c163017efaabc71c0046'
-    oldFile: null
-  /src/frontend/blog/public/emoji/jingxi.png:
-    newFile: !uuid 'd529e6ebc4dcdaf5ea382451d877caa29783ad77'
-    oldFile: null
-  /src/frontend/blog/public/emoji/jizhi.png:
-    newFile: !uuid 'f29cc9d5c9c649af7ef163a37392a2d0aa4a7a44'
-    oldFile: null
-  /src/frontend/blog/public/emoji/kan.png:
-    newFile: !uuid 'b8616c3022b1def000636a91083c0f1b3fc1b737'
-    oldFile: null
-  /src/frontend/blog/public/emoji/keai.png:
-    newFile: !uuid '0ad222b9c34a91c6375cf8c44fb8325398a46926'
-    oldFile: null
-  /src/frontend/blog/public/emoji/kelian.png:
-    newFile: !uuid 'ae935244ec4810648a37944a5dcacd7ad99bf8bc'
-    oldFile: null
-  /src/frontend/blog/public/emoji/kongju.png:
-    newFile: !uuid 'a97c70a121e6f53006c749375e647fc07b3c8594'
-    oldFile: null
-  /src/frontend/blog/public/emoji/koubi.png:
-    newFile: !uuid 'bc584dab5bca24aea52582d74be2437da3574f8b'
-    oldFile: null
-  /src/frontend/blog/public/emoji/kuaikule.png:
-    newFile: !uuid '3eccd8eadb11ffcd65c4a06a94e8b41c36f0a062'
-    oldFile: null
-  /src/frontend/blog/public/emoji/kun.png:
-    newFile: !uuid '7bfa475d53708ee49deecb586432bb5629550361'
-    oldFile: null
-  /src/frontend/blog/public/emoji/kuzhuai.png:
-    newFile: !uuid '9aaa4ae553abcb426cbc24c9101115207ecfda05'
-    oldFile: null
-  /src/frontend/blog/public/emoji/leiben.png:
-    newFile: !uuid '69d631371c77a0bcb9c468ac324dde3227c87e8f'
-    oldFile: null
-  /src/frontend/blog/public/emoji/lingguangyishan.png:
-    newFile: !uuid '82f6e26b6c631442734d4b64aba6643e7396fddf'
-    oldFile: null
-  /src/frontend/blog/public/emoji/liulei.png:
-    newFile: !uuid 'ac60cd2abc16b57bd34f4b34f23158bc5021a850'
-    oldFile: null
-  /src/frontend/blog/public/emoji/lvmaozi.png:
-    newFile: !uuid '3724dd127d39978b9a2ba8a34acbe783fab00ef5'
-    oldFile: null
-  /src/frontend/blog/public/emoji/masichundeweixiao.png:
-    newFile: !uuid '81c9b8def8b1e9a6299ab85341d6413aab98ad06'
-    oldFile: null
-  /src/frontend/blog/public/emoji/meigui.png:
-    newFile: !uuid 'aca8114a4bf7b9455cdc32417a948efdd4d5e218'
-    oldFile: null
-  /src/frontend/blog/public/emoji/motou.png:
-    newFile: !uuid 'ebd6227ce2cd7a32046d1596e03f9bfc63cc11a4'
-    oldFile: null
-  /src/frontend/blog/public/emoji/ok.jpg:
-    newFile: !uuid 'e9fe0dadde5d7e5fc2de13f28a2d3202174894b0'
-    oldFile: null
-  /src/frontend/blog/public/emoji/piezui.png:
-    newFile: !uuid 'dca7916217f90ace53382b656196cb79e16ee7e4'
-    oldFile: null
-  /src/frontend/blog/public/emoji/qian.png:
-    newFile: !uuid '9b99be5b4d8725d5151c0859b7650c24863b1046'
-    oldFile: null
-  /src/frontend/blog/public/emoji/qiang.png:
-    newFile: !uuid 'b958649a5bea87d4ad7de9a47f2ea90f5deb099d'
-    oldFile: null
-  /src/frontend/blog/public/emoji/qiaoda.png:
-    newFile: !uuid '1caf653f2b55cb16db70663baaeac26f4aa476cb'
-    oldFile: null
-  /src/frontend/blog/public/emoji/qibuchengsheng.png:
-    newFile: !uuid 'aa2613b933f96e6603c940a4e2924a98db8e814e'
-    oldFile: null
-  /src/frontend/blog/public/emoji/qiubaobao.png:
-    newFile: !uuid 'eb1ea0bf6072aeacb14a2e403e2f31a2fd3cf779'
-    oldFile: null
-  /src/frontend/blog/public/emoji/quwufen.png:
-    newFile: !uuid '10e923081fe06fc8c86cb2a0a19869f5f1eb16a2'
-    oldFile: null
-  /src/frontend/blog/public/emoji/ruhua.png:
-    newFile: !uuid 'c2f859b2e4d86b42d4c71aeeeb43e4f061ae350c'
-    oldFile: null
-  /src/frontend/blog/public/emoji/shihua.png:
-    newFile: !uuid '239cc9a011f4acb1b69612e9c4d8849b9a437155'
-    oldFile: null
-  /src/frontend/blog/public/emoji/shuai.png:
-    newFile: !uuid '32522ce2c6fc75bcd6d92a55a73a35a4dacc8476'
-    oldFile: null
-  /src/frontend/blog/public/emoji/sikao.png:
-    newFile: !uuid 'fd17273b6130a0458595348487edeffa3df96b16'
-    oldFile: null
-  /src/frontend/blog/public/emoji/sl.jpg:
-    newFile: !uuid 'e8eca820fce34b746837998e054f1140d2b40aca'
-    oldFile: null
-  /src/frontend/blog/public/emoji/tiaopi.jpg:
-    newFile: !uuid 'daa089e834690072da9460c1b5104141606d04d6'
-    oldFile: null
-  /src/frontend/blog/public/emoji/tingge.png:
-    newFile: !uuid '7364eb7b185e92160cad98327c1457c8906edb8c'
-    oldFile: null
-  /src/frontend/blog/public/emoji/touxiao.png:
-    newFile: !uuid '49e03b0c608b56641d40717505335480ec1fbe9e'
-    oldFile: null
-  /src/frontend/blog/public/emoji/tu.png:
-    newFile: !uuid 'c8ac7378ee5004b1310fde21f2da62da0ef574ac'
-    oldFile: null
-  /src/frontend/blog/public/emoji/tucaihong.png:
-    newFile: !uuid '8eb259e23c907492130a9517ea2e8f613410746c'
-    oldFile: null
-  /src/frontend/blog/public/emoji/tuxue.png:
-    newFile: !uuid 'dabeae4ff2827de3e1685b66a6dd373c7ee22881'
-    oldFile: null
-  /src/frontend/blog/public/emoji/v5.png:
-    newFile: !uuid '3175366ffd759eceb1fe4117e609352fdf4b9d8b'
-    oldFile: null
-  /src/frontend/blog/public/emoji/weixiao.png:
-    newFile: !uuid 'b86fedf5428f4a2c6a11c5118c8796b349a64fd9'
-    oldFile: null
-  /src/frontend/blog/public/emoji/wulian.png:
-    newFile: !uuid 'e2eeb35ad1f035337d05cbbb3b9239fb9aaaa54f'
-    oldFile: null
-  /src/frontend/blog/public/emoji/xiao.png:
-    newFile: !uuid '298423bb322ec09763440499b2e3a8967bf473a7'
-    oldFile: null
-  /src/frontend/blog/public/emoji/xiaoguzhang.png:
-    newFile: !uuid 'e5d3cf8973e6e22184392dda1c89fe892aaae05a'
-    oldFile: null
-  /src/frontend/blog/public/emoji/xiaoku.png:
-    newFile: !uuid '89515b8c99fff3b96101b512e82ad5fbef5488a3'
-    oldFile: null
-  /src/frontend/blog/public/emoji/xiongji.png:
-    newFile: !uuid 'd4e8462c28d691f0629dc8d14576a6c252919577'
-    oldFile: null
-  /src/frontend/blog/public/emoji/xq.jpg:
-    newFile: !uuid '01d762e2416e8b429f39f49dc4c67968f8f481db'
-    oldFile: null
-  /src/frontend/blog/public/emoji/xu.png:
-    newFile: !uuid 'd99f85b5e078c97fae2ed09703dfd66ac0652beb'
-    oldFile: null
-  /src/frontend/blog/public/emoji/ye.png:
-    newFile: !uuid 'e6d96e3ea7558a103903f052fe9d5916482a0a2d'
-    oldFile: null
-  /src/frontend/blog/public/emoji/yh.jpg:
-    newFile: !uuid 'daf74e706a2a4f572cbeb783375bd6fbb1f74045'
-    oldFile: null
-  /src/frontend/blog/public/emoji/yun.png:
-    newFile: !uuid '410c6cc8a0fbe302967bb94dddf6988c9014ee35'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zaijian.png:
-    newFile: !uuid '0a26fc29a484d521594898f5f277a5a2a235d5fb'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zhadan.png:
-    newFile: !uuid '2f3beafd56ba4d244b086cc6c009d0e56bee8241'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zhenjing.png:
-    newFile: !uuid 'e4742c8338ad84a49b0bba2d18d8e2cbb009fe4e'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zhichi.jpg:
-    newFile: !uuid '806eeac8c5106f34150ae8d5ff146b6456cf7636'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zhoudongyudeningshi.png:
-    newFile: !uuid '413aa4c4674437dde6b3e4b8b2c1fa7e8c81a940'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zhoumei.png:
-    newFile: !uuid 'ae7dbc4ab1cb93bc42a2207dd73948b70aa68c22'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zhuakuang.png:
-    newFile: !uuid 'bc4a07e8e0c7d7d25dc01c1e7495d6a286e91950'
-    oldFile: null
-  /src/frontend/blog/public/emoji/ziweibiezou.png:
-    newFile: !uuid 'db8d1d55b927dd09ea48654278f04c94ff1deb44'
-    oldFile: null
-  /src/frontend/blog/public/emoji/ziya.png:
-    newFile: !uuid 'ab81983dea94119ea0c6e984e40ef47f619c8c30'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zuoguilian.png:
-    newFile: !uuid '341b2fe373dddf1f48d46cc575c63d684ab02eb7'
-    oldFile: null
-  /src/frontend/blog/public/emoji/zuoshang.png:
-    newFile: !uuid '951e74ada286eec398b742893b6113931707b6d2'
-    oldFile: null
-gitCommitId: !uuid 'f501f2d5e9a16fc20d0df2cc8472a8f111746ffa'
+    newFile: !uuid '94e5a72277b1754b8f3a17c23948edd4c1814280'
+    oldFile: !uuid '86d0f6814bb16c1b01e8b4ce4477345786a6f700'
+  /src/frontend/blog/src:
+    newFile: !uuid 'ceb3c9581dfe830b23df85e6c1d4c22a709f812b'
+    oldFile: !uuid '4b31614f5aef08638dc4731e83dd25a453f226c3'
+  /src/frontend/blog/src/assets:
+    newFile: !uuid '64d36c194d690e82224b232461d2696e158d7db5'
+    oldFile: !uuid '426a0a9b566ee6429246cbf2802fbd133d1b1ade'
+  /src/frontend/blog/src/assets/emoji.ts:
+    newFile: !uuid 'e1356c575d90c97eb756fb9ce3cf5d5f5046e89b'
+    oldFile: !uuid 'c7401a38db0c4ec93e408dafc00aa6694626ce8f'
+  /src/frontend/blog/src/components:
+    newFile: !uuid 'fc2194b923d6e464ef0a51f81b82e3ee980d3afd'
+    oldFile: !uuid '5a9737b945e9baefc37079c751160d79ea3777e5'
+  /src/frontend/blog/src/components/layout:
+    newFile: !uuid '0adfe975f1cf2fae1d1fb90095c87468de562322'
+    oldFile: !uuid '199c373ac592e52de71d316a9a6ea271c03d5e38'
+  /src/frontend/blog/src/components/layout/SideNavBar.vue:
+    newFile: !uuid '0fbdf3ae0248d2ad5592c1fe7852aaa4b3fffab9'
+    oldFile: !uuid '6817cd11e9b09110f6a8c1469d700f67e0ef0788'
+  /src/frontend/blog/src/components/layout/TopNavBar.vue:
+    newFile: !uuid '5b6d85652e70a34938b1e33cdb5c93b6463c1984'
+    oldFile: !uuid 'fe68115ff3be452ef98cabc183663dc3c598a915'
+  /src/frontend/blog/src/views:
+    newFile: !uuid '0c7aa9963eb07cf03a4fb746d01e3e57e959f510'
+    oldFile: !uuid '2ad1d7654a7eabb1f30c842b7c9e51d708f2b573'
+  /src/frontend/blog/src/views/User.vue:
+    newFile: !uuid '565bbba3f521ff2a6a471cf1d7ec4a7c4e45fb9c'
+    oldFile: !uuid '7922651f117b7df9cbe8982f3800c03f31f61395'
+  /src/frontend/blog/src/views/article:
+    newFile: !uuid '533105c9a7b9fb5dad1f52c22fa0e463db0c0cb0'
+    oldFile: !uuid '1dd44585936e3b14e5f0fcf144ef34d5ef04078c'
+  /src/frontend/blog/src/views/article/Detail.vue:
+    newFile: !uuid 'c62df571ae6b084fba109c739cbbb4299b897d84'
+    oldFile: !uuid 'c21909992e6cf2aab4b1cb09cfc1f69c43abef6c'
+gitCommitId: !uuid '6b765af53f347607104675274ca8a68ea7737385'
 renames: {
   }
-revisionId: 86
+revisionId: 87
