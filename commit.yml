@@ -3,45 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5f6dbf2aa4865d94fd2cd53d1ce54dab3e71241c'
-    oldFile: !uuid '7f79b25a1b58e920b0852efe9cd8dc031dd4a4d0'
+    newFile: !uuid '3e862a48eb0f9ed7966c505d9e469b36e556bf02'
+    oldFile: !uuid '5f6dbf2aa4865d94fd2cd53d1ce54dab3e71241c'
   /src/backend:
-    newFile: !uuid 'c4ee52c82f6c1e5707e7c38c783d9512c9131ef3'
-    oldFile: !uuid 'd1560cd634dbbbe3b76146fcfc1eca428f5080fb'
-  /src/backend/Easy.Admin.Core:
-    newFile: !uuid 'd99c279877c1257cfa9d4ac5b038482054dd9576'
-    oldFile: !uuid 'cfc498ff737a57b1cee76d847ef3ddbb74442e03'
-  /src/backend/Easy.Admin.Core/Easy.Admin.Core.csproj:
-    newFile: !uuid '5ea8e4bbeedda171619f07a33235af6e655ef380'
-    oldFile: !uuid 'c3cf8726005b2c685cdc50ac2bf1b537e28f1900'
-  /src/backend/Easy.Admin.Web.Entry:
-    newFile: !uuid 'b2e7a555ad39c4061e5c0af3dc0edd28204d26a2'
-    oldFile: !uuid '63bf93fcd63fa4c1b41e6ae2a7567ec6d964edde'
-  /src/backend/Easy.Admin.Web.Entry/Dockerfile:
+    newFile: !uuid '93232505734ce380242920e637e313f721a41742'
+    oldFile: !uuid 'c4ee52c82f6c1e5707e7c38c783d9512c9131ef3'
+  /src/backend/Dockerfile:
     newFile: !uuid '7c42ed7b944244ceca1a915969956946a575bf01'
-    oldFile: !uuid 'c70f5e14d9edcc249b258f3c650ca717214b76a0'
-  /src/frontend:
-    newFile: !uuid '76abedb6fc9a7e35c227ca5596dc19c55e4a50ce'
-    oldFile: !uuid '7c84719c94e411223200842d26e017fcfa4dfecc'
-  /src/frontend/admin:
-    newFile: !uuid '896ae14b56d8ba37ba31f154b3ba60c7fbb4f84f'
-    oldFile: !uuid '877b245bbd4c517fce62679d41901516261b6f0d'
-  /src/frontend/admin/.env:
-    newFile: !uuid '69169b8f501acae2be8334cccecfc84353d7ce88'
-    oldFile: !uuid '37e0dd368728fe87cf77c1429c022e3fa6251efe'
-  /src/frontend/admin/src:
-    newFile: !uuid '5eb8d1c5bad84b86195cbc064ab706fedaa6d54b'
-    oldFile: !uuid 'e6055b97dd78968f49be6fa98ce6ba5e5ac3e331'
-  /src/frontend/admin/src/router:
-    newFile: !uuid '57808f4694714f47561e02a5ecf7ca2535f50e1e'
-    oldFile: !uuid '77722501c9b5ff0d75ab2fbfcf2102208956ff30'
-  /src/frontend/admin/src/router/route.ts:
-    newFile: !uuid 'e7d55bbbe397d57c7fd70acc18164d5647cdfab0'
-    oldFile: !uuid '7faefb396d1a8f537ba0217efa9bcaabe965f821'
-  /src/frontend/admin/vite.config.ts:
-    newFile: !uuid 'b9989406cc6066b3ed5bd4557c528bfba5eac9a4'
-    oldFile: !uuid '0baffbb82cc890466c9fe1e5f1d891584337f127'
-gitCommitId: !uuid 'b533292395b9b0ce1e8618dda66ee5e598281213'
-renames: {
-  }
-revisionId: 96
+    oldFile: null
+  /src/backend/Easy.Admin.Web.Entry:
+    newFile: !uuid '4ee91691f876707aa6ef91319bb70c2186a2e198'
+    oldFile: !uuid 'b2e7a555ad39c4061e5c0af3dc0edd28204d26a2'
+  /src/backend/Easy.Admin.Web.Entry/Dockerfile:
+    newFile: null
+    oldFile: !uuid '7c42ed7b944244ceca1a915969956946a575bf01'
+  /src/backend/Easy.Admin.Web.Entry/Easy.Admin.Web.Entry.csproj.user:
+    newFile: !uuid '16a292e3f51e4d919f2ce5f4b376e544a827cf99'
+    oldFile: null
+gitCommitId: !uuid '1f18da3454dd94dc48003b85e3662f8fc93a36da'
+renames:
+  /src/backend/Dockerfile: /src/backend/Easy.Admin.Web.Entry/Dockerfile
+revisionId: 97
