@@ -3,33 +3,45 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7f79b25a1b58e920b0852efe9cd8dc031dd4a4d0'
-    oldFile: !uuid 'bffb2db449a81e919e67512c36c5bee9f3436492'
+    newFile: !uuid '5f6dbf2aa4865d94fd2cd53d1ce54dab3e71241c'
+    oldFile: !uuid '7f79b25a1b58e920b0852efe9cd8dc031dd4a4d0'
+  /src/backend:
+    newFile: !uuid 'c4ee52c82f6c1e5707e7c38c783d9512c9131ef3'
+    oldFile: !uuid 'd1560cd634dbbbe3b76146fcfc1eca428f5080fb'
+  /src/backend/Easy.Admin.Core:
+    newFile: !uuid 'd99c279877c1257cfa9d4ac5b038482054dd9576'
+    oldFile: !uuid 'cfc498ff737a57b1cee76d847ef3ddbb74442e03'
+  /src/backend/Easy.Admin.Core/Easy.Admin.Core.csproj:
+    newFile: !uuid '5ea8e4bbeedda171619f07a33235af6e655ef380'
+    oldFile: !uuid 'c3cf8726005b2c685cdc50ac2bf1b537e28f1900'
+  /src/backend/Easy.Admin.Web.Entry:
+    newFile: !uuid 'b2e7a555ad39c4061e5c0af3dc0edd28204d26a2'
+    oldFile: !uuid '63bf93fcd63fa4c1b41e6ae2a7567ec6d964edde'
+  /src/backend/Easy.Admin.Web.Entry/Dockerfile:
+    newFile: !uuid '7c42ed7b944244ceca1a915969956946a575bf01'
+    oldFile: !uuid 'c70f5e14d9edcc249b258f3c650ca717214b76a0'
   /src/frontend:
-    newFile: !uuid '7c84719c94e411223200842d26e017fcfa4dfecc'
-    oldFile: !uuid '7e052d7dbe6a5d41e36e09236fa5a23f3760a545'
+    newFile: !uuid '76abedb6fc9a7e35c227ca5596dc19c55e4a50ce'
+    oldFile: !uuid '7c84719c94e411223200842d26e017fcfa4dfecc'
   /src/frontend/admin:
-    newFile: !uuid '877b245bbd4c517fce62679d41901516261b6f0d'
-    oldFile: !uuid '349b543a1e96bc5d67ae18354b13b89232c54545'
+    newFile: !uuid '896ae14b56d8ba37ba31f154b3ba60c7fbb4f84f'
+    oldFile: !uuid '877b245bbd4c517fce62679d41901516261b6f0d'
+  /src/frontend/admin/.env:
+    newFile: !uuid '69169b8f501acae2be8334cccecfc84353d7ce88'
+    oldFile: !uuid '37e0dd368728fe87cf77c1429c022e3fa6251efe'
   /src/frontend/admin/src:
-    newFile: !uuid 'e6055b97dd78968f49be6fa98ce6ba5e5ac3e331'
-    oldFile: !uuid 'fc94f2af65db0152846c6b7fb7ed5e5467a28f11'
-  /src/frontend/admin/src/api:
-    newFile: !uuid '183ef9d2fd2a5b7d18e0918a63e93d9e23e7d791'
-    oldFile: !uuid '7c9d597a009ad0edf740b2e67f868909bc896cad'
-  /src/frontend/admin/src/api/login:
-    newFile: !uuid '365a895a94957c833c454b5d79d083299225cc4d'
-    oldFile: !uuid '86e8fbea27285a2cf60a06c5a2be7b22f0269867'
-  /src/frontend/admin/src/api/login/index.ts:
-    newFile: !uuid '4567f139fd2ed60f9666cae82cec7b2969f0825c'
-    oldFile: !uuid '71ed9461c586e20d35dec54c981727da78923901'
-  /src/frontend/admin/src/api/menu:
-    newFile: null
-    oldFile: !uuid 'eb03d21cf87976d0da85c12f2eefc6ce0b1d9d38'
-  /src/frontend/admin/src/api/menu/index.ts:
-    newFile: null
-    oldFile: !uuid '80a83ec6030ae7ab4d0bb655a3863e6d184d9ad5'
-gitCommitId: !uuid 'e00fd6ea75ce089a7458d78f5e6a4a121601c401'
+    newFile: !uuid '5eb8d1c5bad84b86195cbc064ab706fedaa6d54b'
+    oldFile: !uuid 'e6055b97dd78968f49be6fa98ce6ba5e5ac3e331'
+  /src/frontend/admin/src/router:
+    newFile: !uuid '57808f4694714f47561e02a5ecf7ca2535f50e1e'
+    oldFile: !uuid '77722501c9b5ff0d75ab2fbfcf2102208956ff30'
+  /src/frontend/admin/src/router/route.ts:
+    newFile: !uuid 'e7d55bbbe397d57c7fd70acc18164d5647cdfab0'
+    oldFile: !uuid '7faefb396d1a8f537ba0217efa9bcaabe965f821'
+  /src/frontend/admin/vite.config.ts:
+    newFile: !uuid 'b9989406cc6066b3ed5bd4557c528bfba5eac9a4'
+    oldFile: !uuid '0baffbb82cc890466c9fe1e5f1d891584337f127'
+gitCommitId: !uuid 'b533292395b9b0ce1e8618dda66ee5e598281213'
 renames: {
   }
-revisionId: 95
+revisionId: 96
