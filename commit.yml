@@ -3,51 +3,861 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '78fabf577665d4b79b2706499601e82656bc4ff8'
-    oldFile: !uuid 'a472c68057d8adefcd89fc76b49db34ef157eb82'
-  /src/backend:
-    newFile: !uuid '5d8aad3bc904f57ca2688fe992c53ae9f23969a3'
-    oldFile: !uuid 'ed673ca991392c3a53103a2828d4748bd4c653a1'
-  /src/backend/Easy.Admin.Web.Entry:
-    newFile: !uuid '456ed2aedeced17af1b0db03722cedc0f77a2b96'
-    oldFile: !uuid '4ee91691f876707aa6ef91319bb70c2186a2e198'
-  /src/backend/Easy.Admin.Web.Entry/Properties:
-    newFile: !uuid '07db1bcb84d0ee713db3069144e5fc978a35aa8b'
-    oldFile: !uuid '45cc2ef5104ed7142dc937130b3df24238158253'
-  /src/backend/Easy.Admin.Web.Entry/Properties/launchSettings.json:
-    newFile: !uuid '705f85d66947acb01c6b284adc0450731c1e7991'
-    oldFile: !uuid 'b8d6100324cb7be211d227c88c47519bec608372'
+    newFile: !uuid '1bc559c6749393fd53e58b3bce64db35a73b1baa'
+    oldFile: !uuid '78fabf577665d4b79b2706499601e82656bc4ff8'
   /src/frontend:
-    newFile: !uuid '3277fbaa2cb9fb3efbcd2b0d9486b2b773c95e8a'
-    oldFile: !uuid '3ee77177d196ab2cd8108bd88aa0b07368e5fb68'
-  /src/frontend/blog:
-    newFile: !uuid 'e8d85b532d4c83e5124a0e0c73fb717a1695cb2b'
-    oldFile: !uuid '235cdef7e16b0cdebc8ecbef4097c4ed1450f30c'
-  /src/frontend/blog/package.json:
-    newFile: !uuid '7ba8638d0b25a77198eacd07de3595314ea36573'
-    oldFile: !uuid '92ba182575f0b764cea69846a36ca42638ad9a8c'
-  /src/frontend/blog/src:
-    newFile: !uuid 'e92cc77e178334faf97158bc10018f26fd313c0f'
-    oldFile: !uuid '8b09f8e03e92ce128ab5cbadf6d22fbef7a79bc3'
-  /src/frontend/blog/src/layouts:
-    newFile: null
-    oldFile: !uuid '5c3482303cc8071b4b1dad0a90dd849e640f3aa2'
-  /src/frontend/blog/src/layouts/default:
-    newFile: null
-    oldFile: !uuid '3494322b384f5484bfae30a035ffdbf936e3bd1a'
-  /src/frontend/blog/src/layouts/default/Default.vue:
-    newFile: null
-    oldFile: !uuid '57ada2fdaa7eb5648e2ab1c9f691dbb1ad703069'
-  /src/frontend/blog/src/layouts/default/View.vue:
-    newFile: null
-    oldFile: !uuid '9c87c293cac4b4575ee8051b841399dc3a44899e'
-  /src/frontend/blog/src/views:
-    newFile: !uuid 'e43aa97129d39a0e98abd4ebaaec729962c99003'
-    oldFile: !uuid '6afe684e5850565ef59aa29f1821cb7a88224336'
-  /src/frontend/blog/src/views/Index.vue:
-    newFile: !uuid '81f232d5de71906ba740cd00ee59ee0c78c1d147'
-    oldFile: !uuid 'ca416625e44e0e971397c3aee4badda67e77720a'
-gitCommitId: !uuid 'b3ec923469f279cdb597133d879e56a808cd333f'
+    newFile: !uuid '8e4838eb89dc7c706dc86064239a800321405c0a'
+    oldFile: !uuid '3277fbaa2cb9fb3efbcd2b0d9486b2b773c95e8a'
+  /src/frontend/vite-ssr-blog:
+    newFile: !uuid '965ccd1362eb59703bb66b5870dee003c7b6af00'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/.env:
+    newFile: !uuid 'ef61da7d09cb6301eb99717d2be62bb2e8161c4a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/.gitignore:
+    newFile: !uuid 'b9470778764f72c5257a3361590d2994547f90e1'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api:
+    newFile: !uuid 'e287ceb4ac5722e96ffba4f14f6161275851211f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/AlbumsApi.ts:
+    newFile: !uuid 'b82894824314cfccd9e92bb6655d6d8bdfdcbf9f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/AppApi.ts:
+    newFile: !uuid '6f8354727e2ee748d2ef3cab7b21da884527b6a7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/ArticleApi.ts:
+    newFile: !uuid '157569afa98ae541eb7730da9efb13fe129bc51f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/CommentApi.ts:
+    newFile: !uuid 'ff6a42cdf7630f59c4ffda9f9b67b48759b6a534'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/OAuthApi.ts:
+    newFile: !uuid 'c927b22e80ce21bd8fe4d421d955e78fd5f86b05'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/TalksApi.ts:
+    newFile: !uuid 'fe08442bd86ea322bde5ef369e50333397543c3f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models:
+    newFile: !uuid 'e1e88d83c9d1c1ddcdb8a48608e40027585e682c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/add-comment-input.ts:
+    newFile: !uuid '3617a8f1313d5e6e4b28b50f53db2e42b04eca4e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/add-link-output.ts:
+    newFile: !uuid 'ece4948b4e152375d9c917bbb45171f53e2d5a86'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/albums-output.ts:
+    newFile: !uuid 'e91fc5bde57b6b403b1768d000d1fd40b97cc751'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/article-basics-output.ts:
+    newFile: !uuid '6881fda49532ee7537d518604d4c2a8fa4a4c4d8'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/article-info-output.ts:
+    newFile: !uuid '3a40cd5277b4be17508b33c191ffe6f0ce59759b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/article-list-query-input.ts:
+    newFile: !uuid 'e1050c88f16527b415745a63e94a0aba1be8de4e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/article-output.ts:
+    newFile: !uuid 'e5275a82729034114dcee3d6fe5b6d286aefb80a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/article-report-output.ts:
+    newFile: !uuid 'e39380cc8fe8bdb64dafafdeb0980c13714895fc'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/availability-status.ts:
+    newFile: !uuid 'c0971d4010e598e7c9b3603ce4548229275116b4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/blog-output.ts:
+    newFile: !uuid 'd2892f198f5575fd598f7a11b65c248c237b5c41'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/blog-setting.ts:
+    newFile: !uuid '578db86d91bd60259341cdf9a05734c263fd3770'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/blogger-info.ts:
+    newFile: !uuid '5747b36f49f220fb3ecf75fe6f7b0414351de13c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/category-output.ts:
+    newFile: !uuid 'c0d01672f6ab2b44161ad6faa534dd8becada822'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/comment-output.ts:
+    newFile: !uuid '93e7b36f6e1a2da13bd3a5f218c72e77d7aa3a82'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/comment-page-query-input.ts:
+    newFile: !uuid '347a251cde2f4570c4171e667c5a00ba1e8c9d2b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/creation-type.ts:
+    newFile: !uuid '31bab947376df7001f4e2179e7660c2201aa0827'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/friend-link-output.ts:
+    newFile: !uuid 'd25503e3d490bac2bb0bee2258b76fb80285c3b2'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/index.ts:
+    newFile: !uuid '25ddc5a45b180d3346e09416b3decba107d11a4e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/oauth-account-detail-output.ts:
+    newFile: !uuid '25517d99030e5a781f740d8969134db1446b2312'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/page-result-albums-output.ts:
+    newFile: !uuid '4ebc170bd8bfd5def09bf7076691f0a8dc6bd4c0'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/page-result-article-output.ts:
+    newFile: !uuid 'dd7f42ac6023d8bad8e7479e2e9d9d6f8911c6b3'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/page-result-comment-output.ts:
+    newFile: !uuid '048abcaf7454867d7eea8c39a7087e27158c03cb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/page-result-picture-output.ts:
+    newFile: !uuid '0df65c5714bcc2987fec3415fbc52a3935f1b2d4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/page-result-reply-output.ts:
+    newFile: !uuid 'e2d36a6178f3b8da3047b68b6408f28ff1919c04'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/page-result-talks-output.ts:
+    newFile: !uuid '7effe240e61589fb321afd4e813ba2eb8727c3a5'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/pagination.ts:
+    newFile: !uuid 'a2b35a2a588e62729279e12cb1d874e20f4c5899'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/picture-output.ts:
+    newFile: !uuid 'e0aebd4b772a1a63106c85ab4dc0315a26e2209e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/pictures-query-input.ts:
+    newFile: !uuid '9b4f4709c3ab4b5e9ca72157155ed76e6c955fa5'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/reply-output.ts:
+    newFile: !uuid 'bef5d1cc5f504ad148455c43b9b9971272c4fa62'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-blog-output.ts:
+    newFile: !uuid '355776e46407a647f7aa4bdb569c4b63cb697e0e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-list-category-output.ts:
+    newFile: !uuid '15a0ea3de56d798988c731a0c42aa1f3bdde90c5'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-list-friend-link-output.ts:
+    newFile: !uuid 'c1528918c2e24860d119bee79c86460c64d8af2d'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-list-tags-output.ts:
+    newFile: !uuid '699f276ff42b359c6abf86e8cbde890e4a92d4d0'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-page-result-albums-output.ts:
+    newFile: !uuid 'd94abf03490727c12c503312fb6d168295a30832'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-page-result-article-output.ts:
+    newFile: !uuid '37f1debebe61eca5ca99464bed45f6860c3f0ad6'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-page-result-comment-output.ts:
+    newFile: !uuid '7b56871df3d21a31260cfb28910eebd78fac1878'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-page-result-picture-output.ts:
+    newFile: !uuid '8172c342e08ad2f58ba3217b10f85ceffa3b1d30'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-page-result-reply-output.ts:
+    newFile: !uuid '758addb530773c8707b500563ddc2f63d5930b86'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-page-result-talks-output.ts:
+    newFile: !uuid 'f8efac9f6d93137d1db8c051ed65fcd721d6160b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/restful-result-talk-detail-output.ts:
+    newFile: !uuid 'ace3e8ab3566a5c4d07bccec61416bbed9a49a0b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/tags-output.ts:
+    newFile: !uuid '2bcc8b8421cce84f520da495248091fe5a1c35eb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/talk-detail-output.ts:
+    newFile: !uuid '90c705357db4b7e14f323d5bc80544cf2d873dcd'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/api/models/talks-output.ts:
+    newFile: !uuid '6d857f590a6f25822b8deca267caee086fc3922e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets:
+    newFile: !uuid '58d5c5f24a13c7983f2ce67df6e06f030304be0b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css:
+    newFile: !uuid '90a24cf1880ee742db7f9c42fabc14e99b213e10'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/default.cur:
+    newFile: !uuid 'b8f60da88c62701b6057f5cbc8a100082920d99c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/iconfont.css:
+    newFile: !uuid '20e96d8adef120edb1c7d56616368c23b01f9ee3'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/iconfont.eot:
+    newFile: !uuid '6c14757d718314f30c0523c8789e2321ca46c3fe'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/iconfont.svg:
+    newFile: !uuid 'b7a06786332ef36d23fbd1ab32a194d7598b9b49'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/iconfont.ttf:
+    newFile: !uuid '486bac149e6e3fe524142fdf00f0b1fb86f8f097'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/iconfont.woff:
+    newFile: !uuid '22ca6bc0170c6976911af004f25a54fbd2643b97'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/iconfont.woff2:
+    newFile: !uuid 'c56c41a91b0704025f76ac3ab782e67000ef70a7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/index.css:
+    newFile: !uuid 'debbeaa26d135f040120bd84ac1d97a2733a11a7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/markdown.css:
+    newFile: !uuid '3f099b00182105da580905500c3aee3759e6be53'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/pointer.cur:
+    newFile: !uuid '80f3ed7898c13520c485fa2e1baefbed2c009c5d'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/css/share.scss:
+    newFile: !uuid '7bb3860d7e551f186f226cfc8f317c3f936d083f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/emoji.ts:
+    newFile: !uuid 'e1356c575d90c97eb756fb9ce3cf5d5f5046e89b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/fonts:
+    newFile: !uuid 'abdeeb1f1560c428148b6f1a1a4afa37a54b3b8a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/fonts/iconfont.eot:
+    newFile: !uuid 'cfa57e141a4b1c59ab30af4e970c5126d2b2b24e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/fonts/iconfont.svg:
+    newFile: !uuid '0c1b8ac9a9922eb12dca935cd0baae7a1a2d8573'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/fonts/iconfont.ttf:
+    newFile: !uuid '515b493cd1cd1f07fae4e2d1f54dfa0ab94b48fa'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/fonts/iconfont.woff:
+    newFile: !uuid 'ed12916ad7619d5799a32b0512b043311c31bafb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/images:
+    newFile: !uuid '605da522a40d56185815253835327826673141d4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/images/1.jpg:
+    newFile: !uuid '02e6e1bace290f30e2517d092f18216f74d80565'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/images/404.png:
+    newFile: !uuid 'b6fdfadc3db79366ff10a3400e2e88824b6c5c01'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/images/50x.png:
+    newFile: !uuid '069e0f58b1019845fd4377a7a415a879244c23a1'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/images/avatar.png:
+    newFile: !uuid '0356f911c6b01894f0983ecb5f66b01401f84cdc'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/images/commentBack.webp:
+    newFile: !uuid '99231a7413531f31ef579845e058bf87469a38f5'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/images/default.jpg:
+    newFile: !uuid '1da492f0d66107a3a41631b011588eae3e01c960'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/js:
+    newFile: !uuid '1be798cc4b2ecbb6cc1460ec63baba6923083f9a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/js/tocbot.min.js:
+    newFile: !uuid '889241e9d1583c6f3a70e8d97b75675123c3bab1'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/logo.png:
+    newFile: !uuid 'a5f23ae7bff64954cf3537377a9f99306baf083d'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/logo.svg:
+    newFile: !uuid '73961b97e94ccba9ed262e85f70c92e7ea02c729'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/assets/vue.svg:
+    newFile: !uuid '770e9d333ee70e75fe7c0bad7fb13e4f6ed4627a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components:
+    newFile: !uuid '07167e953b92f695a8526aa1eae968ad90fed551'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/BackTop.vue:
+    newFile: !uuid 'd1c359ef72c30da8c711098c84affec1207dec93'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/Comment.vue:
+    newFile: !uuid 'cc884ce18ef52478ceb854391213f741185b2d0a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/Emoji.vue:
+    newFile: !uuid '9735947d58b329282ea1a97bcf123b3da780a05b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/Paging.vue:
+    newFile: !uuid 'e8c6746ccdf348e0baa580e413d955cb8194248e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/Replay.vue:
+    newFile: !uuid '30dd748d1f3d67c4e2a68468a0b24aca0be342a7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/SearchModel.vue:
+    newFile: !uuid '862f6cdcafcce59aab49e08aecff7f3b0d87b977'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/Share:
+    newFile: !uuid 'ab4e8f92199b9eeec6a1feb0c0838462b7d88d95'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/Share/Index.vue:
+    newFile: !uuid '0291238dd3022738bde96ee47740ebb6fb49244d'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/Share/ShareType.ts:
+    newFile: !uuid '22909f6b636aff44db57f66f1defd0e52bb80193'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/Swiper.vue:
+    newFile: !uuid '01ea3be3a8a0c53ccd6e05ce9c0fa4988a5c0165'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/layout:
+    newFile: !uuid '83ed40935f66bdddb68f1a200572f3a7616a79b4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/layout/Footer.vue:
+    newFile: !uuid 'a022ab873625bf6d168f4e94cbc0fc61c8c309b1'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/layout/SideNavBar.vue:
+    newFile: !uuid '881a4ec53a16da83b1bcd4840079ffaf9a1c80d7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/components/layout/TopNavBar.vue:
+    newFile: !uuid 'c8bd83f4e4bdda454dce01309fb63a5ac98929d3'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/package.json:
+    newFile: !uuid '3fd261f76339e7c8d95cae48abcb571d16ddf3b4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages:
+    newFile: !uuid 'e9d9b962c21d3ed19ab55097c3fe92fc05024c8b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/about:
+    newFile: !uuid '65396354b787151beac9bc11c7c71e38e179bf4b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/about/index.page.server.ts:
+    newFile: !uuid '30debc8bbcafaad9665b686821556bece1ea2337'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/about/index.page.vue:
+    newFile: !uuid 'c451e0ac8f2295be473faac05578962be29dde1e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/albums:
+    newFile: !uuid '53e6d4fbaff2a0d26260dfb39f0132f9a1920e95'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/albums/index.page.server.ts:
+    newFile: !uuid '6dc835ebac1f6bde250435fd1df798321ea5b293'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/albums/index.page.vue:
+    newFile: !uuid '792eb1be69d62cbcf071a83097aa9f3a4407794a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/albums/photo.page.route.ts:
+    newFile: !uuid 'c37301cf7d3d3c7946aa46e85a5c71f37d285951'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/albums/photo.page.server.ts:
+    newFile: !uuid 'bc153722f97c67bb3b516e6ea59a013843a64271'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/albums/photo.page.vue:
+    newFile: !uuid 'b6a498afef4beb4d51398ad6c4b3ab71aa30078b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile:
+    newFile: !uuid 'ff83652a399e0257063feea3f31ac6fc274a75f2'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/archives.page.route.ts:
+    newFile: !uuid '76face92674ea938b843fe4c418dae3b38b7af7b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/archives.page.server.ts:
+    newFile: !uuid '41b0b4618253aeffde2c8a1c0a85a215c3948876'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/archives.page.vue:
+    newFile: !uuid 'dca73a9be227632bd907a7a75a50e384d5c2afdf'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/categories.page.route.ts:
+    newFile: !uuid '30481a5821821bfdc0c209888a545043d8a883bb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/categories.page.server.ts:
+    newFile: !uuid 'b291918998717ea19d028ad94ccbebc21cd7677a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/categories.page.vue:
+    newFile: !uuid 'b8154a4e3aa535e780f21d60f526670fc392a66b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/category.page.route.ts:
+    newFile: !uuid '4247e784a0db20539a93123eabeb26098572de84'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/category.page.server.ts:
+    newFile: !uuid 'ae3ef95586269ad4f5741008351dca24bc4ab8e7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/category.page.vue:
+    newFile: !uuid 'ecb8e63f6dedbdfd883712de8f6eca24bb623174'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/detail.page.route.ts:
+    newFile: !uuid '28dc5586a35990a58c254bc110eae94602018c4f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/detail.page.server.ts:
+    newFile: !uuid 'aa795b598fcc263640e840c3a451be15cab652e0'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/detail.page.vue:
+    newFile: !uuid 'f38549f90013c05d9daba83e8588fd0891dcc454'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/tag.page.route.ts:
+    newFile: !uuid '2e7fad610b98b509321d554e8c33708984955e04'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/tag.page.server.ts:
+    newFile: !uuid 'e04b8b868fa3d231d3a6a6f4507b85fcd45aaf23'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/tag.page.vue:
+    newFile: !uuid '8052976b6c618dd760c0d4672766b9cab4e3e755'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/tags.page.route.ts:
+    newFile: !uuid '1ee6356955a68e9f8f9a524d29ce91ab2c84341e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/tags.page.server.ts:
+    newFile: !uuid 'a14786616399e5cd9364242461fe9a4717b4ae16'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/artcile/tags.page.vue:
+    newFile: !uuid '3d294d7148b1f9941d2e18f49fb4bc01f52775a3'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/index:
+    newFile: !uuid '924859e0d8ad78b9497625872bb03d8de2fc0a1b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/index/index.page.server.ts:
+    newFile: !uuid 'd38018020847a08b9be31c0cfdd45fd2e59f3a03'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/index/index.page.vue:
+    newFile: !uuid 'f2b6cbefdb415e9358d61476bd346a80c613a28c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/links:
+    newFile: !uuid 'be883d7771a49177bcb6f8308ecfd097b6defd09'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/links/index.page.server.ts:
+    newFile: !uuid '071bda42158c3c70cca96df0ec2ec0d8cdb940c8'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/links/index.page.vue:
+    newFile: !uuid 'e7d217d4eaf4203bbf304ff1ea5482a949b7ab37'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/message:
+    newFile: !uuid 'febdd96a9b1781b526e1f692088996bf8a91e1c8'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/message/index.page.server.ts:
+    newFile: !uuid '7011463d651be34e41e2dd545087605a424f0a8c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/message/index.page.vue:
+    newFile: !uuid 'eaeb6eb4a2d37276ba21c418fe1c2dab11b96e2c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/talks:
+    newFile: !uuid '1b64171eeabd90c0d55b02ae6bef21175b905fa9'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/talks/detail.page.route.ts:
+    newFile: !uuid '6904c6ab9289109e1f9afca0499d3cb5419b6066'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/talks/detail.page.server.ts:
+    newFile: !uuid '845939d3d5fce3ce6959647aade5d19dde13e863'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/talks/detail.page.vue:
+    newFile: !uuid '878c0015fc7bd39f755c5aaa0b89d0e63badd15d'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/talks/index.page.server.ts:
+    newFile: !uuid '167ce455d1eb7f5633af8de5928bec2b442d0834'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/talks/index.page.vue:
+    newFile: !uuid 'f3bcc64b1695afb24ab91935296703c1bbdc7b90'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/user:
+    newFile: !uuid '2432468909dc460d1bbbd13b29bbd2b62bc1ce05'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/pages/user/index.page.vue:
+    newFile: !uuid 'bb558c404979ecacd3ae3c478bc7c804f89a7ff8'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/plugins:
+    newFile: !uuid '64eaa33af0a6c35ee6d7468fb1c5fd4e7e24e3c3'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/plugins/index.ts:
+    newFile: !uuid '9d07ca59885a28493ba93636cf75ec4b4e43db1c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/plugins/vuetify.ts:
+    newFile: !uuid '9e7981a1ca677debe11a4380bac012d11d11d83c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/plugins/webfontloader.ts:
+    newFile: !uuid 'a896dd3ce9531fc627676b7f9b2d493f153e61bb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/postcss.config.cjs:
+    newFile: !uuid '7ffda7aa0ea70fd1e226e9fa6eeef4de044f2a24'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public:
+    newFile: !uuid '11afe9ad46ad51e17070c4558b719717cea5fa40'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover:
+    newFile: !uuid '6e16e6dd7383822838eb781eee80ca6cea0229c2'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/about.jpg:
+    newFile: !uuid '9ee1800757694756d5c159521c4fe1c22cdeb9f8'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/album.jpg:
+    newFile: !uuid 'ea6ef36fea41f543166d83a411e5863994ba03d3'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/archives.jpg:
+    newFile: !uuid '87753d0c967c39b8c760bcf1cc3418130d06823f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/category.jpg:
+    newFile: !uuid '13d1865cf22ee9c78cc11ca388fc8db38929661c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/default.jpg:
+    newFile: !uuid 'f4f222bfb08ac8250ff71cb614fb729dd9e9d396'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/home1.jpg:
+    newFile: !uuid 'eb0d84ac99fe416d694e1d8f7a5e740a3cc78773'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/message.png:
+    newFile: !uuid '63d41e965eb77930930760bd90651a087c8cc752'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/tag.png:
+    newFile: !uuid '3492653ab41458f79821bebe4ca527811ddce0fe'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/talk.jpg:
+    newFile: !uuid '35d23de46ca90928d7ec1dfeb528be4f9f8343fb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/cover/user.jpg:
+    newFile: !uuid 'c2798740e31e4b863004f2d72d8a1f0a0fe74610'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/default.jpg:
+    newFile: !uuid '02e6e1bace290f30e2517d092f18216f74d80565'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji:
+    newFile: !uuid 'c914faa04fcbc76076131430db8ee1e493d0c6b8'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/18jin.png:
+    newFile: !uuid '4b15790ba0415f6f81d01c35d9d186210b98d9ef'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/aimu.png:
+    newFile: !uuid '70f3c0862c7de9d2acebc9491cb4585b9b9e4abd'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/baiyan.png:
+    newFile: !uuid 'ceb53faa242fcf45b3085fdf6f1a03daff08cf0a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/bizui.png:
+    newFile: !uuid '19cbb8580d4a00b84a4ed3ffd8409d33c6980d59'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/cahan.png:
+    newFile: !uuid '89e7b3311b1c00ffe4f0a43f9c52e778c0aa4071'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/daiwugu.png:
+    newFile: !uuid '1e0f2ef68860fe4a7165217dea16ed285d924d02'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/dajinya.png:
+    newFile: !uuid 'e77d78807eb6ad6475998c16c265d2f656a401b1'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/daku.png:
+    newFile: !uuid '6155c7eeadeb4fd04f638c2ae730f9bd7d755cb0'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/dalian.png:
+    newFile: !uuid '6b4e0b0888212c8e1409b07ff47cec0759115a63'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/daxiao.png:
+    newFile: !uuid '019a9e41014089221c7753c0961deec78ee1f704'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/deyi.png:
+    newFile: !uuid 'ec51a8563b07f34da49ed4a0ba6f861b017acd93'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/fanu.png:
+    newFile: !uuid 'a65f6e2161a70793a7f2c0c505c29acccbacb81a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/feiwen.png:
+    newFile: !uuid 'bfd50980f25e46be45a23fafb901450c16314872'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/fendou.png:
+    newFile: !uuid '4c4a820f98d975f7a115bb950c9f6a2e8f8ab558'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/gaxiao.png:
+    newFile: !uuid 'd0a11ab8e1d5df08a0d6e744824d406d41ebfc53'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/haixiu.png:
+    newFile: !uuid 'cfa3c5669c7e93947bf01660fdbcbbaf5bd73d61'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/hanxiao.png:
+    newFile: !uuid 'ee70477fe875bfd20f3f8a743c18e117e5493864'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/haqian.png:
+    newFile: !uuid '2809cdba7cc9d17e93e1152bc97b10c0da25b4bd'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/hufen.png:
+    newFile: !uuid '4ae575c413a5a241e8f0223e0a1b92ac7e619790'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/jianxiao.png:
+    newFile: !uuid '3e37e78ca8a9dcc935d2c163017efaabc71c0046'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/jingxi.png:
+    newFile: !uuid 'd529e6ebc4dcdaf5ea382451d877caa29783ad77'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/jizhi.png:
+    newFile: !uuid 'f29cc9d5c9c649af7ef163a37392a2d0aa4a7a44'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/kan.png:
+    newFile: !uuid 'b8616c3022b1def000636a91083c0f1b3fc1b737'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/keai.png:
+    newFile: !uuid '0ad222b9c34a91c6375cf8c44fb8325398a46926'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/kelian.png:
+    newFile: !uuid 'ae935244ec4810648a37944a5dcacd7ad99bf8bc'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/kongju.png:
+    newFile: !uuid 'a97c70a121e6f53006c749375e647fc07b3c8594'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/koubi.png:
+    newFile: !uuid 'bc584dab5bca24aea52582d74be2437da3574f8b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/kuaikule.png:
+    newFile: !uuid '3eccd8eadb11ffcd65c4a06a94e8b41c36f0a062'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/kun.png:
+    newFile: !uuid '7bfa475d53708ee49deecb586432bb5629550361'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/kuzhuai.png:
+    newFile: !uuid '9aaa4ae553abcb426cbc24c9101115207ecfda05'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/leiben.png:
+    newFile: !uuid '69d631371c77a0bcb9c468ac324dde3227c87e8f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/lingguangyishan.png:
+    newFile: !uuid '82f6e26b6c631442734d4b64aba6643e7396fddf'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/liulei.png:
+    newFile: !uuid 'ac60cd2abc16b57bd34f4b34f23158bc5021a850'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/lvmaozi.png:
+    newFile: !uuid '3724dd127d39978b9a2ba8a34acbe783fab00ef5'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/masichundeweixiao.png:
+    newFile: !uuid '81c9b8def8b1e9a6299ab85341d6413aab98ad06'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/meigui.png:
+    newFile: !uuid 'aca8114a4bf7b9455cdc32417a948efdd4d5e218'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/motou.png:
+    newFile: !uuid 'ebd6227ce2cd7a32046d1596e03f9bfc63cc11a4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/ok.jpg:
+    newFile: !uuid 'e9fe0dadde5d7e5fc2de13f28a2d3202174894b0'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/piezui.png:
+    newFile: !uuid 'dca7916217f90ace53382b656196cb79e16ee7e4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/qian.png:
+    newFile: !uuid '9b99be5b4d8725d5151c0859b7650c24863b1046'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/qiang.png:
+    newFile: !uuid 'b958649a5bea87d4ad7de9a47f2ea90f5deb099d'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/qiaoda.png:
+    newFile: !uuid '1caf653f2b55cb16db70663baaeac26f4aa476cb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/qibuchengsheng.png:
+    newFile: !uuid 'aa2613b933f96e6603c940a4e2924a98db8e814e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/qiubaobao.png:
+    newFile: !uuid 'eb1ea0bf6072aeacb14a2e403e2f31a2fd3cf779'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/quwufen.png:
+    newFile: !uuid '10e923081fe06fc8c86cb2a0a19869f5f1eb16a2'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/ruhua.png:
+    newFile: !uuid 'c2f859b2e4d86b42d4c71aeeeb43e4f061ae350c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/shihua.png:
+    newFile: !uuid '239cc9a011f4acb1b69612e9c4d8849b9a437155'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/shuai.png:
+    newFile: !uuid '32522ce2c6fc75bcd6d92a55a73a35a4dacc8476'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/sikao.png:
+    newFile: !uuid 'fd17273b6130a0458595348487edeffa3df96b16'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/sl.jpg:
+    newFile: !uuid 'e8eca820fce34b746837998e054f1140d2b40aca'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/tiaopi.jpg:
+    newFile: !uuid 'daa089e834690072da9460c1b5104141606d04d6'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/tingge.png:
+    newFile: !uuid '7364eb7b185e92160cad98327c1457c8906edb8c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/touxiao.png:
+    newFile: !uuid '49e03b0c608b56641d40717505335480ec1fbe9e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/tu.png:
+    newFile: !uuid 'c8ac7378ee5004b1310fde21f2da62da0ef574ac'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/tucaihong.png:
+    newFile: !uuid '8eb259e23c907492130a9517ea2e8f613410746c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/tuxue.png:
+    newFile: !uuid 'dabeae4ff2827de3e1685b66a6dd373c7ee22881'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/v5.png:
+    newFile: !uuid '3175366ffd759eceb1fe4117e609352fdf4b9d8b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/weixiao.png:
+    newFile: !uuid 'b86fedf5428f4a2c6a11c5118c8796b349a64fd9'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/wulian.png:
+    newFile: !uuid 'e2eeb35ad1f035337d05cbbb3b9239fb9aaaa54f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/xiao.png:
+    newFile: !uuid '298423bb322ec09763440499b2e3a8967bf473a7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/xiaoguzhang.png:
+    newFile: !uuid 'e5d3cf8973e6e22184392dda1c89fe892aaae05a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/xiaoku.png:
+    newFile: !uuid '89515b8c99fff3b96101b512e82ad5fbef5488a3'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/xiongji.png:
+    newFile: !uuid 'd4e8462c28d691f0629dc8d14576a6c252919577'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/xq.jpg:
+    newFile: !uuid '01d762e2416e8b429f39f49dc4c67968f8f481db'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/xu.png:
+    newFile: !uuid 'd99f85b5e078c97fae2ed09703dfd66ac0652beb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/ye.png:
+    newFile: !uuid 'e6d96e3ea7558a103903f052fe9d5916482a0a2d'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/yh.jpg:
+    newFile: !uuid 'daf74e706a2a4f572cbeb783375bd6fbb1f74045'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/yun.png:
+    newFile: !uuid '410c6cc8a0fbe302967bb94dddf6988c9014ee35'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zaijian.png:
+    newFile: !uuid '0a26fc29a484d521594898f5f277a5a2a235d5fb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zhadan.png:
+    newFile: !uuid '2f3beafd56ba4d244b086cc6c009d0e56bee8241'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zhenjing.png:
+    newFile: !uuid 'e4742c8338ad84a49b0bba2d18d8e2cbb009fe4e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zhichi.jpg:
+    newFile: !uuid '806eeac8c5106f34150ae8d5ff146b6456cf7636'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zhoudongyudeningshi.png:
+    newFile: !uuid '413aa4c4674437dde6b3e4b8b2c1fa7e8c81a940'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zhoumei.png:
+    newFile: !uuid 'ae7dbc4ab1cb93bc42a2207dd73948b70aa68c22'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zhuakuang.png:
+    newFile: !uuid 'bc4a07e8e0c7d7d25dc01c1e7495d6a286e91950'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/ziweibiezou.png:
+    newFile: !uuid 'db8d1d55b927dd09ea48654278f04c94ff1deb44'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/ziya.png:
+    newFile: !uuid 'ab81983dea94119ea0c6e984e40ef47f619c8c30'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zuoguilian.png:
+    newFile: !uuid '341b2fe373dddf1f48d46cc575c63d684ab02eb7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/emoji/zuoshang.png:
+    newFile: !uuid '951e74ada286eec398b742893b6113931707b6d2'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/favicon.ico:
+    newFile: !uuid '36907e7bbc9c04ba73346407e970eeb1ae6c24c7'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/imgs:
+    newFile: !uuid 'b8a4d25c7c1a61d2cb6ab25c52a282bd822950f9'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/imgs/404.png:
+    newFile: !uuid 'b6fdfadc3db79366ff10a3400e2e88824b6c5c01'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/public/imgs/50x.png:
+    newFile: !uuid '069e0f58b1019845fd4377a7a415a879244c23a1'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer:
+    newFile: !uuid '9b75b47a0ce08a6c649715be5790c30198704240'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer/DefaultLayout.vue:
+    newFile: !uuid '0befa3747893be9f737bac05b3c46365a917b5e0'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer/_default.page.client.ts:
+    newFile: !uuid '267c1a101ead3b36a0f6fb6055c5b9b3c32cd383'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer/_default.page.server.ts:
+    newFile: !uuid '2f1c199335c4421c3bb2936f09b58ec9755c9cbe'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer/_error.page.vue:
+    newFile: !uuid '7a7bdb64ecd415747ec0ce5346b1f766e67a645e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer/app.ts:
+    newFile: !uuid '6e8c5ee26713bb70d90fab8a9101a1715edcd14b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer/logo.svg:
+    newFile: !uuid '94d3caa002037e4067d9853c42bac65fdf9a3c07'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer/types.ts:
+    newFile: !uuid '538321d138e418a57967264a227b7f315456907e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/renderer/usePageContext.ts:
+    newFile: !uuid 'bf4e5be21deb27449a64d8fe44b56aa1bbb6067b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/server:
+    newFile: !uuid 'cc19cd75623b03a660108443a8f75a90e4b0afa4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/server/index.ts:
+    newFile: !uuid 'fa4581f9151f24212f9b92a891d9965c747325c9'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/server/root.ts:
+    newFile: !uuid 'cd4b56adfe468a165df87425741de4ba7db49a4f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/stores:
+    newFile: !uuid '98162a7c3720e1c8f59a68b9da485d66191304cb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/stores/app.ts:
+    newFile: !uuid '188bfb67876bcb10d7ddbf839aeb359d0b779270'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/stores/auth.ts:
+    newFile: !uuid '80c2b25f32dede654e61137167fc69281fbff4bb'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/stores/drawerSetting.ts:
+    newFile: !uuid '3ceef2269df41b09d3bc7bc03a021a4a37a425ca'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/stores/themeSetting.ts:
+    newFile: !uuid '46c534e4560fffae98ea669038d0e9b76826ffd4'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/stores/toast.ts:
+    newFile: !uuid 'e2156f4235494e3cfcbaf297692384e2e496e30c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/tsconfig.json:
+    newFile: !uuid '6e05f47693ce45b19a9099b7522f454a88a65599'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/types:
+    newFile: !uuid 'bd44126fb37a67d9943f3d887f6bf65000944991'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/types/APlayer.d.ts:
+    newFile: !uuid '1041975bcaa944dbd415fe228be0fed6f54eeea1'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/types/axios.d.ts:
+    newFile: !uuid 'cd0b3bea3669fe835c440f3244d692afae9a8eec'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/types/env.d.ts:
+    newFile: !uuid 'a7c19476eea405fa5b885231c004a6ef9b99540f'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/types/global.d.ts:
+    newFile: !uuid '2bf39d640973ff26f62f1759402476487a37178d'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/types/type.d.ts:
+    newFile: !uuid '3f4ca56726c89b5461f23fdd6e3ccfd7a858080b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/utils:
+    newFile: !uuid 'b1bcdd92a0a2ac866bd686eb451d5732283aa38c'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/utils/http.ts:
+    newFile: !uuid '86c0fc361bc775e97a692ee0ac74115018e37f24'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/utils/index.ts:
+    newFile: !uuid '44133a41a5ee21a513548fc03ac12bc4e9d99a4b'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/utils/markdown.ts:
+    newFile: !uuid 'cb8b0278a7c29900078e14699e14e858ac39f17a'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/utils/mitt.ts:
+    newFile: !uuid '0a171332ea1df3ae62cc4804502d906bdf658829'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/utils/storage.ts:
+    newFile: !uuid 'fb49fa59dd2ff80728386cd766b23977154cf875'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/vite.config.ts:
+    newFile: !uuid 'e5d3d8f3ff03e311a8213d78b675b87200f372e6'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/vue.d.ts:
+    newFile: !uuid '80b70b7faa0efbbcfe58e0005f8bd63ac086ab0e'
+    oldFile: null
+  /src/frontend/vite-ssr-blog/yarn.lock:
+    newFile: !uuid '977418ad7d71182d698be36262bb22ed6fe41509'
+    oldFile: null
+gitCommitId: !uuid '4ff27471fdba1dfa096939e3efc3960450eff08f'
 renames: {
   }
-revisionId: 107
+revisionId: 108
