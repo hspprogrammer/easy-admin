@@ -3,108 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '009ff9485b10918d29c5e3a316fecd986174aa0e'
-    oldFile: !uuid '59129675865fac04271691819dcce261f3b8cb5a'
+    newFile: !uuid '139b3bc2b7c86096d7e151846606509b0fea562b'
+    oldFile: !uuid '009ff9485b10918d29c5e3a316fecd986174aa0e'
   /src/frontend:
-    newFile: !uuid '14520873abaeb8bd277a0c8843c5bc775bd68c70'
-    oldFile: !uuid '7277001d39f484b631616f7c67bfa70c930b256d'
+    newFile: !uuid '02bdc605ebab9ba1e697aef66499030be21b2ca9'
+    oldFile: !uuid '14520873abaeb8bd277a0c8843c5bc775bd68c70'
   /src/frontend/blog:
-    newFile: !uuid 'fffb4d6f17b107c52b24be1663567c166c7091d8'
-    oldFile: !uuid 'fa5cc5c823d3ec7be9c808316a6e329449739b13'
+    newFile: !uuid '64b643e0f8045feb28047254a7b819a13c34105d'
+    oldFile: !uuid 'fffb4d6f17b107c52b24be1663567c166c7091d8'
   /src/frontend/blog/src:
-    newFile: !uuid '4987e0d2361c944a5b83d386b1c4b4ca43b28b60'
-    oldFile: !uuid 'ec4ad6fb4d15200767f8a21e041c9e2f8ca3c542'
-  /src/frontend/blog/src/api:
-    newFile: !uuid 'fbe8b990c4964b9a48f004dfad5d113f99742776'
-    oldFile: !uuid 'd50eb2c034e827b65165c1963712f15f1a93f645'
-  /src/frontend/blog/src/api/OAuthApi.ts:
-    newFile: !uuid '83eb997cdd20c7325f89b6f7cf5031dccef5a9b2'
-    oldFile: !uuid '1e9a93e4df59ec60728f9026bcaee840fda2f61f'
-  /src/frontend/blog/src/components:
-    newFile: !uuid 'da808e17c1e29c3fdf80e6ace49a8fbca3abd584'
-    oldFile: !uuid '3287461279a7fa7300890b8de96dfcabafb936d0'
-  /src/frontend/blog/src/components/Comment.vue:
-    newFile: !uuid '594efeb9ffad3ad4cfe89a3129d739acf6395a24'
-    oldFile: !uuid 'cbda415b61f9c2603e2b31116cc8682fec2d0c01'
-  /src/frontend/blog/src/components/layout:
-    newFile: !uuid '061092c6234387b43d001b6faebb19571405c458'
-    oldFile: !uuid '21d1d846ee8ccbdde227a7413fca5f8f4e1f3955'
-  /src/frontend/blog/src/components/layout/SideNavBar.vue:
-    newFile: !uuid 'd26d41d74cb72e455b8c308dcc17c1ca90f3e1a8'
-    oldFile: !uuid '78e08b9f3fe6f067714c8fa4976780c4592111aa'
-  /src/frontend/blog/src/components/layout/TopNavBar.vue:
-    newFile: !uuid '903cf1f8dfc99c3f886059afdd6fb78e149bd0b8'
-    oldFile: !uuid '42de1135b04582f14b3ca3256ce7d6fd5b8e0604'
-  /src/frontend/blog/src/stores:
-    newFile: !uuid '0ce9ba93cd7b983de68a8fb3d1d06c3c350965aa'
-    oldFile: !uuid '48ff6585fb4bb0c7ac4543e257f28929162415fd'
-  /src/frontend/blog/src/stores/app.ts:
-    newFile: !uuid '13f690c0901f49a6ca68c552d5c1f7b236db84bc'
-    oldFile: !uuid '1f40a02b540e7aa325729d78e767ceba48fba5eb'
-  /src/frontend/blog/src/stores/auth.ts:
-    newFile: !uuid 'ad2721fde8a902548f68f117af6569721d9b5c31'
-    oldFile: !uuid 'edf54cadcd2487192dd71676ad335fa9870b1a57'
+    newFile: !uuid 'c65fc95da5b096a1f879363e1cc27943b276ad7d'
+    oldFile: !uuid '4987e0d2361c944a5b83d386b1c4b4ca43b28b60'
   /src/frontend/blog/src/utils:
-    newFile: !uuid '7260171daea0df1cdea4458abf6fec9ab7e2f882'
-    oldFile: !uuid '44a3a86e193e71fca41c8df543e8f46e79a1710f'
-  /src/frontend/blog/src/utils/http.ts:
-    newFile: !uuid '28017fcf45571e75a6b03b81a895f54891c8f7cd'
-    oldFile: !uuid '51d9f0dc022fa9c70f713f93c0ea2137087277d5'
-  /src/frontend/blog/src/views:
-    newFile: !uuid 'a7446a65fa3e8557d0655dadcc348fffcda67787'
-    oldFile: !uuid '15fbff24c7796660d5eca18a9bc2b9cb0cfe1c91'
-  /src/frontend/blog/src/views/Index.vue:
-    newFile: !uuid '56e89d1208ec08e886a7614474c04fd5b864e590'
-    oldFile: !uuid '81f232d5de71906ba740cd00ee59ee0c78c1d147'
-  /src/frontend/blog/src/views/Message.vue:
-    newFile: !uuid '77e5b81407e6ddfc9d8e42d4fc118cf5e7329964'
-    oldFile: !uuid '623f73f16c8f6833daa886c0f5c952a313ed41d9'
-  /src/frontend/blog/src/views/User.vue:
-    newFile: !uuid '59f2ca988e56d37324ef041cbde2951c1d9e6c6b'
-    oldFile: !uuid '1ff3b62d18f63a42d7a2f547bb0f6432bb1d9eb6'
-  /src/frontend/blog/src/views/album:
-    newFile: !uuid '3112614d6404c904406e3bbd187b59fe86da9e49'
-    oldFile: !uuid 'bc49fb3262f8ac87ca34db42fd39a862f530ef05'
-  /src/frontend/blog/src/views/album/Album.vue:
-    newFile: !uuid '47c98f55f50cc67541a5878867cec79962e80e33'
-    oldFile: !uuid '61233266b3f7d54f8e9a8ded175effc604d9f2f3'
-  /src/frontend/blog/src/views/article:
-    newFile: !uuid 'f729b79a80745893421571f3d52d3a84d8695898'
-    oldFile: !uuid 'd7a015b130df3049b6810d947b2ff582988db5a3'
-  /src/frontend/blog/src/views/article/Archives.vue:
-    newFile: !uuid '22d54212b8fcab802160bc9e9f1ae464ef08c60a'
-    oldFile: !uuid '0d3061604f73fbafc7e8fbf34a3d276ff7d82922'
-  /src/frontend/blog/src/views/article/CategoryList.vue:
-    newFile: !uuid '4a64aa44f39ae6e4e53d0babd6778da6bdfd6e32'
-    oldFile: !uuid 'e2db4feff72c802b656679593118f066c437ef29'
-  /src/frontend/blog/src/views/article/Detail.vue:
-    newFile: !uuid '6bb4a7a5c6d78c654ad0cf251ff35082be2916ce'
-    oldFile: !uuid '0553192a90daff1bcfc4e300a705516efff6813b'
-  /src/frontend/blog/vite.config.ts:
-    newFile: !uuid '169aaadff5e8e8f00e8d4fd91d67b3464035e327'
-    oldFile: !uuid '38529a2c72c384441de0b392333e8746c3857fe8'
+    newFile: !uuid 'dc6cabf0b6522c4631d9a7ec0caf2d0e37848706'
+    oldFile: !uuid '7260171daea0df1cdea4458abf6fec9ab7e2f882'
+  /src/frontend/blog/src/utils/mitt.ts:
+    newFile: null
+    oldFile: !uuid '0a171332ea1df3ae62cc4804502d906bdf658829'
   /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'e1b65fb3c1da823f93ce914ceb38664e52cbb582'
-    oldFile: !uuid '965ccd1362eb59703bb66b5870dee003c7b6af00'
-  /src/frontend/vite-ssr-blog/components:
-    newFile: !uuid 'cb60483d0e2a84b6eee89dd555f9cbc02aec54d9'
-    oldFile: !uuid '07167e953b92f695a8526aa1eae968ad90fed551'
-  /src/frontend/vite-ssr-blog/components/Comment.vue:
-    newFile: !uuid 'c7a911c4d5c30fbc33b96ee898ed1e9998fe6158'
-    oldFile: !uuid 'cc884ce18ef52478ceb854391213f741185b2d0a'
-  /src/frontend/vite-ssr-blog/components/Replay.vue:
-    newFile: !uuid '3ed7d8279ca8243f2a862e83574dff010beeb70e'
-    oldFile: !uuid '30dd748d1f3d67c4e2a68468a0b24aca0be342a7'
-  /src/frontend/vite-ssr-blog/components/layout:
-    newFile: !uuid 'bb126f81ba64416f0aaddfbaede6b3b8ecb49bd5'
-    oldFile: !uuid '83ed40935f66bdddb68f1a200572f3a7616a79b4'
-  /src/frontend/vite-ssr-blog/components/layout/SideNavBar.vue:
-    newFile: !uuid '1e403e1e23c110b73fc1e898f19c29b3f71a7f36'
-    oldFile: !uuid '881a4ec53a16da83b1bcd4840079ffaf9a1c80d7'
-  /src/frontend/vite-ssr-blog/components/layout/TopNavBar.vue:
-    newFile: !uuid '1c62262d248d8684cced3aa57df2057a2501e0d2'
-    oldFile: !uuid 'c8bd83f4e4bdda454dce01309fb63a5ac98929d3'
-gitCommitId: !uuid 'ef0bc83b21c8b68f896fd82dab8c8f91a480c84f'
+    newFile: !uuid 'e778194a0e528201d975e7e0ef8c55fb55dcf363'
+    oldFile: !uuid 'e1b65fb3c1da823f93ce914ceb38664e52cbb582'
+  /src/frontend/vite-ssr-blog/utils:
+    newFile: !uuid '85a4e58bf02d762f41a45caa89fa205e76e8a744'
+    oldFile: !uuid 'b1bcdd92a0a2ac866bd686eb451d5732283aa38c'
+  /src/frontend/vite-ssr-blog/utils/mitt.ts:
+    newFile: null
+    oldFile: !uuid '0a171332ea1df3ae62cc4804502d906bdf658829'
+gitCommitId: !uuid '5ef365f8d58900a4f0ba4fb8d8b531697795b3f5'
 renames: {
   }
-revisionId: 111
+revisionId: 112
