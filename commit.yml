@@ -3,18 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'db3ff23e84d431df425c3d541825831ae658f031'
-    oldFile: !uuid 'fec1451d0bd5b2c6c13439bb0cb441cf6ae7c7c4'
-  /src/backend:
-    newFile: !uuid 'a650788d3e36064ad3e997d2d1c0a0436745cb00'
-    oldFile: !uuid 'cf8c4b47b2c9b642784ced7945a5c25696a0ebd8'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'fc70a96f9b43dc94620a7d6967df108715ffb7ad'
-    oldFile: !uuid '68c4d1c590090e2edcbe8414b55d55b20b92e86e'
-  /src/backend/Easy.Admin.Application/applicationsettings.json:
-    newFile: !uuid 'e64bc79c9ccc7948cb764953f84335c31520e44b'
-    oldFile: !uuid '785b9cb917f31e96086f7d9a08a48182eb4c7847'
-gitCommitId: !uuid '428c723ce6eea63030acb99f1ea34f1a8961ee69'
+    newFile: !uuid '6d6e43ac8d14a6e9ee25afd6053aca44ab84f2b9'
+    oldFile: !uuid 'db3ff23e84d431df425c3d541825831ae658f031'
+  /src/frontend:
+    newFile: !uuid '6540963b1cef304e2aec5f84ef8ad73f179e04a4'
+    oldFile: !uuid '342d254e2952dbfdd7fc2d3ee52a4314e535d8cb'
+  /src/frontend/admin:
+    newFile: !uuid 'eacd8bc9ce604cac8354801a8fb30ffe6c138f4e'
+    oldFile: !uuid '4a5403174b27ccfaf5f14d3d1236d18af1b64170'
+  /src/frontend/admin/src:
+    newFile: !uuid 'ba9bf39d6ac5ffa078204ae9534a09950328208e'
+    oldFile: !uuid '96ed514abf80d2e3946bf1aa84bbeb761f389aa2'
+  /src/frontend/admin/src/views:
+    newFile: !uuid 'e433bee900913313c03d866418a2fb0f2ee2aeff'
+    oldFile: !uuid '843034756c16db8ce9c192e4b75276b284d2a872'
+  /src/frontend/admin/src/views/login:
+    newFile: !uuid '1d918b0e87ef8b5bcfb394bfb3ed7de923cf8de4'
+    oldFile: !uuid '4ba997a922ee653fbe48529f395734edbcfadf2a'
+  /src/frontend/admin/src/views/login/component:
+    newFile: !uuid '8f9cc658cd57f36c7f2f014b2e4daf214abbb759'
+    oldFile: !uuid '00e4f90e5d821db5a47203f2a4ca4d9d0c1dd6f0'
+  /src/frontend/admin/src/views/login/component/account.vue:
+    newFile: !uuid 'ee1a31e493a9fcff7221b9b8ce128128a68de40d'
+    oldFile: !uuid 'a8904ce5abfdd69275c956639b7b94defefed9ce'
+gitCommitId: !uuid 'a9ba5eeabd0e929f322094ce9dc0622750b0a487'
 renames: {
   }
-revisionId: 117
+revisionId: 118
