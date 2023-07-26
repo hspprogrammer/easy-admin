@@ -3,45 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'a18e9da7d7098a008392286ac6f4fbc97500eb97'
-    oldFile: !uuid '6d6e43ac8d14a6e9ee25afd6053aca44ab84f2b9'
+    newFile: !uuid '8bd7ff1504e4c4842c078a1831e69db742f3548b'
+    oldFile: !uuid 'a18e9da7d7098a008392286ac6f4fbc97500eb97'
   /src/backend:
-    newFile: !uuid 'cb321bd62476798d10f460eeb8a222235d25bfd7'
-    oldFile: !uuid 'a650788d3e36064ad3e997d2d1c0a0436745cb00'
+    newFile: !uuid 'adde572f43add6ca3f718a64145a23795b0b698e'
+    oldFile: !uuid 'cb321bd62476798d10f460eeb8a222235d25bfd7'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid '0e0d30c610e17f831bcf6a9cdde14aa35a0d9e4f'
-    oldFile: !uuid 'fc70a96f9b43dc94620a7d6967df108715ffb7ad'
-  /src/backend/Easy.Admin.Application/Client:
-    newFile: !uuid '1f08c8fbb9c57a70991507492ac0d83f558aa9c6'
-    oldFile: !uuid 'e27fb699bf76805821232d6a4f89ff18c92f4754'
-  /src/backend/Easy.Admin.Application/Client/OAuthController.cs:
-    newFile: !uuid '2db54dfffb1857efbb2d2cbf3de273702c2ba606'
-    oldFile: !uuid '3d542f84a527a5c3f8cf500a18ab78b2fd93861b'
-  /src/frontend:
-    newFile: !uuid '3489381d75e2e8da45684cef1c3d581aca3afefb'
-    oldFile: !uuid '6540963b1cef304e2aec5f84ef8ad73f179e04a4'
-  /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'ef709cc50407a5bee1db862665d318bc56707955'
-    oldFile: !uuid '9544859fd9f3f9352bc857e508c43014f1949cc3'
-  /src/frontend/vite-ssr-blog/components:
-    newFile: !uuid '818e4ce5c942342565f30fe0e2a2202b15b5aa4f'
-    oldFile: !uuid 'cb60483d0e2a84b6eee89dd555f9cbc02aec54d9'
-  /src/frontend/vite-ssr-blog/components/layout:
-    newFile: !uuid '4e8ccdf1cb11aa8fa525d27589f5f86b9a5db671'
-    oldFile: !uuid 'bb126f81ba64416f0aaddfbaede6b3b8ecb49bd5'
-  /src/frontend/vite-ssr-blog/components/layout/SideNavBar.vue:
-    newFile: !uuid '8fa067f20733a6d049be4407d99ab9fafc11ce5c'
-    oldFile: !uuid '1e403e1e23c110b73fc1e898f19c29b3f71a7f36'
-  /src/frontend/vite-ssr-blog/components/layout/TopNavBar.vue:
-    newFile: !uuid '6a18c41b1756558cea61d91647e92ed682c8791c'
-    oldFile: !uuid '1c62262d248d8684cced3aa57df2057a2501e0d2'
-  /src/frontend/vite-ssr-blog/stores:
-    newFile: !uuid '2c284fbd9988d68e3d6cb2ec6fb30997a3508c7c'
-    oldFile: !uuid '98162a7c3720e1c8f59a68b9da485d66191304cb'
-  /src/frontend/vite-ssr-blog/stores/auth.ts:
-    newFile: !uuid '622496d93db5fa1097b4262d3f226394f39ada23'
-    oldFile: !uuid '80c2b25f32dede654e61137167fc69281fbff4bb'
-gitCommitId: !uuid 'd55ac139227aa3ed2a4d3345ad497dd631fe3cb7'
+    newFile: !uuid 'c70624bc03b27761637910a17f2e5e4692a3d910'
+    oldFile: !uuid '0e0d30c610e17f831bcf6a9cdde14aa35a0d9e4f'
+  /src/backend/Easy.Admin.Application/applicationsettings.json:
+    newFile: !uuid '518136d09ab2ffadea1f2bdc493cd7f04c58fb53'
+    oldFile: !uuid 'e64bc79c9ccc7948cb764953f84335c31520e44b'
+gitCommitId: !uuid 'e981230e27b0304bc1f7e07bf031a4bfe6fa3191'
 renames: {
   }
-revisionId: 119
+revisionId: 120
