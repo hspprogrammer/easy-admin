@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '54de3467d484451f9f5358f451587f046ab27498'
-    oldFile: !uuid '1f80b0f28d9659fa27bab01877e6f2a05f3b45e3'
+    newFile: !uuid 'a77784d91e35188c570db27600ab48cf9e053363'
+    oldFile: !uuid '54de3467d484451f9f5358f451587f046ab27498'
   /src/frontend:
-    newFile: !uuid 'a5167fe4d799fc4de279e7b4f73c6975807cffca'
-    oldFile: !uuid 'b8b4fcdc9e1fd38244d7906cecc6da32b8e098f7'
+    newFile: !uuid '3fb8cfc84bf1fa21a08966e3890495faebbb96ae'
+    oldFile: !uuid 'a5167fe4d799fc4de279e7b4f73c6975807cffca'
   /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'a42e497897c28a8094c1b288011639b72e0bac48'
-    oldFile: !uuid '140441fb0ef12f0e83b11db101e5c4ce92dca4f0'
-  /src/frontend/vite-ssr-blog/.env:
-    newFile: !uuid '58f253dc3303f0907052c7d1166193ff333f7e6c'
-    oldFile: !uuid 'ef61da7d09cb6301eb99717d2be62bb2e8161c4a'
-gitCommitId: !uuid '44cce9de3294831534bbbbfd6e7c78a0d192360d'
+    newFile: !uuid '33bc4c733395d4a5eea17e224c81b3ba68f106cb'
+    oldFile: !uuid 'a42e497897c28a8094c1b288011639b72e0bac48'
+  /src/frontend/vite-ssr-blog/Dockerfile:
+    newFile: !uuid '1fe17db23f60c58f046225a4ade2683492e518d4'
+    oldFile: null
+gitCommitId: !uuid '342c79a317b6cf4d7a499dc9fe38c1ca5dae6eaf'
 renames: {
   }
-revisionId: 127
+revisionId: 128
