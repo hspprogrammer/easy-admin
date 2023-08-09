@@ -3,21 +3,48 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8cc524a03ce534e95c93dde021e97b191ea4f93b'
-    oldFile: !uuid '3fe1fe914399e857764686a369a8f0a215ef6ed0'
-  /src/backend:
-    newFile: !uuid '8535f43e741ac600b75094d66015c30a2f5a3ab1'
-    oldFile: !uuid '30eabafb7dda70883887d3c9f956078f67bd2583'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid '2097d3862fc6f080d7566df882e3e5ef8722957c'
-    oldFile: !uuid 'e01601e497de67684674f204f4f9a52fae2a3629'
-  /src/backend/Easy.Admin.Application/Blog:
-    newFile: !uuid '7108c05637ec0bb615f4d9382bbc385a87543f95'
-    oldFile: !uuid '71035e9515bbcb0a6e12086d89c254b6e5dff2ca'
-  /src/backend/Easy.Admin.Application/Blog/ArticleService.cs:
-    newFile: !uuid 'fabf03e2ca2a6978edbf9f5a9654f7158e2a220c'
-    oldFile: !uuid '09af422bacbdfaf8be312b49e8bd512a3ea4ca52'
-gitCommitId: !uuid '281e7213add5a417a1d3492f7d1070d19ccf57ef'
+    newFile: !uuid '3c7eed00617886463c7eb19e75fed255f6cbdde9'
+    oldFile: !uuid '8cc524a03ce534e95c93dde021e97b191ea4f93b'
+  /src/frontend:
+    newFile: !uuid '9972af17de8dcf3a05cf912ac83c8a69646cc1b4'
+    oldFile: !uuid 'c24b4d038abaf9bd7c54048fb379a7cb7450ec3e'
+  /src/frontend/vite-ssr-blog:
+    newFile: !uuid '18516ad4259d1654f89f1c45100bdcb45fdf507b'
+    oldFile: !uuid '9111f63cf25ad087c865b0e619282f3ee1612932'
+  /src/frontend/vite-ssr-blog/package.json:
+    newFile: !uuid 'ba478713bbbd5e3070c9061c5d21e263041b5ca1'
+    oldFile: !uuid '83ac1f98e03f99ae3f9f206db6f00efd15862b8c'
+  /src/frontend/vite-ssr-blog/pages:
+    newFile: !uuid '6cc54c90fd17e268f7e05062954c10b011a970d7'
+    oldFile: !uuid '64f22adb40ca3ec8976aa5e3c91fada98655584f'
+  /src/frontend/vite-ssr-blog/pages/artcile:
+    newFile: !uuid '353d0b5a3f0c0e856f3e0fdcf422314158cb8b06'
+    oldFile: !uuid 'a2e7f427cc2477d4e4f600bfb28764b91122e698'
+  /src/frontend/vite-ssr-blog/pages/artcile/archives.page.vue:
+    newFile: !uuid 'e6fb0d971e024708b21ada2cbdda94ab25207cf0'
+    oldFile: !uuid 'fca4259fe1305516db791c822de95e920d1d65c3'
+  /src/frontend/vite-ssr-blog/renderer:
+    newFile: !uuid '5318e7b359e67113f79d8905dc32e435fa6f4c3e'
+    oldFile: !uuid 'c53fe2fea5e69d559e17b710302bc90eb33f1619'
+  /src/frontend/vite-ssr-blog/renderer/DefaultLayout.vue:
+    newFile: !uuid '3840dff23a624ae29e1da60aa4fc748ccf59698e'
+    oldFile: !uuid '0befa3747893be9f737bac05b3c46365a917b5e0'
+  /src/frontend/vite-ssr-blog/renderer/_default.page.client.ts:
+    newFile: !uuid 'bbd8c71c9676c8522a3d5ce281f541dedb6dd515'
+    oldFile: !uuid 'c9013a652c505ad42d48b5333d3745bead590695'
+  /src/frontend/vite-ssr-blog/renderer/app.ts:
+    newFile: !uuid 'a8488a0c1937f9507acb4b836a8e0cd4cf168af7'
+    oldFile: !uuid '25613e3e148b0f1b357e335af36ff657b2ef9161'
+  /src/frontend/vite-ssr-blog/server:
+    newFile: !uuid 'bfdf6d027d705a60212bf600edc0a5734051ed98'
+    oldFile: !uuid 'cc19cd75623b03a660108443a8f75a90e4b0afa4'
+  /src/frontend/vite-ssr-blog/server/index.ts:
+    newFile: !uuid '1807f0053fcfe491ab0d6273967670975b77fcca'
+    oldFile: !uuid 'fa4581f9151f24212f9b92a891d9965c747325c9'
+  /src/frontend/vite-ssr-blog/yarn.lock:
+    newFile: !uuid '1b4e7622545ecb8119af6e7ec18ad7e484c4c725'
+    oldFile: !uuid 'd0941a64ff046e386436e76dc5874a3bea343335'
+gitCommitId: !uuid '891f97a1c88f8837eb591de70112bad1d9026dea'
 renames: {
   }
-revisionId: 171
+revisionId: 172
