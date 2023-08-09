@@ -3,15 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '00cd65ea5bfd513af29e41e707f934d6ce3963f7'
-    oldFile: !uuid 'aa814c9e49e6b23eed01e8d20d45bad3ab6437ce'
-  /src/backend:
-    newFile: !uuid '0f3c6debcae2df38f413b5e04fd94e110c1405fc'
-    oldFile: !uuid '77cd5bf9aad3fda5958c1da76adec3430d48d65c'
-  /src/backend/Dockerfile:
-    newFile: !uuid '8770edf0f23ed0d556cb7c492ea1658695a53737'
-    oldFile: !uuid '7b72b8222d9fa339424829f94639bd5b76bf5d15'
-gitCommitId: !uuid 'e3ba02d0a98972764160c22035bb97d26be39c43'
+    newFile: !uuid 'b357e9ea4fa856c14d10a1ceb3dfe0621f8b680b'
+    oldFile: !uuid '00cd65ea5bfd513af29e41e707f934d6ce3963f7'
+  /src/frontend:
+    newFile: !uuid '8b7ec63e67265cf501f42e0ca00b3947f5316c5f'
+    oldFile: !uuid '33ebe256d3109644de089e980efaabc3b317072b'
+  /src/frontend/vite-ssr-blog:
+    newFile: !uuid '2b04b0de5a51dd11a24f58521a7a62cf49fa8a20'
+    oldFile: !uuid '7f32c93e2ef81e1ece6cbbfdf3cb2daf43abf4c7'
+  /src/frontend/vite-ssr-blog/pages:
+    newFile: !uuid 'f11b2ab76826999d077e2946ad3d914043653ec1'
+    oldFile: !uuid 'a31c6b8897b9a3cdf78d96d284f516dfa685b9b1'
+  /src/frontend/vite-ssr-blog/pages/talks:
+    newFile: !uuid '7ed963549ad214f2ff403e09594dbe9587bd94ca'
+    oldFile: !uuid '1b64171eeabd90c0d55b02ae6bef21175b905fa9'
+  /src/frontend/vite-ssr-blog/pages/talks/detail.page.vue:
+    newFile: !uuid 'fc5a0f1b0945cdec5d0cc93d5cf314c0d545c069'
+    oldFile: !uuid '878c0015fc7bd39f755c5aaa0b89d0e63badd15d'
+gitCommitId: !uuid 'f7fead16e8f49f0228b3563c004b20627c6df214'
 renames: {
   }
-revisionId: 164
+revisionId: 165
