@@ -3,21 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'e23e77b3a8dd910d7ef9e8a4926800cefa07ab72'
-    oldFile: !uuid '40e9f7e0b4d03a9b3d8fadb7d74309f567307d37'
+    newFile: !uuid 'd96985031c21fe0f78684e0b98b3a9581aae96a1'
+    oldFile: !uuid 'e23e77b3a8dd910d7ef9e8a4926800cefa07ab72'
   /src/frontend:
-    newFile: !uuid '86fc1daf493feceaca00137c768f1455ed76cd10'
-    oldFile: !uuid 'b9f16e37f0394f48ede9d411fa6c240ece01c3d6'
+    newFile: !uuid 'd2d28689ff088527f5a44e3bbd9eab2e825e8d7b'
+    oldFile: !uuid '86fc1daf493feceaca00137c768f1455ed76cd10'
   /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'a9bed8d7dbbe588ad542a60f8879abbccc8ad291'
-    oldFile: !uuid '7e898a1aa0e080be45f2385a4997b41510fc8676'
-  /src/frontend/vite-ssr-blog/renderer:
-    newFile: !uuid '5012bf35069221627f89fb66487434b1c72cd03a'
-    oldFile: !uuid '6ce2d6669c006007ed4cc3dd0e27b48943b4bc28'
-  /src/frontend/vite-ssr-blog/renderer/_default.page.server.ts:
-    newFile: !uuid 'c89918365f46a429ffa92fa8db82647f031f506c'
-    oldFile: !uuid 'a89d6ebf664b49f8a36fbd8bd7ef92cb6fda29c0'
-gitCommitId: !uuid 'cd9a7bec51d8c6f4177a439f0427c1cf896d641a'
+    newFile: !uuid '57d91145a2592a76f571a841853b0f9c02e6de90'
+    oldFile: !uuid 'a9bed8d7dbbe588ad542a60f8879abbccc8ad291'
+  /src/frontend/vite-ssr-blog/pages:
+    newFile: !uuid 'f7866813f522b8ad95c177610ae9f9c2e34348b9'
+    oldFile: !uuid 'f104ac408e97f6588d44af4f2acc9bd65f5545c9'
+  /src/frontend/vite-ssr-blog/pages/artcile:
+    newFile: !uuid '9333befafc16d528a8da4a3602decb316b2f2144'
+    oldFile: !uuid '5370540e82427b4386a278c29bcc7cafcde99f10'
+  /src/frontend/vite-ssr-blog/pages/artcile/categories.page.server.ts:
+    newFile: !uuid '9380c09b04263419624e3150300f4d2bc052f4ee'
+    oldFile: !uuid 'b291918998717ea19d028ad94ccbebc21cd7677a'
+  /src/frontend/vite-ssr-blog/pages/artcile/categories.page.vue:
+    newFile: !uuid '1e1abd1f9d4095cfffcbd0f1b706cd51fd837037'
+    oldFile: !uuid 'b8154a4e3aa535e780f21d60f526670fc392a66b'
+  /src/frontend/vite-ssr-blog/pages/artcile/tags.page.server.ts:
+    newFile: !uuid '5de9074ebc12f86ec321ca85e3c8f8ff9a23c562'
+    oldFile: !uuid 'a14786616399e5cd9364242461fe9a4717b4ae16'
+  /src/frontend/vite-ssr-blog/pages/artcile/tags.page.vue:
+    newFile: !uuid '1cbf9ca33dcfc203e3e135e40eca81e2f2cf972d'
+    oldFile: !uuid '3d294d7148b1f9941d2e18f49fb4bc01f52775a3'
+gitCommitId: !uuid '24b75938859669843166e26712a149681e74dc1e'
 renames: {
   }
-revisionId: 181
+revisionId: 182
