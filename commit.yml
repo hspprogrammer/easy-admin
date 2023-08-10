@@ -3,33 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'd96985031c21fe0f78684e0b98b3a9581aae96a1'
-    oldFile: !uuid 'e23e77b3a8dd910d7ef9e8a4926800cefa07ab72'
-  /src/frontend:
-    newFile: !uuid 'd2d28689ff088527f5a44e3bbd9eab2e825e8d7b'
-    oldFile: !uuid '86fc1daf493feceaca00137c768f1455ed76cd10'
-  /src/frontend/vite-ssr-blog:
-    newFile: !uuid '57d91145a2592a76f571a841853b0f9c02e6de90'
-    oldFile: !uuid 'a9bed8d7dbbe588ad542a60f8879abbccc8ad291'
-  /src/frontend/vite-ssr-blog/pages:
-    newFile: !uuid 'f7866813f522b8ad95c177610ae9f9c2e34348b9'
-    oldFile: !uuid 'f104ac408e97f6588d44af4f2acc9bd65f5545c9'
-  /src/frontend/vite-ssr-blog/pages/artcile:
-    newFile: !uuid '9333befafc16d528a8da4a3602decb316b2f2144'
-    oldFile: !uuid '5370540e82427b4386a278c29bcc7cafcde99f10'
-  /src/frontend/vite-ssr-blog/pages/artcile/categories.page.server.ts:
-    newFile: !uuid '9380c09b04263419624e3150300f4d2bc052f4ee'
-    oldFile: !uuid 'b291918998717ea19d028ad94ccbebc21cd7677a'
-  /src/frontend/vite-ssr-blog/pages/artcile/categories.page.vue:
-    newFile: !uuid '1e1abd1f9d4095cfffcbd0f1b706cd51fd837037'
-    oldFile: !uuid 'b8154a4e3aa535e780f21d60f526670fc392a66b'
-  /src/frontend/vite-ssr-blog/pages/artcile/tags.page.server.ts:
-    newFile: !uuid '5de9074ebc12f86ec321ca85e3c8f8ff9a23c562'
-    oldFile: !uuid 'a14786616399e5cd9364242461fe9a4717b4ae16'
-  /src/frontend/vite-ssr-blog/pages/artcile/tags.page.vue:
-    newFile: !uuid '1cbf9ca33dcfc203e3e135e40eca81e2f2cf972d'
-    oldFile: !uuid '3d294d7148b1f9941d2e18f49fb4bc01f52775a3'
-gitCommitId: !uuid '24b75938859669843166e26712a149681e74dc1e'
+    newFile: !uuid 'b1bb3a1fb9c9a3852122e61c4de4ef0b5ec63b50'
+    oldFile: !uuid 'd96985031c21fe0f78684e0b98b3a9581aae96a1'
+  /src/backend:
+    newFile: !uuid 'c6b1a841610b2c5b55eb6076c5a57b555167e32b'
+    oldFile: !uuid 'cd110baa7caa52bc55b7e0161bd30b16edd39914'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid 'dd53e8dbf508cedf18c72dda23d8a8e31886595a'
+    oldFile: !uuid '78dbcf97bceae1a3863e42fd09e41008a57c0310'
+  /src/backend/Easy.Admin.Application/Client:
+    newFile: !uuid '98e3dce8ee4423978404f1aa3656e072ffc87c15'
+    oldFile: !uuid '0ed15e5a15ebda8f24b1432bc9b53dafbf3b143e'
+  /src/backend/Easy.Admin.Application/Client/ArticleController.cs:
+    newFile: !uuid 'ec34e985b3e046c9cad14c1d04319b133bcdbf58'
+    oldFile: !uuid '5311065e74c9441e4673cd239582f46e9e8b1fe7'
+gitCommitId: !uuid 'e569693536326f1a06136636249dc98322484217'
 renames: {
   }
-revisionId: 182
+revisionId: 183
