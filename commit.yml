@@ -2,31 +2,10 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid '1d9ff88536df85c446cdab7cd48581b6bcbb2389'
-    oldFile: !uuid 'b1bb3a1fb9c9a3852122e61c4de4ef0b5ec63b50'
-  /src/frontend:
-    newFile: !uuid '3852d619f69a3a531286618f946e30d0fade5431'
-    oldFile: !uuid 'd2d28689ff088527f5a44e3bbd9eab2e825e8d7b'
-  /src/frontend/blog:
-    newFile: !uuid '778ed514a25c8d1495f57141c236435583e5c7ad'
-    oldFile: !uuid 'ed2d2e91c275b4423f569346a12f5fca4a454626'
-  /src/frontend/blog/src:
-    newFile: !uuid '29f264b7c0dd1225658fb736d347561cda92af91'
-    oldFile: !uuid '3453ca30ea27a2feee768c39dcba54b3ca442b03'
-  /src/frontend/blog/src/views:
-    newFile: !uuid 'df3590012af962bda543dc0ab5aef67acf3a917c'
-    oldFile: !uuid '73ca6b102a3f7d1e799c48321db382aec35b83fb'
-  /src/frontend/blog/src/views/article:
-    newFile: !uuid 'e8bf32282f7988bd1b800d44a93dab84dd0d8d4a'
-    oldFile: !uuid '3807c068a5f6b8ec1f2c84ae6cdabf256e70dfe4'
-  /src/frontend/blog/src/views/article/Category.vue:
-    newFile: !uuid 'd9ab73ff2361474c7756ea7f9a6ab0ddaa33617d'
-    oldFile: !uuid '0800e4dfcb8e07ce4fb3f327441c53ea3a67690d'
-  /src/frontend/blog/src/views/article/CategoryList.vue:
-    newFile: !uuid 'f3e1d20231b0b37abf23a9d2af62011f368c14b2'
-    oldFile: !uuid '4a64aa44f39ae6e4e53d0babd6778da6bdfd6e32'
-gitCommitId: !uuid '2720a59000387b627c3266f6def0807e4e1b0cc9'
+  /README.md:
+    newFile: !uuid '446d246f2946da47c19e6ebf2fdbd5fab3c769df'
+    oldFile: !uuid '373b220024b79b10b0ba03baeb55a48a8e69621d'
+gitCommitId: !uuid 'f6b4250b0ea4bdf53c21bbd4b178d562e5414078'
 renames: {
   }
-revisionId: 184
+revisionId: 185
