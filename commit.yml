@@ -3,24 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'e23e77b3a8dd910d7ef9e8a4926800cefa07ab72'
-    oldFile: !uuid 'a5ccac7d465811f5729beda97a8eb399c39d64f6'
+    newFile: !uuid '40e9f7e0b4d03a9b3d8fadb7d74309f567307d37'
+    oldFile: !uuid 'e23e77b3a8dd910d7ef9e8a4926800cefa07ab72'
   /src/frontend:
-    newFile: !uuid '86fc1daf493feceaca00137c768f1455ed76cd10'
-    oldFile: !uuid '5a4b4fad9073911d7bb9f5a842ccd52266486823'
+    newFile: !uuid 'b9f16e37f0394f48ede9d411fa6c240ece01c3d6'
+    oldFile: !uuid '86fc1daf493feceaca00137c768f1455ed76cd10'
   /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'a9bed8d7dbbe588ad542a60f8879abbccc8ad291'
-    oldFile: !uuid 'e1afd15e375592517f6598428c2593eb811b5349'
-  /src/frontend/vite-ssr-blog/pages:
-    newFile: !uuid 'f104ac408e97f6588d44af4f2acc9bd65f5545c9'
-    oldFile: !uuid 'f6c36956c95d197511b97b4193f552545be3189f'
-  /src/frontend/vite-ssr-blog/pages/artcile:
-    newFile: !uuid '5370540e82427b4386a278c29bcc7cafcde99f10'
-    oldFile: !uuid 'fe15f07044f70459a7b45a8492a07120f5ab0b99'
-  /src/frontend/vite-ssr-blog/pages/artcile/detail.page.vue:
-    newFile: !uuid '64c4f4c09bfc321d7c8ffea9c46b3432ce162284'
-    oldFile: !uuid '0c7327a5a82b287ee792514b427f133929e52e9d'
-gitCommitId: !uuid '4c098dae2efbff4f5018136ae55cbb3c96ec2a0c'
+    newFile: !uuid '7e898a1aa0e080be45f2385a4997b41510fc8676'
+    oldFile: !uuid 'a9bed8d7dbbe588ad542a60f8879abbccc8ad291'
+  /src/frontend/vite-ssr-blog/renderer:
+    newFile: !uuid '6ce2d6669c006007ed4cc3dd0e27b48943b4bc28'
+    oldFile: !uuid '5012bf35069221627f89fb66487434b1c72cd03a'
+  /src/frontend/vite-ssr-blog/renderer/_default.page.server.ts:
+    newFile: !uuid 'a89d6ebf664b49f8a36fbd8bd7ef92cb6fda29c0'
+    oldFile: !uuid 'c89918365f46a429ffa92fa8db82647f031f506c'
+gitCommitId: !uuid '0394408ac2401714fb6f13e5fbac62c17f17bb61'
 renames: {
   }
-revisionId: 179
+revisionId: 180
