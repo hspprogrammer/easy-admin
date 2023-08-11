@@ -3,27 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '694159c24c593b1f32473136b3ba3546f5223065'
-    oldFile: !uuid '19728f7db46654c786222cb05404bc7cb2347e53'
-  /src/frontend:
-    newFile: !uuid 'd100e2e7d33f9b219b6068bc2549f902981e69ed'
-    oldFile: !uuid '13057c6cc7287ad6dce98fd5234b2b7fa3b5ed0e'
-  /src/frontend/blog:
-    newFile: !uuid 'c97fccf89e7e2e6cc3ab7dd7b7c79de981dfc19c'
-    oldFile: !uuid '247a017030e82b928af2b059cae0e55baea5daaa'
-  /src/frontend/blog/src:
-    newFile: !uuid '0513774aabaa8bab5d4902adc400b370b5701e3d'
-    oldFile: !uuid '5831621756be69a205dd250ccf89c5f287e0fca2'
-  /src/frontend/blog/src/assets:
-    newFile: !uuid '0ce60725b7d4c9bdd4380a0fc7680818ea34e863'
-    oldFile: !uuid 'fb20dc35c9078d2893c583f7f7662f03d55e94a9'
-  /src/frontend/blog/src/assets/css:
-    newFile: !uuid '097426bcb4ef05590ec867b4b6ca50b5badcd3b2'
-    oldFile: !uuid '4d8d33b7183f28e409741ab9a43c4ba6edafbeb1'
-  /src/frontend/blog/src/assets/css/index.css:
-    newFile: !uuid '5f3ed7be37bc1e0bfb50459321977e07660b8903'
-    oldFile: !uuid '606620906d55e4d56e2c3d6bc27ee5a5e25da762'
-gitCommitId: !uuid 'f20d5aa9f90e1141502e567edf0e0f0dc6f404bd'
+    newFile: !uuid 'e770799bdd57aa297851f2ba5ca593c31c25da48'
+    oldFile: !uuid '694159c24c593b1f32473136b3ba3546f5223065'
+  /src/backend:
+    newFile: !uuid '45c457764afaf539e7fd4f46239bd085ca46f264'
+    oldFile: !uuid '80410573799cca86b0494d9679b63a579b8104c4'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid 'c63be2a60f22805e196e2fa58b54bd334903acfa'
+    oldFile: !uuid '61c29fcf33aed75be9de364e053849a5781eaf90'
+  /src/backend/Easy.Admin.Application/Blog:
+    newFile: !uuid '62f036ce39eb817b104722a9b8c89df1f56a9b79'
+    oldFile: !uuid '7108c05637ec0bb615f4d9382bbc385a87543f95'
+  /src/backend/Easy.Admin.Application/Blog/ArticleService.cs:
+    newFile: !uuid 'c5d04563f82b7407c5fb176fc2c26a25f7ce3896'
+    oldFile: !uuid 'fabf03e2ca2a6978edbf9f5a9654f7158e2a220c'
+gitCommitId: !uuid '1256a26981a26b3fd66075773a522744769a1f8a'
 renames: {
   }
-revisionId: 200
+revisionId: 201
