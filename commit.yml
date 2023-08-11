@@ -3,39 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '19728f7db46654c786222cb05404bc7cb2347e53'
-    oldFile: !uuid 'fdee0528533710716036539197b0361fb68430a2'
+    newFile: !uuid '694159c24c593b1f32473136b3ba3546f5223065'
+    oldFile: !uuid '19728f7db46654c786222cb05404bc7cb2347e53'
   /src/frontend:
-    newFile: !uuid '13057c6cc7287ad6dce98fd5234b2b7fa3b5ed0e'
-    oldFile: !uuid '0dd75384177a86e5b96b667e278371036402bbd5'
+    newFile: !uuid 'd100e2e7d33f9b219b6068bc2549f902981e69ed'
+    oldFile: !uuid '13057c6cc7287ad6dce98fd5234b2b7fa3b5ed0e'
   /src/frontend/blog:
-    newFile: !uuid '247a017030e82b928af2b059cae0e55baea5daaa'
-    oldFile: !uuid '778ed514a25c8d1495f57141c236435583e5c7ad'
+    newFile: !uuid 'c97fccf89e7e2e6cc3ab7dd7b7c79de981dfc19c'
+    oldFile: !uuid '247a017030e82b928af2b059cae0e55baea5daaa'
   /src/frontend/blog/src:
-    newFile: !uuid '5831621756be69a205dd250ccf89c5f287e0fca2'
-    oldFile: !uuid '29f264b7c0dd1225658fb736d347561cda92af91'
-  /src/frontend/blog/src/views:
-    newFile: !uuid '794aafb7418a04eaf8c223c31f1704198c9e8a95'
-    oldFile: !uuid 'df3590012af962bda543dc0ab5aef67acf3a917c'
-  /src/frontend/blog/src/views/article:
-    newFile: !uuid '71cdcc58bce2d8e692e1165920cd612993e69de3'
-    oldFile: !uuid 'e8bf32282f7988bd1b800d44a93dab84dd0d8d4a'
-  /src/frontend/blog/src/views/article/Detail.vue:
-    newFile: !uuid 'a748c913b877d2c4870e54fc0192eabed6f414fa'
-    oldFile: !uuid '91092373590e5cb60ef627bf6717dd58c7ff4788'
-  /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'd59a81da0abe110dd26d6ab25490efa59c584a27'
-    oldFile: !uuid '8be5fae534d80a6640ea7e62e1e593b574442bae'
-  /src/frontend/vite-ssr-blog/pages:
-    newFile: !uuid '0ad59784c36ee626d691e9d3933fb1e38f0e0f7b'
-    oldFile: !uuid '4457f80698a386a5a75aef577137661530a47fec'
-  /src/frontend/vite-ssr-blog/pages/artcile:
-    newFile: !uuid '18635f01b50089e89eb09bd471891b36fee97a5a'
-    oldFile: !uuid 'd531f575c21738267b25cbfe4068e40dc9fc2b66'
-  /src/frontend/vite-ssr-blog/pages/artcile/detail.page.vue:
-    newFile: !uuid '5a45741aa8e166e14c753ec357589e125dfe66fe'
-    oldFile: !uuid '139bf5a0a6e0bc95313a84a60fec88b4eab49596'
-gitCommitId: !uuid '77a88d59ca50cbe4b86265ff2699074909217de3'
+    newFile: !uuid '0513774aabaa8bab5d4902adc400b370b5701e3d'
+    oldFile: !uuid '5831621756be69a205dd250ccf89c5f287e0fca2'
+  /src/frontend/blog/src/assets:
+    newFile: !uuid '0ce60725b7d4c9bdd4380a0fc7680818ea34e863'
+    oldFile: !uuid 'fb20dc35c9078d2893c583f7f7662f03d55e94a9'
+  /src/frontend/blog/src/assets/css:
+    newFile: !uuid '097426bcb4ef05590ec867b4b6ca50b5badcd3b2'
+    oldFile: !uuid '4d8d33b7183f28e409741ab9a43c4ba6edafbeb1'
+  /src/frontend/blog/src/assets/css/index.css:
+    newFile: !uuid '5f3ed7be37bc1e0bfb50459321977e07660b8903'
+    oldFile: !uuid '606620906d55e4d56e2c3d6bc27ee5a5e25da762'
+gitCommitId: !uuid 'f20d5aa9f90e1141502e567edf0e0f0dc6f404bd'
 renames: {
   }
-revisionId: 199
+revisionId: 200
