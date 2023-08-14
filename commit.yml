@@ -3,24 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '83bcdcfd4e89a9aea0860450f7b968999882614a'
-    oldFile: !uuid 'e770799bdd57aa297851f2ba5ca593c31c25da48'
+    newFile: !uuid '081b7e4620e8c1287689b04d87f62bd46f48bae8'
+    oldFile: !uuid '83bcdcfd4e89a9aea0860450f7b968999882614a'
   /src/frontend:
-    newFile: !uuid 'b1bd992e22be80e737f4258ec33b6cef9e3951d4'
-    oldFile: !uuid 'd100e2e7d33f9b219b6068bc2549f902981e69ed'
+    newFile: !uuid '8205d511f23d4368d58c28e50368e355b6b7759e'
+    oldFile: !uuid 'b1bd992e22be80e737f4258ec33b6cef9e3951d4'
   /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'd8182605ddd2d5ac330bf7fd0f9d3746c65a972c'
-    oldFile: !uuid 'd59a81da0abe110dd26d6ab25490efa59c584a27'
+    newFile: !uuid 'a414d7730fff9bc13ff148433a2c019fa9684ed9'
+    oldFile: !uuid 'd8182605ddd2d5ac330bf7fd0f9d3746c65a972c'
   /src/frontend/vite-ssr-blog/pages:
-    newFile: !uuid 'f7e259cdac650273910368b5a4cf318fc827547f'
-    oldFile: !uuid '0ad59784c36ee626d691e9d3933fb1e38f0e0f7b'
-  /src/frontend/vite-ssr-blog/pages/talks:
-    newFile: !uuid 'd852ff7453facd8cf49f756dd08a35c4f79dcd22'
-    oldFile: !uuid '3e71632deb7d4c42bb9628bfbc603042d8aee59a'
-  /src/frontend/vite-ssr-blog/pages/talks/detail.page.vue:
-    newFile: !uuid '94431812631b6141ae0ab45a5a9d093289c660a7'
-    oldFile: !uuid '36a8d8be6cbaa9b0ae1986e8478f1353893612ec'
-gitCommitId: !uuid '1672c53080490e9a1cb993795fd701463f0a992b'
+    newFile: !uuid '6c3c312a92be266ec1d0a296bb2473ad910193da'
+    oldFile: !uuid 'f7e259cdac650273910368b5a4cf318fc827547f'
+  /src/frontend/vite-ssr-blog/pages/artcile:
+    newFile: !uuid '06917173677b154d8907b3046927144c5a417d29'
+    oldFile: !uuid '18635f01b50089e89eb09bd471891b36fee97a5a'
+  /src/frontend/vite-ssr-blog/pages/artcile/detail.page.server.ts:
+    newFile: !uuid '792c7cbfbed907e89a54a8b2c3aa10a3e1e70f8b'
+    oldFile: !uuid 'aa795b598fcc263640e840c3a451be15cab652e0'
+gitCommitId: !uuid 'b9c8444f7b01f0a48988d547fdbd3db5fba424e3'
 renames: {
   }
-revisionId: 202
+revisionId: 203
