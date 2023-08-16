@@ -2,10 +2,25 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid 'dbf9aed0fbd65aae40016aa37c3d8b253d74042b'
-    oldFile: !uuid '2508b6a9ca2a72aa0cb643d1f372cc20697e2e6c'
-gitCommitId: !uuid '0d3a3bdbb6faeb4ff13fb95d17f23193b11eecba'
+  /src:
+    newFile: !uuid 'c81212a02a6eda75619191fc83a1e4eec9ef0ef2'
+    oldFile: !uuid '711421bf734a9443b02132cc29efa4425306c1b8'
+  /src/frontend:
+    newFile: !uuid '297392beeaa8bfbfe4f6445c016570e81cfbe349'
+    oldFile: !uuid 'a0cdcb16ca09d2b3cfc3924f788ea395a1e0dd92'
+  /src/frontend/vite-ssr-blog:
+    newFile: !uuid 'f57cbc126e2ed25bb0c72d671bc0140e94169b74'
+    oldFile: !uuid '66f58bb902c7c8f476232ad51399f81209a2a777'
+  /src/frontend/vite-ssr-blog/pages:
+    newFile: !uuid 'ddf653311b2c328353d7297f0c8c4d6cd57865c9'
+    oldFile: !uuid '063bb9a3bba5bfd9c27c320c19b8b8d8d62dc255'
+  /src/frontend/vite-ssr-blog/pages/albums:
+    newFile: !uuid '08e683385ea8a4f8dc9c136a93cf81aeb7988c1a'
+    oldFile: !uuid '3c21b11d25fd013ec04fc87ef0024eb55cdd371d'
+  /src/frontend/vite-ssr-blog/pages/albums/photo.page.vue:
+    newFile: !uuid 'c2c4b31bf731741f380adca05cc00141ff1d025f'
+    oldFile: !uuid '414a9fdb9d80fb249a6871b651014dd40d7ee2ad'
+gitCommitId: !uuid 'd6fb52c00870cc1b20131745ebf246718585ca2f'
 renames: {
   }
-revisionId: 210
+revisionId: 211
