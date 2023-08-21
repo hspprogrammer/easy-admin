@@ -2,25 +2,10 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid '3bfdbe12653d2a8e3c38f471f9eb82d478d98168'
-    oldFile: !uuid 'cd01705b76a6824c8d3ff0a47fbb4cd13ebf1009'
-  /src/frontend:
-    newFile: !uuid '5b146ce53ac2a8f3970a0290fdbbdc82c4905e75'
-    oldFile: !uuid 'ab13f639914f257c8849ef4bf576682fd46ec6a7'
-  /src/frontend/blog:
-    newFile: !uuid '409536adec03dda689c66be528b2213816cd3006'
-    oldFile: !uuid 'c97fccf89e7e2e6cc3ab7dd7b7c79de981dfc19c'
-  /src/frontend/blog/src:
-    newFile: !uuid '8e8339d28ea9c171936813085e25dc546b85e40e'
-    oldFile: !uuid '0513774aabaa8bab5d4902adc400b370b5701e3d'
-  /src/frontend/blog/src/views:
-    newFile: !uuid 'f92ea3a848ac9a52cf122d14e15b9eacb2f8badb'
-    oldFile: !uuid '794aafb7418a04eaf8c223c31f1704198c9e8a95'
-  /src/frontend/blog/src/views/Message.vue:
-    newFile: !uuid '6a94a370eec9d9b726c8f0881e1e097bfcb3f968'
-    oldFile: !uuid 'ef10db92c3a4971d7896b0bcaa48954f78b9dd4f'
-gitCommitId: !uuid '85eb514cdba925462f6af0cdcde25a19fbca8ba4'
+  /README.md:
+    newFile: !uuid '547136ba559d840264e25c202c6d8044f53c91f2'
+    oldFile: !uuid '2cadad5eda3b4df2dd1285a99e5c8de644f927b8'
+gitCommitId: !uuid '9600f6352ab9d930cc6ace822485ae3090f88000'
 renames: {
   }
-revisionId: 217
+revisionId: 218
