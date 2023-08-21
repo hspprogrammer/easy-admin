@@ -2,10 +2,19 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '2cadad5eda3b4df2dd1285a99e5c8de644f927b8'
-    oldFile: !uuid '8fdc72d5744e7f9b75b605ebe01d9b0b82acf659'
-gitCommitId: !uuid 'e08029562d351e10c1d06c6a41a640e7675bfa39'
+  /src:
+    newFile: !uuid '312eb86133b95d8c263dfa05bd7f45128782e082'
+    oldFile: !uuid 'c81212a02a6eda75619191fc83a1e4eec9ef0ef2'
+  /src/backend:
+    newFile: !uuid '6ad012d1cb4e78ff679883f981d995ecb5e319d7'
+    oldFile: !uuid '45c457764afaf539e7fd4f46239bd085ca46f264'
+  /src/backend/Easy.Admin.Core:
+    newFile: !uuid 'b07e784630f27c7ecc22a28e084df17cb7b62899'
+    oldFile: !uuid 'd564fbc48075337139bc22074aebbfd480e5d670'
+  /src/backend/Easy.Admin.Core/Easy.Admin.Core.csproj:
+    newFile: !uuid '78e98afefc33c7725d216b90ac025cd79622856e'
+    oldFile: !uuid '0c33753e0347897dd124e165039ac6e88249bcca'
+gitCommitId: !uuid '9a8a3a4d09ea1e89b62fecef5232f129cc5e3bb4'
 renames: {
   }
-revisionId: 213
+revisionId: 214
