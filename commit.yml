@@ -2,10 +2,22 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid 'd71e4b16f0824c06ca72219bb61233be48339c81'
-    oldFile: !uuid 'af6afde28bdd957bc02e8aa91c83b4787b27853d'
-gitCommitId: !uuid '963d5e47e71fa421563eb3299064522035f88189'
+  /src:
+    newFile: !uuid '8b6f878fa7a0424ca6ef9618034952373a945545'
+    oldFile: !uuid '59ad64e52f957f3506c162b195130055f3155fc0'
+  /src/backend:
+    newFile: !uuid '94973aeeeaf816dd8f99817d9064408f37faff77'
+    oldFile: !uuid 'b595955d22e0d2d829268f47e781000fc6713ad1'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid '2baa4b745827ecd448462a5561249578642e178d'
+    oldFile: !uuid 'c63be2a60f22805e196e2fa58b54bd334903acfa'
+  /src/backend/Easy.Admin.Application/Client:
+    newFile: !uuid 'ddbf415183f84215f7dd21c9ff2045093e623c97'
+    oldFile: !uuid '7d6fc04fa127f7f0d34b1e53445ab43093686468'
+  /src/backend/Easy.Admin.Application/Client/ArticleController.cs:
+    newFile: !uuid '25713ce5352d62e22850af8b381121369831e435'
+    oldFile: !uuid 'e3e25915e0c62c04a39ec37e35895429adb3a750'
+gitCommitId: !uuid '3f6d65cc47b5455ca255e9369acd9150bf8ac43c'
 renames: {
   }
-revisionId: 222
+revisionId: 223
