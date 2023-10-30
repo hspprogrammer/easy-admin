@@ -3,33 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '6c472a9a4e1829bb26734834a8cd48c4e441147d'
-    oldFile: !uuid '3824b3001a6457059a9bca254dfccaff31fe8cb4'
-  /src/backend:
-    newFile: !uuid '57a299665edfd8131386bec588b67160c1f0af20'
-    oldFile: !uuid 'e8b18613568e0ed226a7805dbb2d6027f022e1d1'
-  /src/backend/Easy.Admin.Core:
-    newFile: !uuid 'f03d806210075f6857d7cefa510e6ec34edba5d2'
-    oldFile: !uuid 'c4acb3b690be720e2427f2f652a882d82fd00764'
-  /src/backend/Easy.Admin.Core/Entities:
-    newFile: !uuid '552af885b3ae31bbd3fe6b95bc1a58a4104f6a7f'
-    oldFile: !uuid '0a12fcc2e5a2f2c8fa0ac7dcddb6d3eec3d4fcb4'
-  /src/backend/Easy.Admin.Core/Entities/Article.cs:
-    newFile: !uuid 'b6c1e4ee1396261c0b51f3a5490c6aef02670133'
-    oldFile: !uuid 'a0f3b6ed35212a3f5b8d0b2e011c564a0e2ef65a'
-  /src/backend/Easy.Admin.Core/Entities/CustomConfig.cs:
-    newFile: !uuid 'ee7962f199e3efa8e6fde2c1d9fb5d703cebfe8d'
-    oldFile: !uuid '41e99ca0204e2ef7c7e98f9b402f70edf2ea810c'
-  /src/backend/Easy.Admin.Core/Entities/CustomConfigItem.cs:
-    newFile: !uuid '77a88a39be253b930eb91a6f289f3e43669e4c57'
-    oldFile: !uuid 'fa165a4be138b5f6ecb0fd50b79505a26c686e36'
-  /src/backend/Easy.Admin.Core/Entities/SysOperationLog.cs:
-    newFile: !uuid '8cd1dd90c1ef2c1656eccbfef0d500ae1238a5e0'
-    oldFile: !uuid '8d95cfabaed9aa7cf15210a037bd2abef3e1f4ad'
-  /src/backend/Easy.Admin.Core/Entities/Talks.cs:
-    newFile: !uuid 'ea41790bef2abf9ec5ee5509088b953847bea843'
-    oldFile: !uuid '03071cee28c7cb737619649ccdf7bdeafa70c238'
-gitCommitId: !uuid 'a37f3da12c28ed1b0839e17b7a4dd884a04e7e2c'
+    newFile: !uuid '8ba7b366c189609382db0fb65c0c4d1e2ce2cc45'
+    oldFile: !uuid '6c472a9a4e1829bb26734834a8cd48c4e441147d'
+  /src/frontend:
+    newFile: !uuid 'd68f55890985d1571ed7ae266d25724f7ebe7b00'
+    oldFile: !uuid '3c10bdaba98f7240a3d985687795102af8c3faba'
+  /src/frontend/admin:
+    newFile: !uuid 'c47de0141063783c04e947880e6ca8d3c50bc5e7'
+    oldFile: !uuid 'e252bdb81d24c74465ebdfa01be2c1652fc71ac1'
+  /src/frontend/admin/src:
+    newFile: !uuid '0a5f9f3a0498cc2f06828266cdda3e3004e92771'
+    oldFile: !uuid 'd402c3b46903d778e59ab7ceac73a86775c2e420'
+  /src/frontend/admin/src/layout:
+    newFile: !uuid 'ecd7e77d479dd6035b5256ca1e1ad19b77e63b25'
+    oldFile: !uuid '78f017092aec1e4623ec4df164678a00114fb598'
+  /src/frontend/admin/src/layout/navBars:
+    newFile: !uuid 'acbcd1200996e7a2471fddba045eb41914d27844'
+    oldFile: !uuid '3449ce0ac88a9d2f7685968b19c8bf9a3fc1ba89'
+  /src/frontend/admin/src/layout/navBars/topBar:
+    newFile: !uuid '8b7df1f742f7b67a937af3f0c74e07b5d49a74c5'
+    oldFile: !uuid '6107409c0d68774cea1bcd1a68b58d78500e4a51'
+  /src/frontend/admin/src/layout/navBars/topBar/user.vue:
+    newFile: !uuid '650cc9fbf7d197aade66cd8406cb95229f3fd59d'
+    oldFile: !uuid '05410da17fa81bd6693cd5e070c24491d1c30a01'
+gitCommitId: !uuid 'f99884124805e183f10a9a6d53200ce2f1c0417e'
 renames: {
   }
-revisionId: 232
+revisionId: 233
