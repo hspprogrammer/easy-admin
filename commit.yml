@@ -3,21 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '4bcc0ed9f7034765d888511cf88b06b5382c59f7'
-    oldFile: !uuid '8ba7b366c189609382db0fb65c0c4d1e2ce2cc45'
+    newFile: !uuid '1e83bd11904fa4d16d16ed316edd0b6802a1fe81'
+    oldFile: !uuid '4bcc0ed9f7034765d888511cf88b06b5382c59f7'
   /src/backend:
-    newFile: !uuid 'de882ee0d77d533c712b9f2477b9f2c844e28e1f'
-    oldFile: !uuid '57a299665edfd8131386bec588b67160c1f0af20'
-  /src/backend/Easy.Admin.Core:
-    newFile: !uuid 'ad06f63d7b3bd930ee15b26eb9737d07a01db136'
-    oldFile: !uuid 'f03d806210075f6857d7cefa510e6ec34edba5d2'
-  /src/backend/Easy.Admin.Core/InitData:
-    newFile: !uuid '77ff358fc3e793ba9d605970ff90a20777274537'
-    oldFile: !uuid 'fa01e6c08d7fddd1218ace254c38cf5ef9cdbc7e'
-  /src/backend/Easy.Admin.Core/InitData/categories.txt:
-    newFile: !uuid '352129401ba7762cff207c7e62f69894f6a6c6ca'
-    oldFile: !uuid 'b28122fc8c7d9bb59601d577dc36af1c777a8bb8'
-gitCommitId: !uuid '9222c6d02c7e0a3b13f1d179157286c9d371179c'
+    newFile: !uuid '3b26f0e3af33e47c48207ac9419b08f05c0fcfb9'
+    oldFile: !uuid 'de882ee0d77d533c712b9f2477b9f2c844e28e1f'
+  /src/backend/Dockerfile:
+    newFile: !uuid 'f12e6b1b38d944d52d084b55e6a077299a161664'
+    oldFile: !uuid '8770edf0f23ed0d556cb7c492ea1658695a53737'
+gitCommitId: !uuid '4a3471855972f58713da84a787e5e31b43f658b2'
 renames: {
   }
-revisionId: 234
+revisionId: 235
