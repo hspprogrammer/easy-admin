@@ -3,21 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '18cbc15750449ee4190fe424fc6f476f9939c680'
-    oldFile: !uuid '55e1bcccd76c770ac66729e79316a5e606d3a1c2'
+    newFile: !uuid '7d2cf419c87778c021c35824b887a1c8eda9cbd3'
+    oldFile: !uuid '18cbc15750449ee4190fe424fc6f476f9939c680'
   /src/backend:
-    newFile: !uuid '7deec9f2eff48795eb00059d49572e0a248c690a'
-    oldFile: !uuid 'b9d2fe5c4adbee7e5162671b1529f25fa4ee2bf9'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid '34e0ad2937bbf91ec1e50af58ff83f182c235874'
-    oldFile: !uuid '083e78087e3a859d5b434cbf22f12de3438d2bb9'
-  /src/backend/Easy.Admin.Application/Client:
-    newFile: !uuid '6f6bde5cdca39caf7803898e975172038cdbcd91'
-    oldFile: !uuid 'b4047b19da4ac62d08c4b4570bd8416efc5e5259'
-  /src/backend/Easy.Admin.Application/Client/OAuthController.cs:
-    newFile: !uuid '80cb32747eeef2047343d1903247c1248fd4af68'
-    oldFile: !uuid '2db54dfffb1857efbb2d2cbf3de273702c2ba606'
-gitCommitId: !uuid '429f5f6b7a34be897e65499f26ad9c9f647c8fc1'
+    newFile: !uuid '2fa5089ddf609040dac0782495dda33ea0bd0ce3'
+    oldFile: !uuid '7deec9f2eff48795eb00059d49572e0a248c690a'
+  /src/backend/Easy.Admin.Web.Entry:
+    newFile: !uuid '20f9241e97c45632d7510de10e8e5642eded86d7'
+    oldFile: !uuid 'be159964c974aa2a094bd5e09d7768f37793eda3'
+  /src/backend/Easy.Admin.Web.Entry/Dockerfile:
+    newFile: !uuid '8e35248e36d0c1f8c337754712e57761e2849f1e'
+    oldFile: !uuid '726acd1a6abc06a89f878def8f6b07a55e299f76'
+gitCommitId: !uuid '79bdbdc50ec1ace2a4f24b75598c3b9215524808'
 renames: {
   }
-revisionId: 242
+revisionId: 243
