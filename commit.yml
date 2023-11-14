@@ -3,24 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ca6b042a2098663f0b0d8a89d341207e375d58b5'
-    oldFile: !uuid '0fe4347dbdc6c2a4efd824849a346abf1beeaf70'
-  /src/frontend:
-    newFile: !uuid 'd0df4fab10c35350bba01a0d7b854f499be0a933'
-    oldFile: !uuid '85c1736467f8fa9821763278e11add29cbedac1d'
-  /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'f22a04757f5a8395d3691e898ed55a3bdbd4dd48'
-    oldFile: !uuid '41c615dcfef78ce0f7ffdd95d89aedc2972531c3'
-  /src/frontend/vite-ssr-blog/components:
-    newFile: !uuid 'd859f33604362d65e1030fae99303121799d9fab'
-    oldFile: !uuid '9bb70baa31b2cdfa10eda60d9b1a3c58483fe747'
-  /src/frontend/vite-ssr-blog/components/layout:
-    newFile: !uuid 'b1ccaf0e0105438c7ad6ed32a881ec068c569295'
-    oldFile: !uuid '48196d30bbb254ad5d5f63b15ecec412aa10f87c'
-  /src/frontend/vite-ssr-blog/components/layout/SideNavBar.vue:
-    newFile: !uuid '0b9bd2128150209a45b101bffb28b4886edf66d7'
-    oldFile: !uuid '092620d08c9b4ca4919eab1bd571ec6fe35970c7'
-gitCommitId: !uuid '18d78a126ad4621a12a0b056283da0c02f59fe53'
+    newFile: !uuid '534a5a67245717968c800f5af4f0c145cfcb0c39'
+    oldFile: !uuid 'ca6b042a2098663f0b0d8a89d341207e375d58b5'
+  /src/backend:
+    newFile: !uuid '51c1b8be5bf33e2f1fcfc97f38ef5a8926e14bd1'
+    oldFile: !uuid 'c2419803b92a1ee95fde888c53fd5acf9264701c'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid 'f934b8850c9db1870284968d684b0fc9a6cfe7d6'
+    oldFile: !uuid '9ee91d8a49441dd1597864d795cc5c935cab9f52'
+  /src/backend/Easy.Admin.Application/Client:
+    newFile: !uuid '9f9ac3e9aaa8aa8ee0694f7f0cf3e9a5aea1cd4a'
+    oldFile: !uuid '6f6bde5cdca39caf7803898e975172038cdbcd91'
+  /src/backend/Easy.Admin.Application/Client/OAuthController.cs:
+    newFile: !uuid '236e3ac7896d099ac1d2ee48c27945460ce9c2cd'
+    oldFile: !uuid '80cb32747eeef2047343d1903247c1248fd4af68'
+gitCommitId: !uuid '4bd606710e529ccc1bca0c4ddadfa50dc1d1137b'
 renames: {
   }
-revisionId: 248
+revisionId: 249
