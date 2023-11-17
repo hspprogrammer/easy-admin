@@ -3,57 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ac4a842adb016f20b7a285b9cffcf3695433d0ab'
-    oldFile: !uuid '4d5ca5386d80ebb04fbbbb3b325a5589cc691f18'
+    newFile: !uuid 'ae1bf2959ab65ea25fadda0c15633ea8e74bf589'
+    oldFile: !uuid 'ac4a842adb016f20b7a285b9cffcf3695433d0ab'
   /src/backend:
-    newFile: !uuid '856703cac2fd3c17e3cc187922deca5ff34a69f8'
-    oldFile: !uuid '3db1de32c19d70e111902564a1fb2ac5b96c452b'
+    newFile: !uuid 'cb5232311891db0120afb825a1a6cc08778a0abd'
+    oldFile: !uuid '856703cac2fd3c17e3cc187922deca5ff34a69f8'
+  /src/backend/Dockerfile:
+    newFile: !uuid '04ef3a55f5d21832540f76971d6d4dcdefd38580'
+    oldFile: !uuid 'e352629682c3e42bdbb1fe8ebf8135ef4e3a57cc'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'e24de903f171a84956a9a5449f54c4cf377d32ca'
-    oldFile: !uuid 'a90e0bb2ddaa274a45b5c71c8e117cd9d2323b5b'
-  /src/backend/Easy.Admin.Application/Easy.Admin.Application.csproj:
-    newFile: !uuid 'a472eb2beebe66e23b2c47c5c0e5695424d8727b'
-    oldFile: !uuid '64158df670bfedf52f343fd4fb95d606cc6a8043'
+    newFile: !uuid '60c940ec7ec77d9f193c69c2055ee860ef25a58e'
+    oldFile: !uuid 'e24de903f171a84956a9a5449f54c4cf377d32ca'
   /src/backend/Easy.Admin.Application/applicationsettings.json:
-    newFile: !uuid 'f99ad67314a883d3fa8576e737623b2adfdcbfaa'
-    oldFile: !uuid 'ee262518c26f7eeb7fd63b248e459ef2a58ea4f0'
-  /src/backend/Easy.Admin.Core:
-    newFile: !uuid 'ed25e6eae1bd4bd91bb81177c891a7a7528f544a'
-    oldFile: !uuid '947917280a986ec859502d0533bc575b419cd722'
-  /src/backend/Easy.Admin.Core/Easy.Admin.Core.csproj:
-    newFile: !uuid '090506b867e3b9cc39e5e479cff1d76448b58185'
-    oldFile: !uuid '64f3fd2a068f24f5acebffbd55784e9bd646688e'
-  /src/backend/Easy.Admin.Web.Core:
-    newFile: !uuid 'ba161aff9617b9093a753abcdf579fbd9f993f21'
-    oldFile: !uuid '184e29ddb8cbe2bed98681ddadc144f82336c627'
-  /src/backend/Easy.Admin.Web.Core/Easy.Admin.Web.Core.csproj:
-    newFile: !uuid 'bdf2ac56f15f49f2b694039a57b5f6a5460ae034'
-    oldFile: !uuid 'e2650197a72972e27eb31182db8429f607705e88'
+    newFile: !uuid 'ee262518c26f7eeb7fd63b248e459ef2a58ea4f0'
+    oldFile: !uuid 'f99ad67314a883d3fa8576e737623b2adfdcbfaa'
   /src/backend/Easy.Admin.Web.Entry:
-    newFile: !uuid 'acd5d28f4ab0a517c892ebe97a8b6fb10742f6be'
-    oldFile: !uuid '9041f7767f420bf30d77f3f649c7ecf3e48ccbcc'
-  /src/backend/Easy.Admin.Web.Entry/Easy.Admin.Web.Entry.csproj:
-    newFile: !uuid '05b878a2a323afd377af39b11fbefcdb3325dcd2'
-    oldFile: !uuid 'b5039f4922196edf725fd2272bf0b3a1a90555c3'
-  /src/frontend:
-    newFile: !uuid '33259e106d5e889e280dd6039bd5e84411e60b53'
-    oldFile: !uuid 'eb17840f856b90f0bea010e0ea9f7b32f9c94421'
-  /src/frontend/vite-ssr-blog:
-    newFile: !uuid 'd15e0202e66661d80ba3850303e833697e368640'
-    oldFile: !uuid 'f22a04757f5a8395d3691e898ed55a3bdbd4dd48'
-  /src/frontend/vite-ssr-blog/.env:
-    newFile: !uuid '52bad846e34868b35cd93fe28b822eb7967cd3c5'
-    oldFile: !uuid '58f253dc3303f0907052c7d1166193ff333f7e6c'
-  /src/frontend/vite-ssr-blog/pages:
-    newFile: !uuid 'a7beefffaeceba1a2cb4aaf0f7765df591395616'
-    oldFile: !uuid '8eb71adcabf46b1fe90d842f523045c33ef5ad65'
-  /src/frontend/vite-ssr-blog/pages/index:
-    newFile: !uuid '084ee90e4233c294e7164cf4227b5b63c2e2dde3'
-    oldFile: !uuid '3de7306c0665ea953eb7e9595de95f539c3ca200'
-  /src/frontend/vite-ssr-blog/pages/index/index.page.vue:
-    newFile: !uuid 'fefbae39d3956c39bcf075022f817e7592beff18'
-    oldFile: !uuid '4725c6bd5bda2f8b0cab35263208877301d0f218'
-gitCommitId: !uuid '045dfcb5cc49b4415dfbb0ce2d271cebbe19c04d'
+    newFile: !uuid '4c0e08e8338948fdfff80800eb26fed863c3d9bd'
+    oldFile: !uuid 'acd5d28f4ab0a517c892ebe97a8b6fb10742f6be'
+  /src/backend/Easy.Admin.Web.Entry/Dockerfile:
+    newFile: !uuid '8e35248e36d0c1f8c337754712e57761e2849f1e'
+    oldFile: !uuid '9f334f56cf0cdf5865f5eb8988a48aa910226974'
+gitCommitId: !uuid '122a77af9b411d62b88a45fdb3973432c54cbd00'
 renames: {
   }
-revisionId: 255
+revisionId: 256
