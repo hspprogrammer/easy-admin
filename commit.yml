@@ -2,22 +2,10 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid '8135534f488180aa7043a026e2a46d32239546ca'
-    oldFile: !uuid '5f26bc9792091a6d6b31da5695104ef6aed7a97c'
-  /src/backend:
-    newFile: !uuid '09a37d6f52033741317dd056a51133c94f14f459'
-    oldFile: !uuid '15d0c322e1f3446cec975486e61944d262cc7235'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid '884022952989b1ae6f1ae05180d6496bc850cb46'
-    oldFile: !uuid 'b743e3f7c7240bcdacbb8eafb159af79db5d54af'
-  /src/backend/Easy.Admin.Application/Client:
-    newFile: !uuid 'b8f018dea26f616acd378e5e71771594d6edf37a'
-    oldFile: !uuid '85455949a1ecad2be59644cbda8d67bd8aca1cc9'
-  /src/backend/Easy.Admin.Application/Client/OAuthController.cs:
-    newFile: !uuid '860a4ae6f51e097257f9b38beb332c3ef49d9279'
-    oldFile: !uuid '7f1ec1c911e18efaa5e4c201d7126c8fa216275f'
-gitCommitId: !uuid '5dd0b3e50e4af14d9eaf1820392e1869f60524f0'
+  /README.md:
+    newFile: !uuid '2a1072919f13c8ca20359568f00532d0950b5346'
+    oldFile: !uuid '1e5bbaae48228ef70760455aeb78ca4e854f322b'
+gitCommitId: !uuid '7028a8614aaee4934e4a3a052969283115405ca9'
 renames: {
   }
-revisionId: 278
+revisionId: 279
