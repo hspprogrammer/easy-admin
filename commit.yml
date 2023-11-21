@@ -3,18 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5418ff498232689e8c471e6d9ae60c4c362f7a29'
-    oldFile: !uuid '8130d02a074c89caf72232949edde993d539b4bd'
+    newFile: !uuid '4bdac51368b7da6a759b91069d48c88ab7738e85'
+    oldFile: !uuid '5418ff498232689e8c471e6d9ae60c4c362f7a29'
   /src/backend:
-    newFile: !uuid '15f828ef9d8025084d5d7fba32f9a672506d3b71'
-    oldFile: !uuid '79e89145594d5e6f9bc435be8ca0a0d6bcac2e89'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'a49be0e7492edaf51fcd52aa6c2c5a5c43ddb67b'
-    oldFile: !uuid '505b77f3394bdbfae4f1e08812dacce536a685d3'
-  /src/backend/Easy.Admin.Application/applicationsettings.json:
-    newFile: !uuid 'f31d905f03c7cd420d6e34aebf12fa8fed96aa6a'
-    oldFile: !uuid '0e70f49b243f83d4ec4ec70bd1cda104f15aebbd'
-gitCommitId: !uuid 'c886f27a7334dfc10200464094e6c1015c07cb9e'
+    newFile: !uuid 'd57ed570479add0053bc75404948c07643b91e69'
+    oldFile: !uuid '15f828ef9d8025084d5d7fba32f9a672506d3b71'
+  /src/backend/Easy.Admin.Core:
+    newFile: !uuid 'ad3d1713d9335015b58499a088cec4f5ca24e9ab'
+    oldFile: !uuid 'ed25e6eae1bd4bd91bb81177c891a7a7528f544a'
+  /src/backend/Easy.Admin.Core/SqlSugar:
+    newFile: !uuid 'c8ab3695669df8fbf656113d8191df7f5c968cad'
+    oldFile: !uuid '6d008c9090dda269976039bf21af7f67f795598a'
+  /src/backend/Easy.Admin.Core/SqlSugar/SqlSugarExtensions.cs:
+    newFile: !uuid '4bafeb8dbe4f16c0c2bb8f56db1702adc4195a32'
+    oldFile: !uuid '3f7ab4c87f4a2413f422b78e65ffb5f0abad373b'
+gitCommitId: !uuid 'ae0e0c65796638816c924f5b447ba7fe82a4a17e'
 renames: {
   }
-revisionId: 286
+revisionId: 287
