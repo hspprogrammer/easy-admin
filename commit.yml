@@ -3,21 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '4bdac51368b7da6a759b91069d48c88ab7738e85'
-    oldFile: !uuid '5418ff498232689e8c471e6d9ae60c4c362f7a29'
-  /src/backend:
-    newFile: !uuid 'd57ed570479add0053bc75404948c07643b91e69'
-    oldFile: !uuid '15f828ef9d8025084d5d7fba32f9a672506d3b71'
-  /src/backend/Easy.Admin.Core:
-    newFile: !uuid 'ad3d1713d9335015b58499a088cec4f5ca24e9ab'
-    oldFile: !uuid 'ed25e6eae1bd4bd91bb81177c891a7a7528f544a'
-  /src/backend/Easy.Admin.Core/SqlSugar:
-    newFile: !uuid 'c8ab3695669df8fbf656113d8191df7f5c968cad'
-    oldFile: !uuid '6d008c9090dda269976039bf21af7f67f795598a'
-  /src/backend/Easy.Admin.Core/SqlSugar/SqlSugarExtensions.cs:
-    newFile: !uuid '4bafeb8dbe4f16c0c2bb8f56db1702adc4195a32'
-    oldFile: !uuid '3f7ab4c87f4a2413f422b78e65ffb5f0abad373b'
-gitCommitId: !uuid 'ae0e0c65796638816c924f5b447ba7fe82a4a17e'
+    newFile: !uuid 'ccb558870efeea06a7edb72d1af9038ade073af1'
+    oldFile: !uuid '4bdac51368b7da6a759b91069d48c88ab7738e85'
+  /src/frontend:
+    newFile: !uuid 'ee0ccf37be9f9e078adc639a87d67f427ab412b7'
+    oldFile: !uuid 'a8b80736835a37fc6c235cf03fe608f59278cbf5'
+  /src/frontend/vite-ssr-blog:
+    newFile: !uuid 'cd9e8fc20fd982d2dd61c30705e04a4f885dac64'
+    oldFile: !uuid '8cf4bc1bb32c90ded74546aa0150a6856c9a0f35'
+  /src/frontend/vite-ssr-blog/Dockerfile:
+    newFile: !uuid '8b0cf4bf0781db23be50677115c7c7c06873c770'
+    oldFile: !uuid 'a1bc1090a7fd73bf298b3b3a8262f74f6718e9ef'
+gitCommitId: !uuid 'b3fd74807626b4018fdd4e57fd5c49c2d6483f2f'
 renames: {
   }
-revisionId: 287
+revisionId: 288
