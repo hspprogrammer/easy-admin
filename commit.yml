@@ -3,21 +3,48 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f68ffc2c89311bb611db96bac4b80d250437a01c'
-    oldFile: !uuid '0463a1ede2be1cb58a7bd094d5256c08371905a4'
+    newFile: !uuid '8aac2d32aa09c4e6c3e7b9855b9a9126ef187a41'
+    oldFile: !uuid 'f68ffc2c89311bb611db96bac4b80d250437a01c'
   /src/frontend:
-    newFile: !uuid '9f52c504798c8ae5375fa3ca65b9e284070c69f1'
-    oldFile: !uuid '142bb1f497d701557d1e879ce157289e6b233c59'
-  /src/frontend/vite-ssr-blog:
-    newFile: !uuid '1a5d7263746b62aba9d45299d1df4395a085967a'
-    oldFile: !uuid 'a67a995b479ac6c4e02250432adba1a21ab21c88'
-  /src/frontend/vite-ssr-blog/package.json:
-    newFile: !uuid 'f8f05663c76aaf4debbac6235574c64c13b0033a'
-    oldFile: !uuid '04faac773aefc1e89ff0fd2fb8b1b6bd83f8e467'
-  /src/frontend/vite-ssr-blog/yarn.lock:
-    newFile: !uuid '67eca96b3f13d4e40d72b89e055d658f1ded819c'
-    oldFile: !uuid 'd6d11eac1498cc1e0d11777463d220a5ec7656c9'
-gitCommitId: !uuid 'f946bf71f255d439986af70d78a7ff9d6781f691'
+    newFile: !uuid '3cd9f7264d6e5a47a90671cf1e8815b75363e692'
+    oldFile: !uuid '9f52c504798c8ae5375fa3ca65b9e284070c69f1'
+  /src/frontend/blog-nuxt:
+    newFile: !uuid 'fc2d9fc8f9ae92aa684b14d6334a291592d53d37'
+    oldFile: null
+  /src/frontend/blog-nuxt/.gitignore:
+    newFile: !uuid '4a7f73a2ed0d9f99a182a5855b29846de7bad09c'
+    oldFile: null
+  /src/frontend/blog-nuxt/README.md:
+    newFile: !uuid 'f5db2a2dbfddb20bb90a1b07c5c9502aa7bfd716'
+    oldFile: null
+  /src/frontend/blog-nuxt/app.vue:
+    newFile: !uuid 'a495b7573290d49d9fbc106f1a10ff1c6655c2ad'
+    oldFile: null
+  /src/frontend/blog-nuxt/nuxt.config.ts:
+    newFile: !uuid '8851e7746b250e08c1db37abcc563179d9a47b5f'
+    oldFile: null
+  /src/frontend/blog-nuxt/package.json:
+    newFile: !uuid 'b3b223dba753b32d4a05e75cc5f57b0a593c2a0a'
+    oldFile: null
+  /src/frontend/blog-nuxt/public:
+    newFile: !uuid '252d69d2d6f05c8ff6d736378f42e4907148da79'
+    oldFile: null
+  /src/frontend/blog-nuxt/public/favicon.ico:
+    newFile: !uuid '18993ad91cfd43e03b074dd0b5cc3f37ab38e49c'
+    oldFile: null
+  /src/frontend/blog-nuxt/server:
+    newFile: !uuid 'cf1951e23d2de9a4a0eaa590caf1d8d528b0b57f'
+    oldFile: null
+  /src/frontend/blog-nuxt/server/tsconfig.json:
+    newFile: !uuid 'b9ed69c19eaf31e77ce2e16b509f884fe84934dc'
+    oldFile: null
+  /src/frontend/blog-nuxt/tsconfig.json:
+    newFile: !uuid 'a746f2a70c28960c343f778a460fa6124e0b55ca'
+    oldFile: null
+  /src/frontend/blog-nuxt/yarn.lock:
+    newFile: !uuid '862d09019a3824fd7b38180a498894c31224884f'
+    oldFile: null
+gitCommitId: !uuid 'da3d15af7e27377aad0445232ef85c60e2fa97bc'
 renames: {
   }
-revisionId: 301
+revisionId: 302
