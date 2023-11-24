@@ -3,48 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8aac2d32aa09c4e6c3e7b9855b9a9126ef187a41'
-    oldFile: !uuid 'f68ffc2c89311bb611db96bac4b80d250437a01c'
+    newFile: !uuid '318f7222b66d8b0ca15e20b76026087d29747e25'
+    oldFile: !uuid '8aac2d32aa09c4e6c3e7b9855b9a9126ef187a41'
   /src/frontend:
-    newFile: !uuid '3cd9f7264d6e5a47a90671cf1e8815b75363e692'
-    oldFile: !uuid '9f52c504798c8ae5375fa3ca65b9e284070c69f1'
-  /src/frontend/blog-nuxt:
-    newFile: !uuid 'fc2d9fc8f9ae92aa684b14d6334a291592d53d37'
-    oldFile: null
-  /src/frontend/blog-nuxt/.gitignore:
-    newFile: !uuid '4a7f73a2ed0d9f99a182a5855b29846de7bad09c'
-    oldFile: null
-  /src/frontend/blog-nuxt/README.md:
-    newFile: !uuid 'f5db2a2dbfddb20bb90a1b07c5c9502aa7bfd716'
-    oldFile: null
-  /src/frontend/blog-nuxt/app.vue:
-    newFile: !uuid 'a495b7573290d49d9fbc106f1a10ff1c6655c2ad'
-    oldFile: null
-  /src/frontend/blog-nuxt/nuxt.config.ts:
-    newFile: !uuid '8851e7746b250e08c1db37abcc563179d9a47b5f'
-    oldFile: null
-  /src/frontend/blog-nuxt/package.json:
-    newFile: !uuid 'b3b223dba753b32d4a05e75cc5f57b0a593c2a0a'
-    oldFile: null
-  /src/frontend/blog-nuxt/public:
-    newFile: !uuid '252d69d2d6f05c8ff6d736378f42e4907148da79'
-    oldFile: null
-  /src/frontend/blog-nuxt/public/favicon.ico:
-    newFile: !uuid '18993ad91cfd43e03b074dd0b5cc3f37ab38e49c'
-    oldFile: null
-  /src/frontend/blog-nuxt/server:
-    newFile: !uuid 'cf1951e23d2de9a4a0eaa590caf1d8d528b0b57f'
-    oldFile: null
-  /src/frontend/blog-nuxt/server/tsconfig.json:
-    newFile: !uuid 'b9ed69c19eaf31e77ce2e16b509f884fe84934dc'
-    oldFile: null
-  /src/frontend/blog-nuxt/tsconfig.json:
-    newFile: !uuid 'a746f2a70c28960c343f778a460fa6124e0b55ca'
-    oldFile: null
-  /src/frontend/blog-nuxt/yarn.lock:
-    newFile: !uuid '862d09019a3824fd7b38180a498894c31224884f'
-    oldFile: null
-gitCommitId: !uuid 'da3d15af7e27377aad0445232ef85c60e2fa97bc'
+    newFile: !uuid 'e20cb44102d64d5f6233d36f6a4888954932ce04'
+    oldFile: !uuid '3cd9f7264d6e5a47a90671cf1e8815b75363e692'
+  /src/frontend/blog:
+    newFile: !uuid '710feeeb6d90af3a30ca72a2958cd9f464caf2e6'
+    oldFile: !uuid 'bbe44ed2d5e49a034246822a48d4d28317df263d'
+  /src/frontend/blog/src:
+    newFile: !uuid '6fdafe8f49d1b76656da18dd39fbebde16074625'
+    oldFile: !uuid '8c53f271f6e735ff3bc3a54c9fffeecf6cbf11c6'
+  /src/frontend/blog/src/App.vue:
+    newFile: !uuid '53df17f84e9742c5b7db6b5cb974fe26eb97115c'
+    oldFile: !uuid '15b99060a0e8f0114378c5d675ddd6c17f70456d'
+gitCommitId: !uuid 'd28cf43239995ec7e9a1dde5826e41104eda70b6'
 renames: {
   }
-revisionId: 302
+revisionId: 303
