@@ -1,9 +1,26 @@
 !revision
 branches: {
   }
-fileChange: {
-  }
-gitCommitId: !uuid 'a66e2f801965f7b7b84826d4f76b86005abdbcdd'
+fileChange:
+  /src:
+    newFile: !uuid 'e1ff58894d51dea2e5c71e98b4affc42d8f3bc7a'
+    oldFile: !uuid '9573c04d8d39753a885ba11343c06d599911b839'
+  /src/frontend:
+    newFile: !uuid '7317819f8adf9c6371b462d75dfe090e6dd5a6e9'
+    oldFile: !uuid 'dc67681aa63820dc8950aafb2702de6cae45141e'
+  /src/frontend/blog-nuxt:
+    newFile: !uuid '7b43cde1876dfaea30d4bc144e5fdb8f6c5709cd'
+    oldFile: !uuid 'e64922f355cde2238a07b7af295e1a75705ba6b1'
+  /src/frontend/blog-nuxt/package.json:
+    newFile: !uuid '7a0fbcf0aadfe61b414d689f10853d5a74479025'
+    oldFile: !uuid '6213a77cc5d8c7e9b795f1c2991ea7d0b6b9ead8'
+  /src/frontend/blog-nuxt/pages:
+    newFile: !uuid '05e7a38b3d14a5ef1cb452aa2545c0b33c8634a3'
+    oldFile: !uuid 'c192a5bd3dc89ee2f6984c5e70e00e79619513c9'
+  /src/frontend/blog-nuxt/pages/index.vue:
+    newFile: !uuid 'a803ffc323b655a19448a5e58251a411fd1bf7ff'
+    oldFile: !uuid '6861269f8353117603a9f3e3f111c98a8f0cd288'
+gitCommitId: !uuid '68913c55870b7d27d2429b755ac446a9ee939016'
 renames: {
   }
-revisionId: 310
+revisionId: 311
