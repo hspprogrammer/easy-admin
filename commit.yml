@@ -1,71 +1,9 @@
 !revision
 branches: {
   }
-fileChange:
-  /src:
-    newFile: !uuid '9573c04d8d39753a885ba11343c06d599911b839'
-    oldFile: !uuid 'a0134dd6384bfb59a336dafc47fb0ecb6aaef6ea'
-  /src/frontend:
-    newFile: !uuid 'dc67681aa63820dc8950aafb2702de6cae45141e'
-    oldFile: !uuid 'd362be4a6986ffc49145e3df86de9e741afce17b'
-  /src/frontend/blog-nuxt:
-    newFile: !uuid 'e64922f355cde2238a07b7af295e1a75705ba6b1'
-    oldFile: !uuid 'cfb9878d581e1ecc1b48e38171e9859065462754'
-  /src/frontend/blog-nuxt/layouts:
-    newFile: !uuid '7d93df42147265f1f585d8e2a4d7e1e6726708c5'
-    oldFile: !uuid '0c5ee2dd4c339888feaad448eb61749a4b521371'
-  /src/frontend/blog-nuxt/layouts/SideNavBar.vue:
-    newFile: !uuid '931e21fdf1ea1c5cc9514798dc30b940ff3c044e'
-    oldFile: !uuid '0496a9cb8947e2b1c681d4b3917988e6042d2569'
-  /src/frontend/blog-nuxt/layouts/TopNavBar.vue:
-    newFile: !uuid '77d8450911a724ab165da5574bfddcf31f7e40b1'
-    oldFile: !uuid 'da62c37c4a357ddac11c41273f34c4c841396c44'
-  /src/frontend/blog-nuxt/layouts/default.vue:
-    newFile: !uuid '588446c71d9a16919a8490f12e312473a723ca03'
-    oldFile: !uuid '03c5ba0d2285527d231b9c4eaa16c8d3f05bde31'
-  /src/frontend/blog-nuxt/pages:
-    newFile: !uuid 'c192a5bd3dc89ee2f6984c5e70e00e79619513c9'
-    oldFile: !uuid '7da8aecc2eda603545045de82d0a0f4e6e68658a'
-  /src/frontend/blog-nuxt/pages/about.vue:
-    newFile: !uuid '76deff057245e79656cb0c06b687b54c49e8f487'
-    oldFile: !uuid '97f553d3ea334c85dde544f75f89f062494f574e'
-  /src/frontend/blog-nuxt/pages/archives.vue:
-    newFile: !uuid '79ff46e1db0965111190e8166b66200e745fbe0a'
-    oldFile: !uuid '95e7cdef49f30681ebc0ac3f6b7d3deec7ed3d49'
-  /src/frontend/blog-nuxt/pages/categories:
-    newFile: !uuid 'f15a10a0c2985dafb9c9a720c3e51acaef455d83'
-    oldFile: !uuid 'cd7d7bd3b414f2194b16b635493a01aeb154abd4'
-  /src/frontend/blog-nuxt/pages/categories/index.vue:
-    newFile: !uuid '0827e71da85181abbeff9953e8729a1cd301d0ac'
-    oldFile: !uuid '74494b9ce5bb3921f4907994b87081dfb94fb5a9'
-  /src/frontend/blog-nuxt/pages/index.vue:
-    newFile: !uuid '6861269f8353117603a9f3e3f111c98a8f0cd288'
-    oldFile: !uuid '42813e56674e7bc63779be2f1976adc812349b8a'
-  /src/frontend/blog-nuxt/pages/links.vue:
-    newFile: !uuid '862bb4f4990a2a41fc5a72dcb37f7b9de2fd33b4'
-    oldFile: !uuid '50e342eca9e0e4c8d664ca9aebdaf10c3daad120'
-  /src/frontend/blog-nuxt/pages/message.vue:
-    newFile: !uuid '8df933d1350d1c34cf24357085651f19b7970038'
-    oldFile: !uuid '13e0ee6e72e3c51acfd7ebfa631e130776b41736'
-  /src/frontend/blog-nuxt/pages/tags:
-    newFile: !uuid '2f562e9e42d4d83ea39760811dc41dcf64aa53ae'
-    oldFile: !uuid '58582d424743484eb0cc9bf0f6dc5f824ecb33e2'
-  /src/frontend/blog-nuxt/pages/tags/index.vue:
-    newFile: !uuid '30df9de15e3e7a87739601d4498fba305901aa21'
-    oldFile: !uuid '5ab62e4299728e01f1365d4e2a9a91ad757198f9'
-  /src/frontend/blog-nuxt/pages/talks:
-    newFile: !uuid '40aa03cce8ee1a596bc73e2e1c88176db7f8af52'
-    oldFile: !uuid 'c359f15fb4c78e3a85ee39eed9c60fd6c386c9a2'
-  /src/frontend/blog-nuxt/pages/talks/[id].vue:
-    newFile: !uuid '4f8613785cae2a744590948339fd80f996451707'
-    oldFile: !uuid '07d2d425b8664af3364e532b91f10d258689b3b6'
-  /src/frontend/blog-nuxt/pages/talks/index.vue:
-    newFile: !uuid '399942fcbca12446ec50f3f88d7ebb13ab4579eb'
-    oldFile: !uuid '48deb98725501906cea9ec88c4cd8081e2cda7e5'
-  /src/frontend/blog-nuxt/pages/user.vue:
-    newFile: !uuid '0c5a37698137dac90f87b3100b303891139108d8'
-    oldFile: !uuid '34c4205ee192e7af410073a915d4b86d65caba6a'
-gitCommitId: !uuid '8d3dc19ecbc0f797931e13ffd63e66f195145279'
+fileChange: {
+  }
+gitCommitId: !uuid 'a66e2f801965f7b7b84826d4f76b86005abdbcdd'
 renames: {
   }
-revisionId: 309
+revisionId: 310
