@@ -3,39 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'a9e1179396aa7ef1cdab72ecde663a8733d54041'
-    oldFile: !uuid 'e1ff58894d51dea2e5c71e98b4affc42d8f3bc7a'
+    newFile: !uuid '0cb27f658d4afb20accd473e8f5a7b2e9f1807cd'
+    oldFile: !uuid 'a9e1179396aa7ef1cdab72ecde663a8733d54041'
   /src/frontend:
-    newFile: !uuid 'f2882425f6311a5334af44c959069d6d2920852f'
-    oldFile: !uuid '7317819f8adf9c6371b462d75dfe090e6dd5a6e9'
-  /src/frontend/vite-ssr-blog:
-    newFile: !uuid '8f9db4ed6067ed7e2fce448ebef741ee837c794f'
-    oldFile: !uuid 'b85790ce57b23654f6582a417f73b73f693377ec'
-  /src/frontend/vite-ssr-blog/components:
-    newFile: !uuid '97058258e6191c117d101cfeed34ffce53d7cc12'
-    oldFile: !uuid '076afb6c788331f931b2c4896f5ab4f3d21e3bb9'
-  /src/frontend/vite-ssr-blog/components/Comment.vue:
-    newFile: !uuid '2abd939e9e474888d7678e49a6fb47b710dc356c'
-    oldFile: !uuid '4f8ea7bd843641215e54a0b702a45e1e6ef3fac7'
-  /src/frontend/vite-ssr-blog/pages:
-    newFile: !uuid '596652379398067e1deec086b8f75d2b5793c507'
-    oldFile: !uuid '1fbc6d8eb11bd057c369241ad087e4a470692d29'
-  /src/frontend/vite-ssr-blog/pages/article:
-    newFile: !uuid 'd583f69d6e3fff69ae13b8c130df6546e9e57744'
-    oldFile: !uuid 'd21b19f1d0315c8cf008e0d3e74900e2ff1fc04b'
-  /src/frontend/vite-ssr-blog/pages/article/categories.page.vue:
-    newFile: !uuid '9770bffe8e7fbcde0af945960614de63575ce3a0'
-    oldFile: !uuid '1e1abd1f9d4095cfffcbd0f1b706cd51fd837037'
-  /src/frontend/vite-ssr-blog/pages/article/tags.page.vue:
-    newFile: !uuid '7c0db480958d8adb4eb94e3fd7b9a0b94686d571'
-    oldFile: !uuid '1cbf9ca33dcfc203e3e135e40eca81e2f2cf972d'
-  /src/frontend/vite-ssr-blog/pages/links:
-    newFile: !uuid '70ed85715e0e0d70fb29478ad973df0f0fd63f6e'
-    oldFile: !uuid 'be883d7771a49177bcb6f8308ecfd097b6defd09'
-  /src/frontend/vite-ssr-blog/pages/links/index.page.vue:
-    newFile: !uuid 'f7bb4e78d9827a1a2a61d73e64099e1464fa0589'
-    oldFile: !uuid 'e7d217d4eaf4203bbf304ff1ea5482a949b7ab37'
-gitCommitId: !uuid '85ab599445733116d155c88fa6ac11dea9d6cb38'
+    newFile: !uuid 'e0ddc4da88d6682fc971b11f01fc07e72dc3aac5'
+    oldFile: !uuid 'f2882425f6311a5334af44c959069d6d2920852f'
+  /src/frontend/blog-nuxt:
+    newFile: !uuid 'b2a0944eb1a5e97628dd539a6c46ad35fb0c5f20'
+    oldFile: !uuid '7b43cde1876dfaea30d4bc144e5fdb8f6c5709cd'
+  /src/frontend/blog-nuxt/Dockerfile:
+    newFile: !uuid '245b13d1d842f6ad48f607032f1fb190b2fa7774'
+    oldFile: null
+gitCommitId: !uuid '76a023feda27cb63d7fdc9884710008be5f44898'
 renames: {
   }
-revisionId: 312
+revisionId: 313
