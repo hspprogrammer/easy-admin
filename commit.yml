@@ -3,21 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '9213ca59442de2f978533e64625c31dca48230e5'
-    oldFile: !uuid 'bf137fd29c029ca67c3617353c758d217b0badc6'
-  /src/backend:
-    newFile: !uuid 'c442fef5fc72b8e3bd95e405fb26f640f9a80782'
-    oldFile: !uuid 'd57ed570479add0053bc75404948c07643b91e69'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid '01a3b82fd27d677eedba9a56cd4764a0cacd60f6'
-    oldFile: !uuid 'a49be0e7492edaf51fcd52aa6c2c5a5c43ddb67b'
-  /src/backend/Easy.Admin.Application/Blog:
-    newFile: !uuid '621470e7887493fc6ae3ac3f89eaf2dbb278da37'
-    oldFile: !uuid '9211817e5d655517aa5aef382a3ac2851153c5ea'
-  /src/backend/Easy.Admin.Application/Blog/ArticleService.cs:
-    newFile: !uuid 'ff8359a97761fc15406ea5658420069fed6f7a40'
-    oldFile: !uuid 'c5d04563f82b7407c5fb176fc2c26a25f7ce3896'
-gitCommitId: !uuid 'b75a2a6cf135f87ec652da7c4d89138e9854de7b'
+    newFile: !uuid '8e2ecf065cb2d3a425768278478821e5e8614d7d'
+    oldFile: !uuid '9213ca59442de2f978533e64625c31dca48230e5'
+  /src/frontend:
+    newFile: !uuid '81cad38038e58a6930c043dbbaccfef4ff88633c'
+    oldFile: !uuid 'ed312048ef030ae175996608c22020c5db9038a1'
+  /src/frontend/blog-nuxt:
+    newFile: !uuid '6a53c24653c1a20cd73b5ca80aafc63bba737826'
+    oldFile: !uuid 'da8fafb66f0b68d9e4b5e263dc23a98aae67837a'
+  /src/frontend/blog-nuxt/Dockerfile:
+    newFile: !uuid 'c5d58e7cadf319c71764fd3d535719fe4d9db6f2'
+    oldFile: !uuid '457c59678128f43aaefbc955e547a813c2155704'
+gitCommitId: !uuid '499808086f4095a47c47221d226cad5dfbbfaa5b'
 renames: {
   }
-revisionId: 316
+revisionId: 317
