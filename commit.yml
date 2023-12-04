@@ -3,27 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'bf137fd29c029ca67c3617353c758d217b0badc6'
-    oldFile: !uuid '96f3f8c7e4b81b463eec2f808c4044e8f0b521d0'
-  /src/frontend:
-    newFile: !uuid 'ed312048ef030ae175996608c22020c5db9038a1'
-    oldFile: !uuid 'dda9b6a20a8f696c9b1f49ad5f14d442d535adef'
-  /src/frontend/blog-nuxt:
-    newFile: !uuid 'da8fafb66f0b68d9e4b5e263dc23a98aae67837a'
-    oldFile: !uuid '02b945c015cef370bf20517643da28bfb2cd517e'
-  /src/frontend/blog-nuxt/types:
-    newFile: !uuid '30ac8a7eca3afe2503590d3d46a2a85f5a39225b'
-    oldFile: !uuid 'e38db0d61100c0d2c858c189a418743bbdb3fc5d'
-  /src/frontend/blog-nuxt/types/type.d.ts:
-    newFile: !uuid '34a6b022c18c89e9e21f24511686196272f978f4'
-    oldFile: !uuid '45f52c389be4b331697b3f96201f1395df6504ec'
-  /src/frontend/blog-nuxt/utils:
-    newFile: !uuid '7367c1351c9d798e88bf0fc27421e38965d19006'
-    oldFile: !uuid 'e33171bd4d2a08161d81d51d58cd4fba9eb8f0cf'
-  /src/frontend/blog-nuxt/utils/markdown.ts:
-    newFile: !uuid 'ebe2f0ef729c9e816880b3d24f5201d388f568c3'
-    oldFile: !uuid 'd64aab6e3341bcce2230407927ddb1db44bd13cc'
-gitCommitId: !uuid '59a27fcb094b2fba5e27d08e5579faa76e0e6991'
+    newFile: !uuid '9213ca59442de2f978533e64625c31dca48230e5'
+    oldFile: !uuid 'bf137fd29c029ca67c3617353c758d217b0badc6'
+  /src/backend:
+    newFile: !uuid 'c442fef5fc72b8e3bd95e405fb26f640f9a80782'
+    oldFile: !uuid 'd57ed570479add0053bc75404948c07643b91e69'
+  /src/backend/Easy.Admin.Application:
+    newFile: !uuid '01a3b82fd27d677eedba9a56cd4764a0cacd60f6'
+    oldFile: !uuid 'a49be0e7492edaf51fcd52aa6c2c5a5c43ddb67b'
+  /src/backend/Easy.Admin.Application/Blog:
+    newFile: !uuid '621470e7887493fc6ae3ac3f89eaf2dbb278da37'
+    oldFile: !uuid '9211817e5d655517aa5aef382a3ac2851153c5ea'
+  /src/backend/Easy.Admin.Application/Blog/ArticleService.cs:
+    newFile: !uuid 'ff8359a97761fc15406ea5658420069fed6f7a40'
+    oldFile: !uuid 'c5d04563f82b7407c5fb176fc2c26a25f7ce3896'
+gitCommitId: !uuid 'b75a2a6cf135f87ec652da7c4d89138e9854de7b'
 renames: {
   }
-revisionId: 315
+revisionId: 316
