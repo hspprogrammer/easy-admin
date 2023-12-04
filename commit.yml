@@ -3,18 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '146104fd5876e23a8a0b8205f864e306b141562a'
-    oldFile: !uuid '8e2ecf065cb2d3a425768278478821e5e8614d7d'
+    newFile: !uuid 'c198ee29d5b6cf8baa9eba1dd865fe13cd1485a9'
+    oldFile: !uuid '146104fd5876e23a8a0b8205f864e306b141562a'
   /src/frontend:
-    newFile: !uuid 'f3a66d6cdc8edf0fcec5587cd7235492c75bf47b'
-    oldFile: !uuid '81cad38038e58a6930c043dbbaccfef4ff88633c'
+    newFile: !uuid 'c5d781764c2e92d2e6bd60509565be50c507c14e'
+    oldFile: !uuid 'f3a66d6cdc8edf0fcec5587cd7235492c75bf47b'
   /src/frontend/blog-nuxt:
-    newFile: !uuid 'e1371488c15e3045167985946f35e3c2a42eaaa7'
-    oldFile: !uuid '6a53c24653c1a20cd73b5ca80aafc63bba737826'
+    newFile: !uuid 'd848374de867237289af4bc60d3cdc1f0e292cd6'
+    oldFile: !uuid 'e1371488c15e3045167985946f35e3c2a42eaaa7'
   /src/frontend/blog-nuxt/Dockerfile:
-    newFile: !uuid 'e7129ae791cf9883e961f159d2e79af9bf4ebb19'
-    oldFile: !uuid 'c5d58e7cadf319c71764fd3d535719fe4d9db6f2'
-gitCommitId: !uuid '504cdf7e30d3d62ee2725b87144a67c37ce549a8'
+    newFile: !uuid '457c59678128f43aaefbc955e547a813c2155704'
+    oldFile: !uuid 'e7129ae791cf9883e961f159d2e79af9bf4ebb19'
+  /src/frontend/blog-nuxt/utils:
+    newFile: !uuid '45a1aec942f7b2647833d9d913f3d8b42ff87a17'
+    oldFile: !uuid '7367c1351c9d798e88bf0fc27421e38965d19006'
+  /src/frontend/blog-nuxt/utils/http.ts:
+    newFile: !uuid '0c1d92986f94eec37bf1362fa9a59555af347a68'
+    oldFile: !uuid '47a309e846e5705319c92ac390a5c904d65e7197'
+gitCommitId: !uuid 'f528f539550e1cb6259cfd1dfd32d89f4a743923'
 renames: {
   }
-revisionId: 318
+revisionId: 319
