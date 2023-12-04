@@ -3,21 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '318fd6cfe6672abc5d16af48cb89b8cd3a7ce34a'
-    oldFile: !uuid 'fefca84c331acbb03946e5dc5e5e3bf2bda515ad'
+    newFile: !uuid '62a774caf9171ed1f3ec91be214e51f1dffc500a'
+    oldFile: !uuid '318fd6cfe6672abc5d16af48cb89b8cd3a7ce34a'
   /src/frontend:
-    newFile: !uuid 'b6e8acfff942bbbadc1056ee469c1cf5433f72b5'
-    oldFile: !uuid 'a4b7a6e75c443af6b3505b77a6e0a7384beefff7'
+    newFile: !uuid '60ef048208fface145a2a59b0da44d54aaac0d3d'
+    oldFile: !uuid 'b6e8acfff942bbbadc1056ee469c1cf5433f72b5'
   /src/frontend/blog-nuxt:
-    newFile: !uuid 'fb3ce66f77aeb87d56259b1dce642863babe7ec5'
-    oldFile: !uuid '4261d1db28eae0aa1350ede10522f79762b1f90a'
+    newFile: !uuid '4e3da2add27bea30e4cfc6bfdcabe1f66f013676'
+    oldFile: !uuid 'fb3ce66f77aeb87d56259b1dce642863babe7ec5'
+  /src/frontend/blog-nuxt/pages:
+    newFile: !uuid 'b5df3baedaf16c718ec5248138f2f04fa8936d14'
+    oldFile: !uuid '05e7a38b3d14a5ef1cb452aa2545c0b33c8634a3'
+  /src/frontend/blog-nuxt/pages/archives.vue:
+    newFile: !uuid '503c9fcb82f9fc55479f6869a2ca9a488f5ee48f'
+    oldFile: !uuid '79ff46e1db0965111190e8166b66200e745fbe0a'
+  /src/frontend/blog-nuxt/plugins:
+    newFile: !uuid 'cc9b222ccc0c82d6939b8fef73a6204cb3510678'
+    oldFile: !uuid '6d196cf2264078ceaa4248c3f206b0ef78d02627'
+  /src/frontend/blog-nuxt/plugins/02.ui.ts:
+    newFile: !uuid '57db4f73addf624aca38ad2840c56c264b5e0b52'
+    oldFile: !uuid '11c7a33d588de2859b105f945a0a0eb99af9f691'
   /src/frontend/blog-nuxt/utils:
-    newFile: !uuid '2d6e5af28f6d3bdce03c865f2076a16197631b61'
-    oldFile: !uuid '45a1aec942f7b2647833d9d913f3d8b42ff87a17'
+    newFile: !uuid '82deb43573feed660ffc27db20a039cff0390e9b'
+    oldFile: !uuid '2d6e5af28f6d3bdce03c865f2076a16197631b61'
   /src/frontend/blog-nuxt/utils/http.ts:
-    newFile: !uuid '1037c0686dfd0314b588802680c0aea82101cf38'
-    oldFile: !uuid '0c1d92986f94eec37bf1362fa9a59555af347a68'
-gitCommitId: !uuid 'e0182d0a16f47e194a09a7d08932c56999f51472'
+    newFile: !uuid 'b858d7673f15a40b51b9ed1d3814adffe9c27195'
+    oldFile: !uuid '1037c0686dfd0314b588802680c0aea82101cf38'
+gitCommitId: !uuid '4de75c47812e4c44c17d247836b080a95b72eca3'
 renames: {
   }
-revisionId: 321
+revisionId: 322
