@@ -3,45 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'fd099871d14c1947f7b0ba7ac27e606a1b99f37c'
-    oldFile: !uuid 'df905e403d2b95eed37d87fa729ab7ad82f95a62'
+    newFile: !uuid '300f0bf6d55f6d9acb6b92dd01718b23c4cd0975'
+    oldFile: !uuid 'fd099871d14c1947f7b0ba7ac27e606a1b99f37c'
   /src/frontend:
-    newFile: !uuid '7e0e149649e99254c53a7eddccb4b232822421f1'
-    oldFile: !uuid '1b4eb27ddb5bc09e7375e7586a2e0a334378eae4'
+    newFile: !uuid 'd1c976c62a589bf9cda085ed389326da6c814a20'
+    oldFile: !uuid '7e0e149649e99254c53a7eddccb4b232822421f1'
   /src/frontend/blog-nuxt:
-    newFile: !uuid '89873dc2c93098349936da64fca9ad9918004ae3'
-    oldFile: !uuid '1c6ad64167a5bdafb2a89722063d90e7e6268005'
-  /src/frontend/blog-nuxt/layouts:
-    newFile: !uuid 'cb1dd12fc4437bdceba64b44c13465ed45b00758'
-    oldFile: !uuid '7d93df42147265f1f585d8e2a4d7e1e6726708c5'
-  /src/frontend/blog-nuxt/layouts/Footer.vue:
-    newFile: !uuid 'ce427c983e054dc615ecd2d92511f7711bd6544f'
-    oldFile: !uuid '68840731abffde81960d27a2e43c676cfc1b7294'
-  /src/frontend/blog-nuxt/layouts/default.vue:
-    newFile: !uuid '588b52c3eafd4865f378387fa03b49476064efcd'
-    oldFile: !uuid '588446c71d9a16919a8490f12e312473a723ca03'
-  /src/frontend/blog-nuxt/pages:
-    newFile: !uuid '1429e8c073f71a10893d91f1154a274a677833f0'
-    oldFile: !uuid '551878c731b2fbe4c54d693145bbf528b8fadb3d'
-  /src/frontend/blog-nuxt/pages/articles:
-    newFile: !uuid '168dbbfd4e3ef50b832447f771609782f67c5d18'
-    oldFile: !uuid 'b47fa3de4bf018f6c5c55536ff8ef5e069f7ba8c'
-  /src/frontend/blog-nuxt/pages/articles/[id].vue:
-    newFile: !uuid 'eb89fb03f16c4b9d1e9591e4a522f05199aceabb'
-    oldFile: !uuid '7561783d6cdf0295aa04092c5fc4af2c0dae3215'
+    newFile: !uuid '4b15d0abf26516dbeb4c9343fc7fa05bca35ee53'
+    oldFile: !uuid '89873dc2c93098349936da64fca9ad9918004ae3'
   /src/frontend/blog-nuxt/stores:
-    newFile: !uuid '62f7c9265a072163d956d109cc8a6c97823889bb'
-    oldFile: !uuid '8f9e1585e51729f11790783b31538888122cdeeb'
+    newFile: !uuid '997588cbfd4a5a638490b2ee8107dba20c381a4c'
+    oldFile: !uuid '62f7c9265a072163d956d109cc8a6c97823889bb'
   /src/frontend/blog-nuxt/stores/auth.ts:
-    newFile: !uuid 'd5e05c2a8fe4f22ce658c025dac87ceb88fd2887'
-    oldFile: !uuid 'de62ede6684d326057db2239507e57713c2959db'
-  /src/frontend/blog-nuxt/utils:
-    newFile: !uuid 'd77dda563ebfa88306983a9edb43011e7fc5618e'
-    oldFile: !uuid '457748f16957a2a762ad58c1da0cfff9a0271877'
-  /src/frontend/blog-nuxt/utils/http.ts:
-    newFile: !uuid '1ac18fe49cfd21781216b7634483372a145809c3'
-    oldFile: !uuid '21b1e9358e7488576a630e1b6c9fe562f6e5c42e'
-gitCommitId: !uuid 'f34dce2816c8a8f62e2fb53c83905e2e60f003ae'
+    newFile: !uuid 'f3fb5fbc179c1a0a05d16f13960d1627f4da3cdf'
+    oldFile: !uuid 'd5e05c2a8fe4f22ce658c025dac87ceb88fd2887'
+gitCommitId: !uuid '55c1516ef2f8fac79865dfe70a9f28383f7bbaf0'
 renames: {
   }
-revisionId: 325
+revisionId: 326
