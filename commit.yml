@@ -3,21 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'b3050edf51035dba9482c4aec852ec0f8a927f72'
-    oldFile: !uuid 'cf718b533b3bbf94cfa87b72bf21b41129fd3ddc'
-  /src/backend:
-    newFile: !uuid '1fd9d767a0f5408fb0f014c83b4b8b2824b402fd'
-    oldFile: !uuid 'c442fef5fc72b8e3bd95e405fb26f640f9a80782'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid '2b7c8b744abd1dca70e8bfaf6d0ea57d36c28ba7'
-    oldFile: !uuid '01a3b82fd27d677eedba9a56cd4764a0cacd60f6'
-  /src/backend/Easy.Admin.Application/Client:
-    newFile: !uuid 'e59ed0202a6b94708d74c1121819b55a0ef6e59f'
-    oldFile: !uuid 'c2cfd7e915eb651c15868921e335ba6a992f3fcc'
-  /src/backend/Easy.Admin.Application/Client/TalksController.cs:
-    newFile: !uuid '270ce692c367faca7b9ca75b5d85c6cc6038b317'
-    oldFile: !uuid 'dee63f5a213b905cca6b0af3b5c68816ac0ea10d'
-gitCommitId: !uuid '04c442ac6e50e4c6d921a5b2d02b3ba83b35d7ae'
+    newFile: !uuid '908a9cfc3b0d75bd480ac1e6025f5bad6c0cb74f'
+    oldFile: !uuid 'b3050edf51035dba9482c4aec852ec0f8a927f72'
+  /src/frontend:
+    newFile: !uuid '4363992a57e51f370588846acd9ebe394f464a40'
+    oldFile: !uuid '4d099220830875942bf757dfdf8bdd44b92b8736'
+  /src/frontend/blog-nuxt:
+    newFile: !uuid '04385990e92c3e12177094a7d6b8e0654d835e09'
+    oldFile: !uuid '53d0b03724e1181f543448908b5f431d813f9ad2'
+  /src/frontend/blog-nuxt/components:
+    newFile: !uuid '555d7e7060dc6aa1c4ab65136438df2548cd5433'
+    oldFile: !uuid '859c7ca2ebeca750c69604706976af972bf6a289'
+  /src/frontend/blog-nuxt/components/Comment.vue:
+    newFile: !uuid '6639ca773d6d52544734046f08ef37713ff6aa13'
+    oldFile: !uuid '26a22b8b495e27db76d7d07d7cbce2ed1cb43136'
+gitCommitId: !uuid '57b65e500666eaa99351029d70905a8079da9023'
 renames: {
   }
-revisionId: 330
+revisionId: 331
