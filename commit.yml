@@ -3,21 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'adeec8fc7dac718335650dc5a802188eac291820'
-    oldFile: !uuid '2c4e83e19cc9e56e9b2b0d259d03d5da8063f71c'
+    newFile: !uuid '314146d0767b0f7ec0797059839bebe0822bd87f'
+    oldFile: !uuid 'adeec8fc7dac718335650dc5a802188eac291820'
   /src/backend:
-    newFile: !uuid '9cde5f8e865df0a5acf414627fa2412816fe25f4'
-    oldFile: !uuid '235d60d46fdb32043a93ab9ca41a2df7b0729553'
-  /src/backend/Easy.Admin.Web.Entry:
-    newFile: !uuid 'a6c8f25874e51e9e9c2392a260b41cff9dcf6f2a'
-    oldFile: !uuid '8192efe84a20b05374d3dd848398447fc42ed244'
-  /src/backend/Easy.Admin.Web.Entry/Dockerfile:
+    newFile: !uuid 'dceb603586449790b23176f17af62c50b0e339c9'
+    oldFile: !uuid '9cde5f8e865df0a5acf414627fa2412816fe25f4'
+  /src/backend/Dockerfile:
     newFile: !uuid '8a54723cf711fbf73f55599d7095e0d6df42cd4e'
-    oldFile: !uuid 'c932819f2173d90c53fc6969bb889f18551bddf0'
-  /src/backend/Easy.Admin.Web.Entry/Easy.Admin.Web.Entry.csproj:
-    newFile: !uuid '7f6552d04976728b170d65c86115342a6242644d'
-    oldFile: !uuid '4a0fc83ec4bf391eb9a4f5648535f7c462ed0283'
-gitCommitId: !uuid 'c5fb216a9b3cba130c1f94f821ad6ad286723744'
+    oldFile: !uuid 'd78de0827f04b97b748be8f65e33842eeda175a6'
+gitCommitId: !uuid '1a6c8b641f26593c68cb7746d9aae0eaf2969217'
 renames: {
   }
-revisionId: 345
+revisionId: 346
