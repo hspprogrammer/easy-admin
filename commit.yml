@@ -3,75 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '95e95f19891ba1edf47c8f38c655bbf9a3694bdf'
-    oldFile: !uuid '4ba2cc6d711fae3ac1353a724bcc0b66930f0a57'
+    newFile: !uuid 'd0359ae91e31765f6a70b6894192ee1eca26e73a'
+    oldFile: !uuid '95e95f19891ba1edf47c8f38c655bbf9a3694bdf'
   /src/frontend:
-    newFile: !uuid 'b6263fefeb1f004c2fefa68d6b167dd7574e1066'
-    oldFile: !uuid 'be734a5c677883de02533328c60a6d74556073d6'
+    newFile: !uuid '59d85c0135c8214ab7a22ed4c97109e1ef1ef413'
+    oldFile: !uuid 'b6263fefeb1f004c2fefa68d6b167dd7574e1066'
   /src/frontend/admin:
-    newFile: !uuid '0af711da2d696e652edf925efbf256b9d5acd6ce'
-    oldFile: !uuid '79169eac0210bc092d2362f35192e1d17a386a02'
+    newFile: !uuid '3509776ebd94d01cd7bab5c5b5c7ab628e90eaf9'
+    oldFile: !uuid '0af711da2d696e652edf925efbf256b9d5acd6ce'
   /src/frontend/admin/package.json:
-    newFile: !uuid 'cbbff55b6fcb5a6f662f4112f4ee750d88600d27'
-    oldFile: !uuid '34a02120cb1df9576ac1f6225babd1f676b0a562'
-  /src/frontend/admin/templates:
-    newFile: !uuid '09b86052afd0710c2a55ec9bb6baa2faeadacd69'
-    oldFile: null
-  /src/frontend/admin/templates/README.md:
-    newFile: !uuid '994197cc602bc5537a2e9de82bfb5c4e9a47d36e'
-    oldFile: null
-  /src/frontend/admin/templates/api.ejs:
-    newFile: !uuid '25bfa182dabdfb8c6d00b912422ce4be42f9b7ba'
-    oldFile: null
-  /src/frontend/admin/templates/data-contract-jsdoc.ejs:
-    newFile: !uuid 'cd3c3de5cc8d7615f9910a5495cfc8dee1096b0f'
-    oldFile: null
-  /src/frontend/admin/templates/data-contracts.ejs:
-    newFile: !uuid 'b4df08a4393332aa8419570da515455c983364ad'
-    oldFile: null
-  /src/frontend/admin/templates/enum-data-contract.ejs:
-    newFile: !uuid '56107460b788f3109e08c15b3a06017a78aa59c1'
-    oldFile: null
-  /src/frontend/admin/templates/http-client.ejs:
-    newFile: !uuid 'f072511dbaac3b267ef27df6033da8cc7e9593ba'
-    oldFile: null
-  /src/frontend/admin/templates/http-clients:
-    newFile: !uuid 'b14e1432117adf8ab20081726b7109a85b68aaec'
-    oldFile: null
-  /src/frontend/admin/templates/http-clients/axios-http-client.ejs:
-    newFile: !uuid 'c1cd3057e6e94c85174edc093cb71f8506661295'
-    oldFile: null
-  /src/frontend/admin/templates/http-clients/fetch-http-client.ejs:
-    newFile: !uuid '708937fc65529a9d7f979df52919c67a31a3857d'
-    oldFile: null
-  /src/frontend/admin/templates/interface-data-contract.ejs:
-    newFile: !uuid 'efddc1c5205da622ad279ff9ade52486c259a38d'
-    oldFile: null
-  /src/frontend/admin/templates/object-field-jsdoc.ejs:
-    newFile: !uuid 'ec39314bc14e14b89188817f0f5e40e217d27ec5'
-    oldFile: null
-  /src/frontend/admin/templates/procedure-call.ejs:
-    newFile: !uuid '1e05b85b886cfaf119d109f1bb0c9d30ff3ccf34'
-    oldFile: null
-  /src/frontend/admin/templates/route-docs.ejs:
-    newFile: !uuid 'f161bebe031d4a04cb6b64fdeb64e70b601e052e'
-    oldFile: null
-  /src/frontend/admin/templates/route-name.ejs:
-    newFile: !uuid 'f4a08d5c9b140534c5b2fab00c111a99ddebbfa5'
-    oldFile: null
-  /src/frontend/admin/templates/route-type.ejs:
-    newFile: !uuid '94e9d29bd8a75042f44a71bee5368eb087c4993c'
-    oldFile: null
-  /src/frontend/admin/templates/route-types.ejs:
-    newFile: !uuid 'a6ab767b415e1ed0fae0e606249e1b24355810c7'
-    oldFile: null
-  /src/frontend/admin/templates/type-data-contract.ejs:
-    newFile: !uuid '3505084d50eb1e1f554a8e84ab65093a9e63d2b5'
-    oldFile: null
-  /src/frontend/admin/templates/使用教程.txt:
-    newFile: !uuid '83b617e65994e8f083a176a19132c40ff78235e1'
-    oldFile: null
-gitCommitId: !uuid '95c14d796bf10b14796ef478cd074bc5c25bb8ca'
+    newFile: !uuid '9ef4cfadff1e6ccc8612a555f4d1cc0f59b94184'
+    oldFile: !uuid 'cbbff55b6fcb5a6f662f4112f4ee750d88600d27'
+gitCommitId: !uuid '8077c2150e55b50764759017ce2ee5074247df94'
 renames: {
   }
-revisionId: 354
+revisionId: 355
