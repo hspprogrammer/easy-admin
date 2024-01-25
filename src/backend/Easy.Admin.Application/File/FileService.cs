@@ -75,12 +75,17 @@ public class FileService : IDynamicApiController, ITransient
         }
         string fileName = $"{filePath}{name}{extension}";
         await _ossService.PutObjectAsync(options.Bucket, fileName, file.OpenReadStream());
+        string fileUrl = $"{options.Domain.TrimEnd('/')}/{options.Bucket}{fileName}";
+        if (OSSProvider.Aliyun == options.Provider)
+        {
+            fileUrl = $"{options.Domain.TrimEnd('/')}{fileName}";
+        }
         return new List<UploadFileOutput>()
         {
             new()
             {
                 Name = $"{name}{extension}",
-                Url = $"{options.Domain.TrimEnd('/')}/{options.Bucket}{fileName}"
+                Url = fileUrl
             }
         };
     }
