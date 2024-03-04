@@ -75,12 +75,23 @@ public class FileService : IDynamicApiController, ITransient
         }
         string fileName = $"{filePath}{name}{extension}";
         await _ossService.PutObjectAsync(options.Bucket, fileName, file.OpenReadStream());
+        //  解决部分对象云存储不需要拼接bucket
+        string bucket;
+        switch (options.Provider)
+        {
+            case OSSProvider.Minio:
+                bucket = $"/{options.Bucket}";
+                break;
+            default:
+                bucket = string.Empty;
+                break;
+        }
         return new List<UploadFileOutput>()
         {
             new()
             {
                 Name = $"{name}{extension}",
-                Url = $"{options.Domain.TrimEnd('/')}/{options.Bucket}{fileName}"
+                Url = $"{options.Domain.TrimEnd('/')}{bucket}{fileName}"
             }
         };
     }
