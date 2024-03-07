@@ -92,6 +92,7 @@
     "Domain": "https://oss.okay123.top" //外网访问域名或IP
   },
   // 接入第三方授权登录 文档：https://github.com/mrhuo/MrHuo.OAuth
+  // QQ授权申请地址：https://connect.qq.com/
   "oauth": {
     "qq": {
       "app_id": "你的app_id",
@@ -125,7 +126,7 @@
       "ReturnValueThreshold": 0, // 配置返回值字符串阈值，默认 0，全量输出，Furion 4.3.9+ 有效
       "JsonBehavior": "None", // 配置 LoggingMonitor Json 输出行为，默认 None，Furion 4.5.2+ 有效
       "JsonIndented": false, // 配置 LoggingMonitor Json 格式化行为，默认 false，Furion 4.8.2+ 有效
-      "ContractResolver": "CamelCase", // 配置 LoggingMonitor 序列化属性命名规则，默认 CamelCase，Furion 4.8.6.12+ 有效
+      "ContractResolver": "CamelCase" // 配置 LoggingMonitor 序列化属性命名规则，默认 CamelCase，Furion 4.8.6.12+ 有效
       //"MethodsSettings": [
       //  // 配置被监视方法更多信息，Furion 4.3.9+ 有效
       //  {
