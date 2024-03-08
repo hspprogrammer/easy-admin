@@ -36,7 +36,7 @@
 			</el-input>
 		</el-form-item>
 		<el-form-item class="login-animation3" prop="code">
-			<el-col :span="15">
+			<el-col :xs="12" :xg="15" :md="15" :lg="15" :sm="15">
 				<el-input
 					text
 					maxlength="4"
@@ -51,7 +51,7 @@
 				</el-input>
 			</el-col>
 			<el-col :span="1"></el-col>
-			<el-col :span="8">
+			<el-col :xs="11" :xl="8" :md="8" :lg="8" :sm="8">
 				<el-button class="login-content-code" v-waves @click="onCaptchaChange">
 					<img :src="captchaUrl" alt="看不清？点击换一张！" />
 				</el-button>
