@@ -3,18 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '50bf1ba7fdb118e65781b9bf71e331e24a3720a4'
-    oldFile: !uuid 'a75a0c3b87e49a616bfcc5e9fbef6904522a7a68'
-  /src/backend:
-    newFile: !uuid '7ec06bb06afb73e65dff1662eefb581d1ece14aa'
-    oldFile: !uuid '25b2d70798eb60d43c88d2f6490cf815e8740a69'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'fa76d3e132d8232d5dc7a2bfc4aa7a8f010f1db9'
-    oldFile: !uuid '96f3ff8ab3b77ec30d52c11057e0e30b36aa3daa'
-  /src/backend/Easy.Admin.Application/applicationsettings.json:
-    newFile: !uuid '9711c3b752c4a3d2b8caae5dd73972a7b85742e2'
-    oldFile: !uuid '9950e6a9e71f2cfd4f272374461ab70180c0d520'
-gitCommitId: !uuid '33f2198a3ec6bc5060db88ebd6d129413cd4231a'
+    newFile: !uuid '7c542d6a0b6f1a0938e6af82df70b4d44b8e880f'
+    oldFile: !uuid '50bf1ba7fdb118e65781b9bf71e331e24a3720a4'
+  /src/frontend:
+    newFile: !uuid 'c0269ea0ed0c358c67472f57db6850b46dcbbc32'
+    oldFile: !uuid '1bee77678b2554f29d8d3fec70c6c7562b8d436b'
+  /src/frontend/admin:
+    newFile: !uuid 'c775d4f86212740b88b62546ab96d8ff37a29af8'
+    oldFile: !uuid '4b1843c6ff4279c384a5e60db0f9745852d00d9f'
+  /src/frontend/admin/src:
+    newFile: !uuid '446bfb193336b0f9cc25d500ee3a4cffd5f0f3b7'
+    oldFile: !uuid 'dcd71dfaa6663d0c5e203648fcf6c91af5c60ca4'
+  /src/frontend/admin/src/views:
+    newFile: !uuid '3fa77f89d5ec552b9d7320265c8a5f770ce62a34'
+    oldFile: !uuid '41ce5e330cdb172abfe1d896e5fa2e4b20cde909'
+  /src/frontend/admin/src/views/login:
+    newFile: !uuid 'e95f2a49ada5d70dcec9895f98174eef7cde9377'
+    oldFile: !uuid '005e9076077eb954eaff9a6fcf526c8ca5e9a3f4'
+  /src/frontend/admin/src/views/login/component:
+    newFile: !uuid '80a9156c0cdcf0d03879cde657cfc4806b370dfb'
+    oldFile: !uuid 'ae965de98194f9bc98291bf0addf38d5250957ff'
+  /src/frontend/admin/src/views/login/component/account.vue:
+    newFile: !uuid 'a39c624e3bd429bc14dbe7d2e61a19329bd86221'
+    oldFile: !uuid 'd8e8d3a458ca0235eaf1ab7beea5d94febb51b4a'
+gitCommitId: !uuid '7c6f7f3a135fa864f2945e1c8e3a9dacbc2fb293'
 renames: {
   }
-revisionId: 360
+revisionId: 361
