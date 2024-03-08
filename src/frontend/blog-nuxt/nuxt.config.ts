@@ -10,6 +10,14 @@ export default defineNuxtConfig({
     "~/assets/css/iconfont.css",
     "~/assets/css/markdown.css",
   ],
+  //配置打包的目录
+  // nitro: {
+  //   output: {
+  //     publicDir: "./dist/public",
+  //     dir: "./dist",
+  //     serverDir: "./dist/server",
+  //   },
+  // },
   modules: [
     "@pinia/nuxt",
     (_options, nuxt) => {
