@@ -53,8 +53,8 @@ public class ArticleController : IDynamicApiController
         }
         return await _articleRepository.AsQueryable().LeftJoin<ArticleCategory>((article, ac) => article.Id == ac.ArticleId)
               .InnerJoin<Categories>((article, ac, c) => ac.CategoryId == c.Id && c.Status == AvailabilityStatus.Enable)
-              .Where(article => article.Status == AvailabilityStatus.Enable && article.PublishTime <= SqlFunc.GetDate())
-              .Where(article => article.ExpiredTime == null || SqlFunc.GetDate() < article.ExpiredTime)
+              .Where(article => article.Status == AvailabilityStatus.Enable && article.PublishTime <= DateTime.Now)
+              .Where(article => article.ExpiredTime == null || DateTime.Now < article.ExpiredTime)
               .WhereIF(dto.CategoryId.HasValue, (article, ac) => ac.CategoryId == dto.CategoryId)
               .WhereIF(!string.IsNullOrWhiteSpace(dto.Keyword), article => article.Title.Contains(dto.Keyword) || article.Summary.Contains(dto.Keyword) || article.Content.Contains(dto.Keyword))
               .WhereIF(dto.TagId.HasValue,
@@ -111,7 +111,7 @@ public class ArticleController : IDynamicApiController
     [HttpGet]
     public async Task<List<CategoryOutput>> Categories()
     {
-        var queryable = _articleRepository.AsQueryable().Where(a => a.Status == AvailabilityStatus.Enable && a.PublishTime <= SqlFunc.GetDate() && (a.ExpiredTime == null || SqlFunc.GetDate() < a.ExpiredTime));
+        var queryable = _articleRepository.AsQueryable().Where(a => a.Status == AvailabilityStatus.Enable && a.PublishTime <= DateTime.Now && (a.ExpiredTime == null || DateTime.Now < a.ExpiredTime));
         return await _categoryRepository.AsQueryable().LeftJoin<ArticleCategory>((c, ac) => c.Id == ac.CategoryId)
               .LeftJoin(queryable, (c, ac, a) => ac.ArticleId == a.Id)
               .Where(c => c.Status == AvailabilityStatus.Enable)
@@ -141,8 +141,8 @@ public class ArticleController : IDynamicApiController
     {
         //统计文章数量
         int articleCount = await _articleRepository.AsQueryable()
-            .Where(x => x.Status == AvailabilityStatus.Enable && (x.ExpiredTime == null || SqlFunc.GetDate() < x.ExpiredTime))
-            .Where(x => x.PublishTime <= SqlFunc.GetDate())
+            .Where(x => x.Status == AvailabilityStatus.Enable && (x.ExpiredTime == null || DateTime.Now < x.ExpiredTime))
+            .Where(x => x.PublishTime <= DateTime.Now)
             .CountAsync();
 
         //标签统计
