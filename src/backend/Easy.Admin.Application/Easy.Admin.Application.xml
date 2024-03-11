@@ -4,6 +4,11 @@
         <name>Easy.Admin.Application</name>
     </assembly>
     <members>
+        <member name="T:Easy.Admin.Application.ApiService">
+            <summary>
+            第三方API调用
+            </summary>
+        </member>
         <member name="M:Easy.Admin.Application.ApiService.Keywords(System.String)">
             <summary>
             检查 文本内容是否包含违禁词
@@ -1106,6 +1111,13 @@
         <member name="M:Easy.Admin.Application.Client.CommentController.Add(Easy.Admin.Application.Client.Dtos.AddCommentInput)">
             <summary>
             评论、回复
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Admin.Application.Client.CommentController.Delete(Easy.Admin.Core.Shared.KeyDto)">
+            <summary>
+            删除留言
             </summary>
             <param name="dto"></param>
             <returns></returns>

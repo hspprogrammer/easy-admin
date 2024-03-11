@@ -19,7 +19,7 @@ public class ApiService : IScoped
         try
         {
             var dto = await $"{BaseUrl}/api/min".SetQueries(new { t = content }).GetAsAsync<KeywordsResponseDto>();
-            return dto.Success && dto.Num == 0;
+            return dto.Success && dto.Num > 0;
 
         }
         catch (Exception e)
