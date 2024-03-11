@@ -11,15 +11,18 @@ public class CommentController : IDynamicApiController
 {
     private readonly ISqlSugarRepository<Comments> _repository;
     private readonly ISqlSugarRepository<Praise> _praiseRepository;
+    private readonly ApiService _apiService;
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly AuthManager _authManager;
 
     public CommentController(ISqlSugarRepository<Comments> repository,
         ISqlSugarRepository<Praise> praiseRepository,
+        ApiService apiService,
         IHttpContextAccessor httpContextAccessor, AuthManager authManager)
     {
         _repository = repository;
         _praiseRepository = praiseRepository;
+        _apiService = apiService;
         _httpContextAccessor = httpContextAccessor;
         _authManager = authManager;
     }
@@ -107,12 +110,27 @@ public class CommentController : IDynamicApiController
     [HttpPost]
     public async Task Add(AddCommentInput dto)
     {
+        if (await _apiService.Keywords(dto.Content))
+        {
+            throw Oops.Oh("请勿输入包含违禁词的内容");
+        }
         string address = _httpContextAccessor.HttpContext.GetGeolocation();
         var comments = dto.Adapt<Comments>();
         comments.AccountId = _authManager.UserId;
         comments.IP = _httpContextAccessor.HttpContext.GetRemoteIp();
         comments.Geolocation = address;
         await _repository.InsertAsync(comments);
+    }
+
+    /// <summary>
+    /// 删除留言
+    /// </summary>
+    /// <param name="dto"></param>
+    /// <returns></returns>
+    [HttpDelete("delete")]
+    public async Task Delete(KeyDto dto)
+    {
+        await _repository.UpdateAsync(x => new Comments() { DeleteMark = true }, x => x.Id == dto.Id);
     }
 
     /// <summary>

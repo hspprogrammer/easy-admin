@@ -4,6 +4,33 @@
         <name>Easy.Admin.Application</name>
     </assembly>
     <members>
+        <member name="M:Easy.Admin.Application.ApiService.Keywords(System.String)">
+            <summary>
+            检查 文本内容是否包含违禁词
+            </summary>
+            <param name="content">内容</param>
+            <returns></returns>
+        </member>
+        <member name="P:Easy.Admin.Application.BaseResponseDto.Code">
+            <summary>
+            状态码（200代表成功）
+            </summary>
+        </member>
+        <member name="P:Easy.Admin.Application.BaseResponseDto.Success">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:Easy.Admin.Application.KeywordsResponseDto.Data">
+            <summary>
+            违规的词组或语句，数组形式
+            </summary>
+        </member>
+        <member name="P:Easy.Admin.Application.KeywordsResponseDto.Num">
+            <summary>
+            违规内容总数
+            </summary>
+        </member>
         <member name="T:Easy.Admin.Application.Auth.AuthManager">
             <summary>
             用户授权信息
