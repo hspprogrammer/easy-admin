@@ -3,21 +3,39 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '72cf3d29b8def595f89e35d3ba5b1021228b06d2'
-    oldFile: !uuid 'c7288bb11edb5d145ccba570977a831c7c20fe05'
+    newFile: !uuid 'd21e27f425eee2bb314d113037883073e4fb0c22'
+    oldFile: !uuid '72cf3d29b8def595f89e35d3ba5b1021228b06d2'
   /src/backend:
-    newFile: !uuid '0a50fb5f4043da6afb06f54279bd18589bec1c21'
-    oldFile: !uuid '7ec06bb06afb73e65dff1662eefb581d1ece14aa'
+    newFile: !uuid '01b3dc405033243efeb16cb063d288897e0b38f2'
+    oldFile: !uuid '0a50fb5f4043da6afb06f54279bd18589bec1c21'
   /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'd6d13b22e683004cf9f8a487ca6b449161445287'
-    oldFile: !uuid 'fa76d3e132d8232d5dc7a2bfc4aa7a8f010f1db9'
+    newFile: !uuid '082b96ca8d454f100e69c7d8188b2ecc2eda4c2f'
+    oldFile: !uuid 'd6d13b22e683004cf9f8a487ca6b449161445287'
+  /src/backend/Easy.Admin.Application/Api:
+    newFile: !uuid 'ccb9de582e1214ff0b1b53c3b46d9af9fef8d9d0'
+    oldFile: null
+  /src/backend/Easy.Admin.Application/Api/ApiService.cs:
+    newFile: !uuid '5f38bebf7d0378df9573eabde97620cacf5d95a5'
+    oldFile: null
+  /src/backend/Easy.Admin.Application/Api/Dtos:
+    newFile: !uuid '269c0d3e7abd82679c54d93938cea64dd3d82de7'
+    oldFile: null
+  /src/backend/Easy.Admin.Application/Api/Dtos/BaseResponseDto.cs:
+    newFile: !uuid 'e96714066ffdd1de85ac0ad5b38197c5cb805e45'
+    oldFile: null
+  /src/backend/Easy.Admin.Application/Api/Dtos/KeyowrdsResponseDto.cs:
+    newFile: !uuid '55c7a05dcb0ad2845bd44a984df4498cd405af76'
+    oldFile: null
   /src/backend/Easy.Admin.Application/Client:
-    newFile: !uuid '721c949c367476b80080a0f018c8f1722cd4d258'
-    oldFile: !uuid 'e59ed0202a6b94708d74c1121819b55a0ef6e59f'
-  /src/backend/Easy.Admin.Application/Client/ArticleController.cs:
-    newFile: !uuid '3fa38b8db6d196c66d9b70fdce7797042caf77cb'
-    oldFile: !uuid '1d09eb7d2c5b758155a325ad34471b467a6bd4f3'
-gitCommitId: !uuid '65ee75d804216e9a06e0f487689257ea035ae754'
+    newFile: !uuid '516117e2a9c67e56a3305168c12474bf776d4b8c'
+    oldFile: !uuid '721c949c367476b80080a0f018c8f1722cd4d258'
+  /src/backend/Easy.Admin.Application/Client/CommentController.cs:
+    newFile: !uuid '6666c7efb7b058b38e1838f062fb64f911787618'
+    oldFile: !uuid '864a459d19e75216b16572ed83766247474d57cc'
+  /src/backend/Easy.Admin.Application/Easy.Admin.Application.xml:
+    newFile: !uuid '58411d55781de86dccb3461e33ed936b4bd53c33'
+    oldFile: !uuid '08b52e142860fa9794d9b262ead0b87d16c1976f'
+gitCommitId: !uuid '4d15c3fd5d09de6f27c90d28aaefb9c4485d15e6'
 renames: {
   }
-revisionId: 363
+revisionId: 364
