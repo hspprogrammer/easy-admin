@@ -11,10 +11,16 @@ FROM  base as build
 
 WORKDIR /publish
 
-COPY . .	
+COPY package.json .
+COPY yarn.lock .
+
 #设置镜像源
 RUN yarn config set registry https://registry.npmmirror.com
-RUN yarn && yarn run build
+RUN yarn
+
+COPY . .	
+RUN yarn run build
+
 
 FROM base as deploy
 WORKDIR /app
