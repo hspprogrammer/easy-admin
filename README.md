@@ -40,7 +40,7 @@ pnpm run dev
 pnpm run build
 ```
 
-#### 📚博客普通版使用说明
+#### 📚博客普通版使用说明（推荐服务端渲染版本）
 
 > 项目所在目录：`/src/frontend/blog`
 
@@ -57,7 +57,7 @@ yarn run build
 
 #### 📚 博客服务端渲染版使用说明
 
-> 服务渲染有两种实现方式
+> 服务渲染有两种实现方式（推荐第2种方式）
 >
 > 1、项目所在目录：`/src/frontend/vite-ssr-blog`，基于`vite-plugin-ssr`实现，官方文档：[vite-plugin-ssr](https://cn.vite-plugin-ssr.com/)
 >
