@@ -8,23 +8,19 @@ ENV PORT=5200
 EXPOSE 5200
 
 FROM  base as build
-
-WORKDIR /publish
-
-COPY package.json .
-COPY yarn.lock .
-
+WORKDIR /src
+COPY . .
 #设置镜像源
 RUN yarn config set registry https://registry.npmmirror.com
-RUN yarn
+RUN yarn && yarn run build
 
-COPY . .	
-RUN yarn run build
-
+FROM publish as build
+WORKDIR /publish
+COPY --from=build /src/.output .output
 
 FROM base as deploy
 WORKDIR /app
 
-COPY --from=build  /publish/.output /app
+COPY --from=publish  /publish/.output /app
 
 CMD ["node","./server/index.mjs"]
