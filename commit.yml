@@ -2,10 +2,19 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '31bf1f16e76739d12e4c1c7044131ababf39bf79'
-    oldFile: !uuid '8d578278090b9848e6d3034d8e8951c3f35097b3'
-gitCommitId: !uuid '303e11402187b7fd8a1e55a9bef0439c97efb28d'
+  /src:
+    newFile: !uuid 'e3cce47247ca76c1f28dc1b9fcc35a1352661d1c'
+    oldFile: !uuid '085c3d2143ed15869b970b775d8cb539077a9080'
+  /src/frontend:
+    newFile: !uuid '641933534b65ecd2a08ebb94615cf0d2a6bdad42'
+    oldFile: !uuid '5038d3734082553bd80e417e96d564e8ac97d1ee'
+  /src/frontend/blog-nuxt:
+    newFile: !uuid '39df4fcb60270a6f47b8fd162c114cad1a76ec3f'
+    oldFile: !uuid 'b24a0d02513102c583dafbf6f8e82258fb2a179d'
+  /src/frontend/blog-nuxt/Dockerfile:
+    newFile: !uuid 'd235c202f723a8322ba2f59b10bcb98f46b0aee7'
+    oldFile: !uuid '113b43c2d1d082114b0f11639873b4d0ac4fc4fd'
+gitCommitId: !uuid '04153728080980e6939a20736decb7a6aa0b1f80'
 renames: {
   }
-revisionId: 367
+revisionId: 368
