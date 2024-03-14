@@ -6,8 +6,8 @@
 
 ####  ⛱️ 博客在线预览
 
-- 服务端渲染预览：<https://www.okay123.top/>
-> 具体部署教程，可以前往博客中查看。<https://www.okay123.top/>
+- 服务端渲染预览：<https://www.okay123.top>
+> 具体部署教程，可以前往博客中查看。<https://www.okay123.top>
 
 
 ####  📚后端API使用教程
