@@ -7,20 +7,14 @@ ENV PORT=5200
 # 容器端口
 EXPOSE 5200
 
-FROM  base as build
+FROM base  as build
+
 WORKDIR /src
 COPY . .
 #设置镜像源
-RUN yarn config set registry https://registry.npmmirror.com
-RUN yarn && yarn run build
+RUN  yarn config set registry https://registry.npmmirror.com && yarn && yarn run build && mv dist /app/
 
-FROM publish as build
-WORKDIR /publish
-COPY --from=build /src/.output .output
-
-FROM base as deploy
+FROM base as final
 WORKDIR /app
-
-COPY --from=publish  /publish/.output /app
 
 CMD ["node","./server/index.mjs"]
