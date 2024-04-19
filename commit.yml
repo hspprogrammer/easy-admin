@@ -3,24 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '6302aa87b3dfb45f428a8feb6779b98f60a8ce6f'
-    oldFile: !uuid '7cab8f4ffe6aa7673bbd3c87345c4a1f51b30216'
-  /src/backend:
-    newFile: !uuid '2b421f40fd86d114e45eca6982afb835d6cb8b08'
-    oldFile: !uuid '94887cd7123dbfaa1f83d7d782342e151babe867'
-  /src/backend/Easy.Admin.Application:
-    newFile: !uuid 'b0597ab06c00ab4f7733ed2dcdd2fcf4d90f61c2'
-    oldFile: !uuid '98f17499c6dfb4c1f37412b43301fd5ca64ff333'
-  /src/backend/Easy.Admin.Application/applicationsettings.json:
-    newFile: !uuid '9711c3b752c4a3d2b8caae5dd73972a7b85742e2'
-    oldFile: !uuid '6e884ab667ec6d907342c6498f3d8649855f1c3e'
-  /src/backend/Easy.Admin.Web.Entry:
-    newFile: !uuid '5f6d656de54defce4920cbe8f374da092563149a'
-    oldFile: !uuid '35c4b011cf04d6c5b11caceb1c3a549491ffc516'
-  /src/backend/Easy.Admin.Web.Entry/Easy.Admin.Web.Entry.csproj:
-    newFile: !uuid '1d88a919457a0e0cc47297c83e2befcb576161ee'
-    oldFile: !uuid '7f6552d04976728b170d65c86115342a6242644d'
-gitCommitId: !uuid '3d0aef6a09b966647c3bad45add8c11835c51710'
+    newFile: !uuid '25b2b32431499e34108375c831c1361607e9d5a2'
+    oldFile: !uuid '6302aa87b3dfb45f428a8feb6779b98f60a8ce6f'
+  /src/frontend:
+    newFile: !uuid '9a77645663e5e8ca4be1ce219dd4542c7cbad5c3'
+    oldFile: !uuid '6430cf175a5ae00bdccdf26ec92d9569461290e2'
+  /src/frontend/blog-nuxt:
+    newFile: !uuid 'd714c4bda5d60cd7a3e7b77ffe6b108412b0f570'
+    oldFile: !uuid '350996703c31e60554266db3182019feace15edb'
+  /src/frontend/blog-nuxt/components:
+    newFile: !uuid '080acb0129251baeaf4dd19686cf40221c5720a2'
+    oldFile: !uuid 'd998e3546f802a249bc584c22c0f5416e987eee6'
+  /src/frontend/blog-nuxt/components/Comment.vue:
+    newFile: !uuid '0c26ec449e428d2f2c5de0dcda9f4e334be47832'
+    oldFile: !uuid '6639ca773d6d52544734046f08ef37713ff6aa13'
+  /src/frontend/blog-nuxt/pages:
+    newFile: !uuid '15a8568e4ae72ef27e581b0ff6353a7ccbe01593'
+    oldFile: !uuid '513c4e8108f19255fd27eac61e1afc0ede79857d'
+  /src/frontend/blog-nuxt/pages/articles:
+    newFile: !uuid '93f6b9ebb67f0303c70833970df46479e11d08c7'
+    oldFile: !uuid '168dbbfd4e3ef50b832447f771609782f67c5d18'
+  /src/frontend/blog-nuxt/pages/articles/[id].vue:
+    newFile: !uuid 'fdaa86f77d018e3965a569541097df46b64a4d2f'
+    oldFile: !uuid 'eb89fb03f16c4b9d1e9591e4a522f05199aceabb'
+gitCommitId: !uuid '7f9194db501b261c3f02fca11aeb801afcb1df4d'
 renames: {
   }
-revisionId: 374
+revisionId: 375
