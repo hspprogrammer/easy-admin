@@ -327,6 +327,7 @@ const cover = computed(() => {
 // 评论数量
 const commentCount = ref<number>(0);
 const getCommentCount = (count: number) => {
+  console.log("1111111111",count);
   commentCount.value = count;
 };
 
