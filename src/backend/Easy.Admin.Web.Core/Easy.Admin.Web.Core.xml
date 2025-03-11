@@ -12,11 +12,12 @@
             <param name="httpContext"></param>
             <returns></returns>
         </member>
-        <member name="M:Easy.Admin.Web.Core.JwtHandler.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)">
+        <member name="M:Easy.Admin.Web.Core.JwtHandler.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext,Microsoft.AspNetCore.Http.DefaultHttpContext)">
             <summary>
             自动刷新token
             </summary>
             <param name="context"></param>
+            <param name="httpContext"></param>
             <returns></returns>
         </member>
     </members>

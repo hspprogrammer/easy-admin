@@ -92,8 +92,8 @@ public class Startup : AppStartup
         // 配置ORM 文档：https://www.donet5.com/Home/Doc
         services.AddSqlSugar();
 
-        //远程请求 文档：https://furion.baiqian.ltd/docs/http
-        services.AddRemoteRequest();
+        //远程请求 文档：https://furion.net/docs/http-agent
+        services.AddHttpRemote();
 
         services.AddControllers()
             .AddNewtonsoftJson(options =>

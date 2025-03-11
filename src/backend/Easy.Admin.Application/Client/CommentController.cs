@@ -11,7 +11,6 @@ public class CommentController : IDynamicApiController
 {
     private readonly ISqlSugarRepository<Comments> _repository;
     private readonly ISqlSugarRepository<Praise> _praiseRepository;
-    private readonly ApiService _apiService;
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly AuthManager _authManager;
 
@@ -22,7 +21,6 @@ public class CommentController : IDynamicApiController
     {
         _repository = repository;
         _praiseRepository = praiseRepository;
-        _apiService = apiService;
         _httpContextAccessor = httpContextAccessor;
         _authManager = authManager;
     }
@@ -110,10 +108,6 @@ public class CommentController : IDynamicApiController
     [HttpPost]
     public async Task Add(AddCommentInput dto)
     {
-        if (await _apiService.Keywords(dto.Content))
-        {
-            throw Oops.Oh("请勿输入包含违禁词的内容");
-        }
         string address = _httpContextAccessor.HttpContext.GetGeolocation();
         var comments = dto.Adapt<Comments>();
         comments.AccountId = _authManager.UserId;

@@ -1,7 +1,7 @@
-﻿using Furion.RemoteRequest.Extensions;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using System.Text;
 using Newtonsoft.Json;
+using Furion.HttpRemote;
 
 namespace Easy.Core;
 
@@ -55,8 +55,9 @@ public static class HttpContextExtension
         }
         try
         {
+            var httpRemoteService = App.GetRequiredService<IHttpRemoteService>();
             //获取ip信息
-            byte[] bytes = $"http://whois.pconline.com.cn/ipJson.jsp?ip={ip}&json=true".GetAsByteArrayAsync().GetAwaiter().GetResult();
+            byte[] bytes = httpRemoteService.GetAsByteArray($"http://whois.pconline.com.cn/ipJson.jsp?ip={ip}&json=true");
             string json = Encoding.GetEncoding("gb2312").GetString(bytes);
             return JsonConvert.DeserializeObject<IpInfoDto>(json)?.Address ?? "";
         }

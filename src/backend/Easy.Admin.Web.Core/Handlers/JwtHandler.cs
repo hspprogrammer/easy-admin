@@ -28,8 +28,9 @@ public class JwtHandler : AppAuthorizeHandler
     /// 自动刷新token
     /// </summary>
     /// <param name="context"></param>
+    /// <param name="httpContext"></param>
     /// <returns></returns>
-    public override async Task HandleAsync(AuthorizationHandlerContext context)
+    public override async Task HandleAsync(AuthorizationHandlerContext context, DefaultHttpContext httpContext)
     {
         // 自动刷新 token
         if (JWTEncryption.AutoRefreshToken(context, context.GetCurrentHttpContext()))
@@ -39,8 +40,7 @@ public class JwtHandler : AppAuthorizeHandler
         else
         {
             context.Fail();    // 授权失败
-            DefaultHttpContext currentHttpContext = context.GetCurrentHttpContext();
-            currentHttpContext?.SignoutToSwagger();
+            context.GetCurrentHttpContext()?.SignoutToSwagger();
         }
     }
 }

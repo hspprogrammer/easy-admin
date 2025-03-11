@@ -1,4 +1,4 @@
-﻿using Furion.RemoteRequest.Extensions;
+﻿using Furion.HttpRemote;
 
 namespace Easy.Admin.Application;
 
@@ -18,7 +18,9 @@ public class ApiService : IScoped
     {
         try
         {
-            var dto = await $"{BaseUrl}/api/min".SetQueries(new { t = content }).GetAsAsync<KeywordsResponseDto>();
+            var httpRemoteService = App.GetRequiredService<IHttpRemoteService>();
+            var dto = await httpRemoteService.GetAsAsync<KeywordsResponseDto>($"{BaseUrl}/api/min");
+            //var dto = await $"{BaseUrl}/api/min".SetQueries(new { t = content }).GetAsAsync<KeywordsResponseDto>();
             return dto.Success && dto.Num > 0;
 
         }

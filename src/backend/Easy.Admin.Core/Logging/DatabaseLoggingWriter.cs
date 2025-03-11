@@ -1,4 +1,5 @@
-﻿using Easy.Admin.Core.Const;
+﻿using System.Threading.Tasks;
+using Easy.Admin.Core.Const;
 using Easy.Admin.Core.Entities;
 using Furion.Logging;
 using Newtonsoft.Json;
@@ -22,7 +23,7 @@ public class DatabaseLoggingWriter : IDatabaseLoggingWriter, IDisposable
         _sysUseRepository = _serviceScope.ServiceProvider.GetRequiredService<ISqlSugarRepository<SysUser>>();
     }
     // 文档地址：http://furion.baiqian.ltd/docs/logging#18114-json-%E6%A0%BC%E5%BC%8F
-    public void Write(LogMessage logMsg, bool flush)
+    public async Task WriteAsync(LogMessage logMsg, bool flush)
     {
         var contextJson = logMsg.Context.Get("loggingMonitor").ToString()!;
         var json = JsonConvert.DeserializeObject<dynamic>(contextJson);
@@ -36,7 +37,7 @@ public class DatabaseLoggingWriter : IDatabaseLoggingWriter, IDisposable
             string account = json.parameters[0].value.account;
             if (!string.IsNullOrWhiteSpace(account))
             {
-                var id = _sysUseRepository.AsQueryable().Where(x => x.Account == account).Select<long>().First();
+                var id = await _sysUseRepository.AsQueryable().Where(x => x.Account == account).Select<long>().FirstAsync();
                 if (id == 0)
                 {
                     return;
@@ -52,7 +53,7 @@ public class DatabaseLoggingWriter : IDatabaseLoggingWriter, IDisposable
                     CreatedTime = logMsg.LogDateTime,
                     Message = json.validation == null ? "登录成功" : json.validation.message
                 };
-                _sysSigninLogRepository.Insert(sysSigninLog);
+                await _sysSigninLogRepository.InsertAsync(sysSigninLog);
             }
 
             return;
@@ -100,7 +101,7 @@ public class DatabaseLoggingWriter : IDatabaseLoggingWriter, IDisposable
             LogLevel = logMsg.LogLevel,
             CreatedTime = logMsg.LogDateTime
         };
-        _sysOperationLogRepository.Insert(sysOperationLog);
+        await _sysOperationLogRepository.InsertAsync(sysOperationLog);
     }
 
     /// <summary>
